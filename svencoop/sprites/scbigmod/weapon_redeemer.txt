@@ -1,4 +1,4 @@
-4
+7
 
 weapon		640 scbigmod/redeemer	0	0	170	52
 weapon_s	640 scbigmod/redeemer	0	0	170	52
