@@ -1,0 +1,10 @@
+maps/escape_series_2b.cfg
+maps/escape_series_2b.res
+maps/escape_series_2b_motd.txt
+maps/escape_series_2b_skl.cfg
+models/escape/icky.mdl
+models/escape/ickyT.mdl
+models/escape/p_crowbar.mdl
+models/escape/v_crowbar.mdl
+models/escape/w_crowbar.mdl
+sound/escape_series/escape3/boss.wav
