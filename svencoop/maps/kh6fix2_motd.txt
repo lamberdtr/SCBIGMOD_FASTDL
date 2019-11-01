@@ -1,0 +1,109 @@
+Welcome to Keen Halloween Part 6 Fix 2!
+
+Any questions or comments?
+http://forums.svencoop.com/showthread.php/41412-Keen-Halloween-6?p=499853#post499853
+Please post in this thread on the Sven CO-op Forum :D
+
+These maps are part of a series of Halloween maps where many mappers made sections and were stitched together!
+
+++++
+Possibly Fixed Ending
+Added Green Lights at Ending
+
+++++++++++++
+IMPORTANT: The following changes have been made
+
+5 Orbs Deleted for Server Compatabilitys (13 remain)
+
+Converted Most monsters to squadmakers
+Added Skeletons.txt so skeletons should sound skelly
+Added vent at spawn
+Added Trans-Dimensional Allys at spawn
+Reduced ammount of grunts at spawn
+Reduced ammount of slendermen/necromorphs in the tunnel
+Deleted all Rats
+Deleted all cockroachs
+Deleted all headcrabs
+Removed Sniper Rifle
+Removed HWGrunt
+Removed Weapon M249
+++++++++++
+
+*** ========== ***
+Keen Halloween 6 Map Notes:
+
+You have survived the halloween continent so far, but the dangers get more intense as daylight approachs.
+
+As far as secrets goes:
+
+12 Picard Coins
+13 Orbs
+5 Secret Crystals
+1 Secret Gordon
+
+3 coins - gun
+6 coins - gun
+9 coins - gun
+12 coins - 3 allies during the final battle
+
+If you get all of these items I am very impressed, good job! A winner is you!
+
+- Keen
+======================================================================
+People who helped make this map possible:
+Cyberdaemon
+Nih
+===================================================
+
+Thanks to:
+
+Kibbles
+D.G.F.
+Indulgence Inc (Soctom + Cocyx)
+Ixxis
+Gordon Frohman
+Reniah
+Eisen
+Lemonsoda
+m0u$3[uz]
+ruMpel
+Xirex
+g1l
+Kain
+Turrican
+Nih
+Katana
+Sence
+Streamfox
+Mazur
+iLLuSioN
+Valve Software
+MirroR
+bobbert
+Eisen
+Dough
+dodjer
+Cesar
+trempler
+JPolito
+Adamr
+w00tguy
+cSMG
+Reniah
+Jake
+Foster
+Aurora
+Zombiner
+Zode
+moaby
+
+All the rest i forgotz srys
+
+Additional Credits
+==========================
+Benny Hill music - "Yakety Sax" is a pop-jazz instrumental music composition composed by James Q. "Spider" Rich and Homer "Boots" Randolph III and popularized by saxophonist Randolph in his 1963 recording. from wikipedia
+All the various .mod's and .ogg's I used, any images characters, ideas, themes, environments, I used from various sources belong to their respected owners. This map series is for entertainment purposes only.
+
+http://www.youtube.com/watch?v=WJkjhgpecy0 Rocket Knight Adventures Music: Boss Battle
+
+thanks to http://nolife-radio.com/ for inspiration
