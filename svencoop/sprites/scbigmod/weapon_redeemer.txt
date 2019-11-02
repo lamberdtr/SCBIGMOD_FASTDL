@@ -1,6 +1,0 @@
-7
-
-weapon		640 scbigmod/redeemer	0	0	170	52
-weapon_s	640 scbigmod/redeemer	0	0	170	52
-ammo		640 scbigmod/redeemer		0	55	25	25
-crosshair	640 scbigmod/redeemer_crosshairs	0	0	61	61
