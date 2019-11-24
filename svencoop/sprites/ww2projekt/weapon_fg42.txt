@@ -1,0 +1,15 @@
+14
+weapon			320 320hud1	0	40	80	20
+weapon_s		320 320hud1	0	60	80	20
+ammo			320 320hud2	0	16	18	18
+crosshair		640 ofch1	0	48	24	24
+autoaim			640 crosshairs	48	72	24	24
+zoom			320 ww2projekt/german_scope1	0	0	256	256
+zoom_autoaim	320 ww2projekt/german_scope1	0	0	256	256
+weapon			640 ww2projekt/germans_selection	0	45	170	45
+weapon_s		640 ww2projekt/germans_selection	170	45	170	45
+ammo			640 640hud7	168	60	24	24
+crosshair		640 ofch1	0	48	24	24
+autoaim			640 crosshairs	0	48	24	24
+zoom			640 ww2projekt/german_scope1	0	0	256	256
+zoom_autoaim	640 ww2projekt/german_scope1	0	0	256	256

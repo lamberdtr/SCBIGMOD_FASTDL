@@ -1,0 +1,5 @@
+4
+weapon			320 320hud1	0	0	80	20
+weapon_s		320 320hud1	0	20	80	20
+weapon			640 ww2projekt/germans_selection	340	0	170	45
+weapon_s		640 ww2projekt/germans_selection	340	45	170	45
