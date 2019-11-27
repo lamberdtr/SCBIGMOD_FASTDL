@@ -1,0 +1,30 @@
+=====================Afrika Korps 3===========================
+
+
+Location: Tobruk, North Afrika
+
+
+Hello Lieutenant, 
+
+You need to destroy the axis anti-tank cannon located in the desert of Tobruk immediately. We lost many tanks out there and we need your team ASAP to get the job done.
+
+
+Dwight D. Eisenhower
+General U.S. Army,
+Commanding.
+
+
+
+Objective:
+
+-Destroy the axis anti-tank gun with explosions
+
+
+============================================================
+Author: MysticMDT, Sic
+
+
+Changes for Sven Co-op 4.6 by AdamR:
+
+* Added a RPG ammo and 7.62mm ammo to the battlefield
+* Enemy solders now appear 50% more often if 8+ players are present, 100% more often if 16+ are present
