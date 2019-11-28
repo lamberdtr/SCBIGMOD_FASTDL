@@ -1,0 +1,6184 @@
+{
+"wad" "\install\hammer\wadfiles\cached.wad;\install\hammer\wadfiles\decals.wad;\install\hammer\wadfiles\fonts.wad;\install\hammer\wadfiles\gfx.wad;\install\hammer\wadfiles\halflife.wad;\install\hammer\wadfiles\liquids.wad;\install\hammer\wadfiles\spraypaint.wad;\install\hammer\wadfiles\the_daikon_warfare.wad;\install\hammer\wadfiles\xeno.wad;"
+"mapversion" "220"
+"scversion2" "450"
+"newunit" "1"
+"skyname" "dusk"
+"MaxRange" "2500"
+"sounds" "1"
+"globalmodellist" "../the_daikon_warfare/models.txt"
+"classname" "worldspawn"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"target" "mm_op"
+"renderamt" "192"
+"rendermode" "2"
+"delay" "3"
+"wait" "-1"
+"sounds" "6"
+"lip" "4"
+"speed" "5"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"classname" "func_button"
+}
+{
+"model" "*2"
+"weapon" "1"
+"health" "200"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*3"
+"weapon" "1"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*4"
+"weapon" "1"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*5"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"model" "*6"
+"target" "pc_road1"
+"targetname" "tr_road"
+"volume" "0.85"
+"speed" "600"
+"rendercolor" "0 0 0"
+"classname" "func_train"
+}
+{
+"origin" "-1708 2191 2136"
+"target" "pc_road2"
+"targetname" "pc_road1"
+"angles" "0 0 0"
+"classname" "path_corner"
+}
+{
+"origin" "-3036 2191 2136"
+"target" "pc_road1"
+"targetname" "pc_road2"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "path_corner"
+}
+{
+"origin" "-2047 2193 2282"
+"linearmax" "5"
+"linearmin" "2"
+"playmode" "2"
+"message" "ambience/truck2.wav"
+"targetname" "amb_truck"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "-2084 2211 2188"
+"targetname" "cyc_ev12"
+"model" "models/the_daikon_warfare/sonchou_driver.mdl"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"classname" "cycler"
+}
+{
+"model" "*7"
+"origin" "-2080 2191 2188"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*8"
+"origin" "-1936 2191 2188"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*9"
+"weapon" "1"
+"health" "200"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*10"
+"weapon" "1"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*11"
+"weapon" "1"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*12"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"origin" "-2291 1949 2309"
+"linearmax" "5"
+"linearmin" "2"
+"playmode" "2"
+"message" "ambience/truck2.wav"
+"targetname" "amb_truck"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "-2271 1983 2204"
+"targetname" "cyc_ev11"
+"model" "models/the_daikon_warfare/youngman_driver.mdl"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"classname" "cycler"
+}
+{
+"model" "*13"
+"angles" "0 0 0"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*14"
+"classname" "func_ladder"
+}
+{
+"model" "*15"
+"angles" "0 0 0"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*16"
+"classname" "func_ladder"
+}
+{
+"origin" "-2020 2416 2156"
+"model" "models/the_daikon_warfare/chatarou_run.mdl"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"classname" "cycler"
+}
+{
+"model" "*17"
+"origin" "-1860 2415 2188"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*18"
+"origin" "-1915 1949 2188"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*19"
+"origin" "-2003 1949 2189"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"targetname" "rot_tyre"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*20"
+"origin" "-2271 1948 2189"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"targetname" "rot_tyre"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*21"
+"origin" "-2098 2191 2300"
+"target" "amb_50calgun"
+"targetname" "tnk_50calgun"
+"bullet" "3"
+"firespread" "2"
+"persistence" "1"
+"bullet_damage" "50"
+"firerate" "7"
+"spritescale" "1"
+"barrel" "82"
+"pitchtolerance" "15"
+"pitchrange" "180"
+"pitchrate" "30"
+"yawtolerance" "15"
+"yawrange" "180"
+"yawrate" "30"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"spawnflags" "32"
+"classname" "func_tank"
+}
+{
+"origin" "-2096 2191 2317"
+"linearmax" "5"
+"linearmin" "2"
+"message" "takedeppo/50cal_fire.wav"
+"targetname" "amb_50calgun"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "40"
+"classname" "ambient_generic"
+}
+{
+"model" "*22"
+"target" "tnk_50calgun"
+"classname" "func_tankcontrols"
+}
+{
+"origin" "1284 -758 -1701"
+"_light" "255 255 128 200"
+"_fade" "1.0"
+"angles" "0 0 0"
+"classname" "light_environment"
+}
+{
+"model" "*23"
+"weapon" "1"
+"health" "150"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*24"
+"weapon" "1"
+"health" "150"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*25"
+"weapon" "1"
+"health" "150"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*26"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"model" "*27"
+"angles" "0 0 0"
+"renderamt" "192"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "1464 -750 -1912"
+"targetname" "pl_st0"
+"angles" "0 180 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1462 -815 -1912"
+"targetname" "pl_st0"
+"angles" "0 180 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1462 -879 -1912"
+"targetname" "pl_st0"
+"angles" "0 180 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1462 -942 -1912"
+"targetname" "pl_st0"
+"angles" "0 180 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1463 -1006 -1912"
+"targetname" "pl_st0"
+"angles" "0 180 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1382 -818 -1913"
+"targetname" "pl_st0"
+"angles" "0 180 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1382 -882 -1913"
+"targetname" "pl_st0"
+"angles" "0 180 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1382 -945 -1913"
+"targetname" "pl_st0"
+"angles" "0 180 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1324 -881 -1853"
+"triggerstate" "2"
+"target" "pl_st0"
+"targetname" "rl_st0"
+"classname" "trigger_relay"
+}
+{
+"origin" "1324 -938 -1805"
+"targetname" "resp"
+"classname" "trigger_respawn"
+}
+{
+"origin" "1383 -1009 -1913"
+"targetname" "pl_st0"
+"angles" "0 180 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1384 -753 -1913"
+"targetname" "pl_st0"
+"angles" "0 180 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1756 1937 2325"
+"linearmax" "5"
+"linearmin" "2"
+"playmode" "2"
+"message" "the_daikon_warfare/stalker/cs_combat2.mp3"
+"targetname" "bgm_battle1"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "17"
+"classname" "ambient_generic"
+}
+{
+"origin" "1032 -734 -1805"
+"mm_init1" "0"
+"rot_tyre" "0"
+"amb_truck" "0"
+"tr_road" "0"
+"targetname" "mm_mapinit"
+"classname" "multi_manager"
+}
+{
+"origin" "-2040 1955 2301"
+"triggerstate" "2"
+"target" "pl_st1"
+"targetname" "rl_st1"
+"classname" "trigger_relay"
+}
+{
+"origin" "-2205 1972 2273"
+"targetname" "pl_st1"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2149 1973 2273"
+"targetname" "pl_st1"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2098 1973 2273"
+"targetname" "pl_st1"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2097 1920 2274"
+"targetname" "pl_st1"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2148 1920 2274"
+"targetname" "pl_st1"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2204 1919 2274"
+"targetname" "pl_st1"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*28"
+"dmg" "10000"
+"classname" "trigger_hurt"
+}
+{
+"origin" "-1909 2206 2273"
+"targetname" "pl_st1"
+"angles" "0 180 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*29"
+"origin" "-3130 2560 2185"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"targetname" "rot_tyre11"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*30"
+"origin" "-2986 2560 2185"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"targetname" "rot_tyre11"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*31"
+"displayname" "Radish thief's car"
+"weapon" "1"
+"target" "mm_car11"
+"killtarget" "rot_tyre11"
+"explodemagnitude" "100"
+"material" "2"
+"health" "5000"
+"rendercolor" "0 0 0"
+"spawnflags" "32"
+"classname" "func_breakable"
+}
+{
+"origin" "-1802 2434 2207"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-1802 2398 2192"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmAR"
+}
+{
+"origin" "-1982 2063 2234"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-1904 1919 2245"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-1990 1990 2364"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2173 1911 2364"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmAR"
+}
+{
+"origin" "-3076 1973 2275"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "-1"
+"monstertype" "monster_male_assassin"
+"displayname" "Radish thief"
+"targetname" "sq_enemy13"
+"weapons" "5"
+"health" "400"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"classname" "squadmaker"
+}
+{
+"model" "*32"
+"origin" "-3160 1973 2185"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"targetname" "rot_tyre13"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*33"
+"origin" "-3016 1973 2185"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"targetname" "rot_tyre13"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*34"
+"displayname" "Radish thief's car"
+"weapon" "1"
+"target" "mm_car13"
+"killtarget" "rot_tyre13"
+"explodemagnitude" "100"
+"material" "2"
+"health" "5000"
+"rendercolor" "0 0 0"
+"spawnflags" "32"
+"classname" "func_breakable"
+}
+{
+"model" "*35"
+"weapon" "1"
+"health" "150"
+"targetname" "br_car12glass"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*36"
+"weapon" "1"
+"health" "150"
+"targetname" "br_car12glass"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*37"
+"weapon" "1"
+"health" "150"
+"targetname" "br_car12glass"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*38"
+"targetname" "cyc_driver12"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"origin" "-3071 2332 2187"
+"targetname" "cyc_driver12"
+"model" "models/the_daikon_warfare/driver_bgman.mdl"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"classname" "cycler"
+}
+{
+"model" "*39"
+"origin" "-3067 2312 2189"
+"targetname" "rot_tyre12"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*40"
+"origin" "-2923 2312 2189"
+"targetname" "rot_tyre12"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*41"
+"weapon" "1"
+"target" "br_car12glass"
+"killtarget" "cyc_driver12"
+"targetname" "br_car12"
+"material" "2"
+"health" "1"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*42"
+"weapon" "1"
+"displayname" "Radish thief's car"
+"target" "mm_car12"
+"killtarget" "rot_tyre12"
+"explodemagnitude" "100"
+"material" "2"
+"health" "6000"
+"rendercolor" "0 0 0"
+"spawnflags" "32"
+"classname" "func_breakable"
+}
+{
+"origin" "-1728 506 -1829"
+"targetname" "cm_op"
+"target" "tg_cam_op"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "12"
+"angles" "0 90 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "-1728 954 -1829"
+"targetname" "tg_cam_op"
+"classname" "info_target"
+}
+{
+"origin" "-1728 570 -1761"
+"bgm_battle1" "0"
+"mm_mapinit" "11"
+"mm_op_1f" "0"
+"mm_op_1" "0"
+"cm_op" "0"
+"targetname" "mm_op"
+"classname" "multi_manager"
+}
+{
+"origin" "-1600 634 -1697"
+"holdtime" "0.5"
+"targetname" "fade_toon"
+"rendercolor" "0 0 0"
+"renderamt" "255"
+"duration" "1.5"
+"classname" "env_fade"
+}
+{
+"origin" "-1584 634 -1697"
+"targetname" "fade_tooff"
+"rendercolor" "0 0 0"
+"renderamt" "255"
+"duration" "3"
+"spawnflags" "1"
+"classname" "env_fade"
+}
+{
+"origin" "-1728 586 -1777"
+"wlt_op0#1" "9.8"
+"wlt_op0" "2"
+"targetname" "mm_op_1"
+"classname" "multi_manager"
+}
+{
+"origin" "-1712 586 -1793"
+"fade_toon" "8"
+"fade_tooff" "2"
+"targetname" "mm_op_1f"
+"classname" "multi_manager"
+}
+{
+"model" "*43"
+"angles" "0 0 0"
+"targetname" "wlt_op0"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"model" "*44"
+"weapon" "1"
+"health" "200"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*45"
+"weapon" "1"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*46"
+"weapon" "1"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*47"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"model" "*48"
+"target" "pc_road1a"
+"targetname" "tr_road"
+"volume" "0.85"
+"speed" "600"
+"rendercolor" "0 0 0"
+"classname" "func_train"
+}
+{
+"origin" "-1673 -14 2199"
+"target" "pc_road2a"
+"targetname" "pc_road1a"
+"angles" "0 0 0"
+"classname" "path_corner"
+}
+{
+"origin" "-3001 -14 2199"
+"target" "pc_road1a"
+"targetname" "pc_road2a"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "path_corner"
+}
+{
+"origin" "-2766 -84 2345"
+"linearmax" "5"
+"linearmin" "2"
+"playmode" "2"
+"message" "ambience/truck2.wav"
+"targetname" "amb_truck"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "-2802 -66 2251"
+"model" "models/the_daikon_warfare/sonchou_driver.mdl"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"classname" "cycler"
+}
+{
+"model" "*49"
+"origin" "-2799 -86 2251"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*50"
+"origin" "-2655 -86 2251"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*51"
+"weapon" "1"
+"health" "200"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*52"
+"weapon" "1"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*53"
+"weapon" "1"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*54"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"origin" "-2853 -374 2372"
+"linearmax" "5"
+"linearmin" "2"
+"playmode" "2"
+"message" "ambience/truck2.wav"
+"targetname" "amb_truck"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "-2832 -340 2267"
+"model" "models/the_daikon_warfare/youngman_driver.mdl"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"classname" "cycler"
+}
+{
+"model" "*55"
+"angles" "0 0 0"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*56"
+"classname" "func_ladder"
+}
+{
+"model" "*57"
+"angles" "0 0 0"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*58"
+"classname" "func_ladder"
+}
+{
+"origin" "-2625 -199 2219"
+"model" "models/the_daikon_warfare/chatarou_run.mdl"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"classname" "cycler"
+}
+{
+"model" "*59"
+"origin" "-2465 -200 2251"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*60"
+"origin" "-2477 -374 2251"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*61"
+"origin" "-2565 -374 2252"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"targetname" "rot_tyre"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*62"
+"origin" "-2833 -375 2252"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"targetname" "rot_tyre"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*63"
+"origin" "-2817 -86 2363"
+"target" "amb_50calgun1"
+"targetname" "tnk_50calgun1"
+"bullet" "3"
+"firespread" "2"
+"persistence" "1"
+"bullet_damage" "50"
+"firerate" "7"
+"spritescale" "1"
+"barrel" "82"
+"pitchtolerance" "15"
+"pitchrange" "180"
+"pitchrate" "30"
+"yawtolerance" "15"
+"yawrange" "180"
+"yawrate" "30"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"spawnflags" "32"
+"classname" "func_tank"
+}
+{
+"origin" "-2815 -86 2380"
+"linearmax" "5"
+"linearmin" "2"
+"message" "takedeppo/50cal_fire.wav"
+"targetname" "amb_50calgun1"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "40"
+"classname" "ambient_generic"
+}
+{
+"model" "*64"
+"target" "tnk_50calgun1"
+"classname" "func_tankcontrols"
+}
+{
+"origin" "-2602 -368 2364"
+"triggerstate" "2"
+"target" "pl_st2"
+"targetname" "rl_st2"
+"classname" "trigger_relay"
+}
+{
+"origin" "-2767 -351 2336"
+"targetname" "pl_st2"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2711 -350 2336"
+"targetname" "pl_st2"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2660 -350 2336"
+"targetname" "pl_st2"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2659 -403 2337"
+"targetname" "pl_st2"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2710 -403 2337"
+"targetname" "pl_st2"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2766 -404 2337"
+"targetname" "pl_st2"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*65"
+"dmg" "10000"
+"classname" "trigger_hurt"
+}
+{
+"origin" "-2628 -71 2336"
+"targetname" "pl_st2"
+"angles" "0 180 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-3208 108 2338"
+"displayname" "Radish thief"
+"monstertype" "monster_male_assassin"
+"weapons" "8"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "-1"
+"targetname" "sq_enemy22"
+"health" "400"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"classname" "squadmaker"
+}
+{
+"model" "*66"
+"origin" "-3292 108 2248"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"targetname" "rot_tyre22"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*67"
+"origin" "-3148 108 2248"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"targetname" "rot_tyre22"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*68"
+"weapon" "1"
+"displayname" "Radish thief's car"
+"target" "mm_car22"
+"killtarget" "rot_tyre22"
+"explodemagnitude" "100"
+"material" "2"
+"health" "5000"
+"rendercolor" "0 0 0"
+"spawnflags" "32"
+"classname" "func_breakable"
+}
+{
+"origin" "-2406 -181 2270"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-2439 -177 2255"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmAR"
+}
+{
+"origin" "-2721 -257 2297"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2466 -404 2308"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-2552 -333 2427"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2685 -411 2427"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmAR"
+}
+{
+"model" "*69"
+"weapon" "1"
+"health" "150"
+"targetname" "br_car21glass"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*70"
+"weapon" "1"
+"health" "150"
+"targetname" "br_car21glass"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*71"
+"weapon" "1"
+"health" "150"
+"targetname" "br_car21glass"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*72"
+"targetname" "cyc_driver21"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"origin" "-3188 394 2250"
+"targetname" "cyc_driver21"
+"model" "models/the_daikon_warfare/driver_bgman.mdl"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"classname" "cycler"
+}
+{
+"model" "*73"
+"origin" "-3185 374 2252"
+"targetname" "rot_tyre21"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*74"
+"origin" "-3041 374 2252"
+"targetname" "rot_tyre21"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*75"
+"weapon" "1"
+"target" "br_car21glass"
+"killtarget" "cyc_driver21"
+"targetname" "br_car21"
+"material" "2"
+"health" "1"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*76"
+"weapon" "1"
+"displayname" "Radish thief's car"
+"target" "mm_car21"
+"killtarget" "rot_tyre21"
+"explodemagnitude" "100"
+"material" "2"
+"health" "6000"
+"rendercolor" "0 0 0"
+"spawnflags" "32"
+"classname" "func_breakable"
+}
+{
+"model" "*77"
+"origin" "-1836 -140 2248"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"targetname" "rot_tyre24"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*78"
+"origin" "-1692 -140 2248"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"targetname" "rot_tyre24"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*79"
+"weapon" "1"
+"displayname" "Radish thief's car"
+"target" "mm_car24"
+"killtarget" "rot_tyre24"
+"explodemagnitude" "100"
+"material" "2"
+"health" "5000"
+"rendercolor" "0 0 0"
+"spawnflags" "32"
+"classname" "func_breakable"
+}
+{
+"model" "*80"
+"weapon" "1"
+"health" "150"
+"targetname" "br_car23glass"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*81"
+"weapon" "1"
+"health" "150"
+"targetname" "br_car23glass"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*82"
+"weapon" "1"
+"health" "150"
+"targetname" "br_car23glass"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*83"
+"targetname" "cyc_driver23"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"origin" "-1990 390 2250"
+"targetname" "cyc_driver23"
+"model" "models/the_daikon_warfare/driver_bgman.mdl"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"classname" "cycler"
+}
+{
+"model" "*84"
+"origin" "-1987 370 2252"
+"targetname" "rot_tyre23"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*85"
+"origin" "-1843 370 2252"
+"targetname" "rot_tyre23"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*86"
+"weapon" "1"
+"target" "br_car23glass"
+"killtarget" "cyc_driver23"
+"targetname" "br_car23"
+"material" "2"
+"health" "1"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*87"
+"displayname" "Radish thief's car"
+"weapon" "1"
+"target" "mm_car23"
+"killtarget" "rot_tyre23"
+"explodemagnitude" "100"
+"material" "2"
+"health" "6000"
+"rendercolor" "0 0 0"
+"spawnflags" "32"
+"classname" "func_breakable"
+}
+{
+"model" "*88"
+"weapon" "1"
+"health" "200"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*89"
+"weapon" "1"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*90"
+"weapon" "1"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*91"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"origin" "-1801 2157 -78"
+"target" "pc_road2c"
+"targetname" "pc_road1c"
+"angles" "0 0 0"
+"classname" "path_corner"
+}
+{
+"origin" "-3129 2157 -78"
+"target" "pc_road1c"
+"targetname" "pc_road2c"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "path_corner"
+}
+{
+"origin" "-2924 2386 71"
+"linearmax" "5"
+"linearmin" "2"
+"playmode" "2"
+"message" "ambience/truck2.wav"
+"targetname" "amb_truck"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "-2960 2404 -23"
+"model" "models/the_daikon_warfare/sonchou_driver.mdl"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"classname" "cycler"
+}
+{
+"model" "*92"
+"origin" "-2957 2384 -23"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*93"
+"origin" "-2813 2384 -23"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*94"
+"weapon" "1"
+"health" "200"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*95"
+"weapon" "1"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*96"
+"weapon" "1"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*97"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"origin" "-2740 2155 98"
+"linearmax" "5"
+"linearmin" "2"
+"playmode" "2"
+"message" "ambience/truck2.wav"
+"targetname" "amb_truck"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "-2719 2189 -7"
+"model" "models/the_daikon_warfare/youngman_driver.mdl"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"classname" "cycler"
+}
+{
+"model" "*98"
+"angles" "0 0 0"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*99"
+"classname" "func_ladder"
+}
+{
+"model" "*100"
+"angles" "0 0 0"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*101"
+"classname" "func_ladder"
+}
+{
+"origin" "-2191 2135 -55"
+"model" "models/the_daikon_warfare/chatarou_run.mdl"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"classname" "cycler"
+}
+{
+"model" "*102"
+"origin" "-2031 2134 -23"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*103"
+"origin" "-2364 2155 -23"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*104"
+"origin" "-2452 2155 -22"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"targetname" "rot_tyre"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*105"
+"origin" "-2720 2154 -22"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"targetname" "rot_tyre"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*106"
+"origin" "-2975 2384 89"
+"target" "amb_50calgun3"
+"targetname" "tnk_50calgun3"
+"bullet" "3"
+"firespread" "2"
+"persistence" "1"
+"bullet_damage" "50"
+"firerate" "7"
+"spritescale" "1"
+"barrel" "82"
+"pitchtolerance" "15"
+"pitchrange" "180"
+"pitchrate" "30"
+"yawtolerance" "15"
+"yawrange" "180"
+"yawrate" "30"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"spawnflags" "32"
+"classname" "func_tank"
+}
+{
+"origin" "-2973 2384 106"
+"linearmax" "5"
+"linearmin" "2"
+"message" "takedeppo/50cal_fire.wav"
+"targetname" "amb_50calgun3"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "40"
+"classname" "ambient_generic"
+}
+{
+"model" "*107"
+"target" "tnk_50calgun3"
+"classname" "func_tankcontrols"
+}
+{
+"origin" "-2489 2161 90"
+"triggerstate" "2"
+"target" "pl_st3"
+"targetname" "rl_st3"
+"classname" "trigger_relay"
+}
+{
+"origin" "-2654 2178 62"
+"targetname" "pl_st3"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2598 2179 62"
+"targetname" "pl_st3"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2547 2179 62"
+"targetname" "pl_st3"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2546 2126 63"
+"targetname" "pl_st3"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2597 2126 63"
+"targetname" "pl_st3"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2653 2125 63"
+"targetname" "pl_st3"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*108"
+"dmg" "10000"
+"classname" "trigger_hurt"
+}
+{
+"origin" "-2784 2399 62"
+"targetname" "pl_st3"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1980 2113 -4"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-2005 2157 -19"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmAR"
+}
+{
+"origin" "-2785 2362 23"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2353 2125 34"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-2439 2196 153"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2592 2151 153"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmAR"
+}
+{
+"model" "*109"
+"volume" "0.85"
+"speed" "600"
+"target" "pc_road1c"
+"targetname" "tr_road"
+"rendercolor" "0 0 0"
+"classname" "func_train"
+}
+{
+"model" "*110"
+"weapon" "1"
+"targetname" "br_car31glass"
+"health" "200"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*111"
+"weapon" "1"
+"targetname" "br_car31glass"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*112"
+"weapon" "1"
+"targetname" "br_car31glass"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*113"
+"targetname" "cyc_driver31"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"origin" "-2550 2448 -13"
+"targetname" "cyc_driver31"
+"model" "models/the_daikon_warfare/driver_bgman.mdl"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"classname" "cycler"
+}
+{
+"model" "*114"
+"origin" "-2194 2412 -23"
+"targetname" "rot_tyre31"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*115"
+"origin" "-2282 2412 -22"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"targetname" "rot_tyre31"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*116"
+"origin" "-2550 2411 -22"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"targetname" "rot_tyre31"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*117"
+"targetname" "ld_hasigo1"
+"spawnflags" "1"
+"classname" "func_ladder"
+}
+{
+"model" "*118"
+"weapon" "1"
+"targetname" "br_car32glass"
+"health" "200"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*119"
+"weapon" "1"
+"targetname" "br_car32glass"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*120"
+"weapon" "1"
+"targetname" "br_car32glass"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*121"
+"targetname" "cyc_driver32"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"origin" "-2776 1936 -13"
+"targetname" "cyc_driver32"
+"model" "models/the_daikon_warfare/driver_bgman.mdl"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"classname" "cycler"
+}
+{
+"model" "*122"
+"origin" "-2420 1900 -23"
+"targetname" "rot_tyre32"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*123"
+"origin" "-2508 1900 -22"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"targetname" "rot_tyre32"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*124"
+"origin" "-2776 1899 -22"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"targetname" "rot_tyre32"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*125"
+"targetname" "ld_hasigo2"
+"spawnflags" "1"
+"classname" "func_ladder"
+}
+{
+"model" "*126"
+"weapon" "1"
+"health" "200"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*127"
+"weapon" "1"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*128"
+"weapon" "1"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*129"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"origin" "-1737 -52 353"
+"target" "pc_road2d"
+"targetname" "pc_road1d"
+"angles" "0 0 0"
+"classname" "path_corner"
+}
+{
+"origin" "-3065 -52 353"
+"target" "pc_road1d"
+"targetname" "pc_road2d"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "path_corner"
+}
+{
+"origin" "-2690 116 210"
+"linearmax" "5"
+"linearmin" "2"
+"playmode" "2"
+"message" "ambience/truck2.wav"
+"targetname" "amb_truck"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "-2726 134 116"
+"model" "models/the_daikon_warfare/sonchou_driver.mdl"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"classname" "cycler"
+}
+{
+"model" "*130"
+"origin" "-2723 114 116"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*131"
+"origin" "-2579 114 116"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*132"
+"weapon" "1"
+"health" "200"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*133"
+"weapon" "1"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*134"
+"weapon" "1"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*135"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"origin" "-2676 -153 237"
+"linearmax" "5"
+"linearmin" "2"
+"playmode" "2"
+"message" "ambience/truck2.wav"
+"targetname" "amb_truck"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "-2655 -119 132"
+"model" "models/the_daikon_warfare/youngman_driver.mdl"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"classname" "cycler"
+}
+{
+"model" "*136"
+"angles" "0 0 0"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*137"
+"classname" "func_ladder"
+}
+{
+"model" "*138"
+"angles" "0 0 0"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*139"
+"classname" "func_ladder"
+}
+{
+"origin" "-2478 121 84"
+"model" "models/the_daikon_warfare/chatarou_run.mdl"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"classname" "cycler"
+}
+{
+"model" "*140"
+"origin" "-2318 120 116"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*141"
+"origin" "-2300 -153 116"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*142"
+"origin" "-2388 -153 117"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"targetname" "rot_tyre"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*143"
+"origin" "-2656 -154 117"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"targetname" "rot_tyre"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"origin" "-2425 -147 229"
+"triggerstate" "2"
+"target" "pl_st4"
+"targetname" "rl_st4"
+"classname" "trigger_relay"
+}
+{
+"origin" "-2590 -130 201"
+"targetname" "pl_st4"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2534 -129 201"
+"targetname" "pl_st4"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2483 -129 201"
+"targetname" "pl_st4"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2482 -182 202"
+"targetname" "pl_st4"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2533 -182 202"
+"targetname" "pl_st4"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2589 -183 202"
+"targetname" "pl_st4"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*144"
+"dmg" "10000"
+"classname" "trigger_hurt"
+}
+{
+"origin" "-2550 129 201"
+"targetname" "pl_st4"
+"angles" "0 180 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2267 99 135"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-2292 143 120"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmAR"
+}
+{
+"origin" "-2551 92 162"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2289 -183 173"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-2375 -112 292"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2528 -157 292"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmAR"
+}
+{
+"model" "*145"
+"target" "pc_road1d"
+"volume" "10"
+"speed" "600"
+"targetname" "tr_road"
+"rendercolor" "0 0 0"
+"classname" "func_train"
+}
+{
+"model" "*146"
+"skin" "-1"
+"renderamt" "128"
+"rendermode" "5"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"model" "*147"
+"skin" "-1"
+"renderamt" "128"
+"rendermode" "5"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"model" "*148"
+"skin" "-1"
+"renderamt" "128"
+"rendermode" "5"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"model" "*149"
+"skin" "-1"
+"rendermode" "5"
+"renderamt" "128"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"model" "*150"
+"dmg" "10000"
+"classname" "trigger_hurt"
+}
+{
+"model" "*151"
+"target" "pc_road1e"
+"volume" "0.85"
+"speed" "1000"
+"targetname" "tr_road"
+"rendercolor" "0 0 0"
+"classname" "func_train"
+}
+{
+"origin" "-3153 -2172 -6"
+"target" "pc_road1e"
+"targetname" "pc_road2e"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "path_corner"
+}
+{
+"origin" "-1825 -2172 -6"
+"target" "pc_road2e"
+"targetname" "pc_road1e"
+"angles" "0 0 0"
+"classname" "path_corner"
+}
+{
+"model" "*152"
+"weapon" "1"
+"health" "200"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*153"
+"weapon" "1"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*154"
+"weapon" "1"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*155"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"origin" "-2378 -1937 54"
+"linearmax" "5"
+"linearmin" "2"
+"playmode" "2"
+"message" "ambience/truck2.wav"
+"targetname" "amb_truck"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "-2415 -1919 -41"
+"model" "models/the_daikon_warfare/sonchou_driver.mdl"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"classname" "cycler"
+}
+{
+"model" "*156"
+"origin" "-2411 -1939 -40"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*157"
+"origin" "-2267 -1939 -40"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*158"
+"weapon" "1"
+"health" "200"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*159"
+"weapon" "1"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*160"
+"weapon" "1"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*161"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"origin" "-2467 -2329 81"
+"linearmax" "5"
+"linearmin" "2"
+"playmode" "2"
+"message" "ambience/truck2.wav"
+"targetname" "amb_truck"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "-2447 -2295 -25"
+"model" "models/the_daikon_warfare/youngman_driver.mdl"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"classname" "cycler"
+}
+{
+"model" "*162"
+"angles" "0 0 0"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*163"
+"classname" "func_ladder"
+}
+{
+"model" "*164"
+"angles" "0 0 0"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*165"
+"classname" "func_ladder"
+}
+{
+"origin" "-2353 -2137 -72"
+"model" "models/the_daikon_warfare/chatarou_run.mdl"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"classname" "cycler"
+}
+{
+"model" "*166"
+"origin" "-2193 -2138 -40"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*167"
+"origin" "-2091 -2329 -40"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*168"
+"origin" "-2179 -2329 -39"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"targetname" "rot_tyre"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*169"
+"origin" "-2447 -2330 -39"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"targetname" "rot_tyre"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"origin" "-2216 -2323 73"
+"triggerstate" "2"
+"target" "pl_st5"
+"targetname" "rl_st5"
+"classname" "trigger_relay"
+}
+{
+"origin" "-2381 -2306 45"
+"targetname" "pl_st5"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2325 -2305 45"
+"targetname" "pl_st5"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2274 -2305 45"
+"targetname" "pl_st5"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2273 -2358 46"
+"targetname" "pl_st5"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2324 -2358 46"
+"targetname" "pl_st5"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2380 -2359 46"
+"targetname" "pl_st5"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2240 -1924 45"
+"targetname" "pl_st5"
+"angles" "0 180 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2135 -2119 -21"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-2135 -2161 -36"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmAR"
+}
+{
+"origin" "-2158 -2215 6"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2080 -2359 17"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-2166 -2288 136"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2349 -2367 136"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmAR"
+}
+{
+"model" "*170"
+"angles" "0 0 0"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*171"
+"angles" "0 0 0"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*172"
+"angles" "0 0 0"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*173"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"model" "*174"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"origin" "-3347 -2173 -27"
+"TriggerTarget" "cnt_next5toend"
+"TriggerCondition" "4"
+"displayname" "Radish thief"
+"health" "2000"
+"weapons" "3"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"classname" "monster_male_assassin"
+}
+{
+"origin" "-3323 -2177 33"
+"targetname" "tg_cam_end"
+"classname" "info_target"
+}
+{
+"origin" "-3354 -2161 9"
+"linearmax" "5"
+"linearmin" "2"
+"playmode" "2"
+"message" "ambience/truck2.wav"
+"targetname" "amb_truck"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "24"
+"classname" "ambient_generic"
+}
+{
+"origin" "-3391 -2143 -45"
+"model" "models/the_daikon_warfare/driver_bgman.mdl"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"classname" "cycler"
+}
+{
+"origin" "-3391 -2177 29"
+"targetname" "tg_cam_end2"
+"classname" "info_target"
+}
+{
+"model" "*175"
+"origin" "-3387 -2163 -43"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*176"
+"origin" "-3243 -2163 -43"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*177"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "-2198 -2311 -15"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "weapon_rpg"
+}
+{
+"origin" "-2156 -2332 136"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_rpgclip"
+}
+{
+"origin" "-2135 -2143 -36"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_rpgclip"
+}
+{
+"origin" "-2371 -1937 52"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_rpgclip"
+}
+{
+"origin" "-3200 -2112 592"
+"model" "models/the_daikon_warfare/apache.mdl"
+"TriggerTarget" "cnt_next5toend"
+"TriggerCondition" "4"
+"target" "pc_heli1"
+"targetname" "sq_enemy5heli"
+"health" "12000"
+"displayname" "Radish thieves chopper ...?"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "64"
+"classname" "monster_apache"
+}
+{
+"origin" "-3039 2562 2279"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "-1"
+"monstertype" "monster_male_assassin"
+"displayname" "Radish thief"
+"targetname" "sq_enemy11"
+"weapons" "5"
+"health" "400"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-3016 2312 2248"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "2"
+"delay" "5"
+"monstercount" "-1"
+"monstertype" "monster_male_assassin"
+"displayname" "Radish thief"
+"targetname" "sq_enemy12"
+"weapons" "1"
+"health" "400"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-2880 2136 2656"
+"resp" "100"
+"rl_st1" "99.5"
+"rl_st0" "99.5"
+"mm_ev1" "0"
+"sq_enemy13" "0"
+"sq_enemy12" "0"
+"sq_enemy11" "0"
+"rot_tyre13" "0"
+"rot_tyre12" "0"
+"rot_tyre11" "0"
+"targetname" "mm_init1"
+"classname" "multi_manager"
+}
+{
+"origin" "-2896 2313 2216"
+"cnt_next1to2" "2"
+"sq_enemy12" "0"
+"br_car12" "0"
+"targetname" "mm_car12"
+"classname" "multi_manager"
+}
+{
+"origin" "-2920 2560 2224"
+"cnt_next1to2" "2"
+"sq_enemy11" "0"
+"targetname" "mm_car11"
+"classname" "multi_manager"
+}
+{
+"origin" "-2944 1976 2224"
+"cnt_next1to2" "2"
+"sq_enemy13" "0"
+"targetname" "mm_car13"
+"classname" "multi_manager"
+}
+{
+"origin" "-2880 2120 2656"
+"target" "mm_init2"
+"targetname" "cnt_next1to2"
+"health" "3"
+"classname" "game_counter"
+}
+{
+"origin" "-2944 -32 2704"
+"mm_ev2" "0"
+"sq_enemy2fly" "0"
+"resp" "60"
+"rl_st2" "59.5"
+"rl_st1" "59.5"
+"sq_enemy24" "0"
+"sq_enemy23" "0"
+"sq_enemy22" "0"
+"sq_enemy21" "0"
+"rot_tyre24" "0"
+"rot_tyre23" "0"
+"rot_tyre22" "0"
+"rot_tyre21" "0"
+"targetname" "mm_init2"
+"classname" "multi_manager"
+}
+{
+"origin" "-3137 376 2288"
+"displayname" "Radish thief"
+"health" "400"
+"monstertype" "monster_male_assassin"
+"targetname" "sq_enemy21"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "5"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "2"
+"delay" "5"
+"monstercount" "-1"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-2944 376 2264"
+"cnt_next2to3" "2"
+"sq_enemy21" "0"
+"br_car21" "0"
+"targetname" "mm_car21"
+"classname" "multi_manager"
+}
+{
+"origin" "-3080 112 2272"
+"cnt_next2to3" "2"
+"sq_enemy22" "0"
+"targetname" "mm_car22"
+"classname" "multi_manager"
+}
+{
+"origin" "-1816 376 2288"
+"displayname" "Radish thief"
+"health" "400"
+"monstertype" "monster_male_assassin"
+"targetname" "sq_enemy23"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "2"
+"delay" "5"
+"monstercount" "-1"
+"rendercolor" "0 0 0"
+"angles" "0 225 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-1751 372 2264"
+"cnt_next2to3" "2"
+"br_car23" "0"
+"sq_enemy23" "0"
+"targetname" "mm_car23"
+"classname" "multi_manager"
+}
+{
+"origin" "-1743 -144 2336"
+"displayname" "Radish thief"
+"monstertype" "monster_male_assassin"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "-1"
+"targetname" "sq_enemy24"
+"health" "400"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-1615 -140 2270"
+"cnt_next2to3" "2"
+"sq_enemy24" "0"
+"targetname" "mm_car24"
+"classname" "multi_manager"
+}
+{
+"origin" "-1935 1918 2276"
+"targetname" "pl_st1"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1986 1918 2276"
+"targetname" "pl_st1"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2042 1917 2276"
+"targetname" "pl_st1"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2600 -405 2337"
+"targetname" "pl_st2"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2781 -420 2471"
+"targetname" "pl_st2"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2549 -406 2336"
+"targetname" "pl_st2"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2395 -2381 175"
+"targetname" "pl_st5"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2210 -2359 46"
+"targetname" "pl_st5"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2154 -2358 46"
+"targetname" "pl_st5"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2422 -183 202"
+"targetname" "pl_st4"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2371 -183 202"
+"targetname" "pl_st4"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2595 -201 330"
+"targetname" "pl_st4"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2383 2125 63"
+"targetname" "pl_st3"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2434 2125 63"
+"targetname" "pl_st3"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2490 2124 63"
+"targetname" "pl_st3"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-3112 -208 2604"
+"soundlist" "../the_daikon_warfare/jetmassn.txt"
+"trigger_target" "cnt_next2to3"
+"new_model" "models/the_daikon_warfare/jetmassn.mdl"
+"displayname" "Flying(...?) radish thief"
+"health" "400"
+"bloodcolor" "1"
+"classify" "4"
+"trigger_condition" "4"
+"monstertype" "monster_alien_controller"
+"targetname" "sq_enemy2fly"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"monstercount" "8"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-2944 -48 2704"
+"target" "mm_init3"
+"targetname" "cnt_next2to3"
+"health" "20"
+"classname" "game_counter"
+}
+{
+"origin" "-2848 2117 275"
+"sq_enemy3fly" "0"
+"sq_enemy32" "0"
+"sq_enemy31" "0"
+"spr_setbomb4" "40"
+"spr_setbomb3" "40"
+"spr_setbomb2" "40"
+"spr_setbomb1" "40"
+"mm_ev3" "0"
+"ld_hasigo2" "50"
+"ld_hasigo1" "50"
+"wlt_hasigo2" "50"
+"wlt_hasigo1" "50"
+"rot_tyre32" "0"
+"rot_tyre31" "0"
+"rl_st2" "49.5"
+"rl_st3" "49.5"
+"resp" "50"
+"targetname" "mm_init3"
+"classname" "multi_manager"
+}
+{
+"model" "*178"
+"killtarget" "cyc_driver32"
+"weapon" "1"
+"material" "2"
+"health" "1"
+"target" "br_car32glass"
+"targetname" "br_car32"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*179"
+"targetname" "br_car31"
+"killtarget" "cyc_driver31"
+"target" "br_car31glass"
+"weapon" "1"
+"material" "2"
+"health" "1"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*180"
+"renderamt" "255"
+"rendermode" "4"
+"targetname" "wlt_hasigo2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"model" "*181"
+"renderamt" "255"
+"rendermode" "4"
+"targetname" "wlt_hasigo1"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"model" "*182"
+"killtarget" "rot_tyre32"
+"target" "mm_car32"
+"explodemagnitude" "300"
+"weapon" "1"
+"material" "2"
+"health" "1"
+"targetname" "br_car32"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*183"
+"killtarget" "rot_tyre31"
+"target" "mm_car31"
+"targetname" "br_car31"
+"explodemagnitude" "300"
+"weapon" "1"
+"material" "2"
+"health" "1"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"origin" "-2462 1898 185"
+"br_cat3fail" "10"
+"sq_enemy32" "10"
+"txt_bomb2" "0"
+"wlt_bomb4_3" "10"
+"wlt_bomb4_2" "10"
+"wlt_bomb4_1" "10"
+"wlt_bomb3_3" "10"
+"wlt_bomb3_2" "10"
+"wlt_bomb3_1" "10"
+"ld_car32" "10"
+"cnt_next3to4" "15"
+"wlt_hasigo2" "10"
+"br_car32" "10"
+"targetname" "mm_car32"
+"classname" "multi_manager"
+}
+{
+"origin" "-2273 2406 185"
+"sq_enemy31" "10"
+"txt_bomb1" "0"
+"wlt_bombcar1" "10"
+"wlt_bomb2_3" "10"
+"wlt_bomb2_2" "10"
+"wlt_bomb2_1" "10"
+"wlt_bomb1_3" "10"
+"wlt_bomb1_2" "10"
+"wlt_bomb1_1" "10"
+"ld_car32" "10"
+"cnt_next3to4" "15"
+"wlt_hasigo1" "10"
+"br_car31" "10"
+"targetname" "mm_car31"
+"classname" "multi_manager"
+}
+{
+"origin" "-2848 2101 275"
+"target" "mm_init4"
+"targetname" "cnt_next3to4"
+"health" "22"
+"classname" "game_counter"
+}
+{
+"origin" "-2832 0 464"
+"mm_ev4" "0"
+"sq_enemy4fly" "0"
+"resp" "40"
+"rl_st4" "39.5"
+"rl_st3" "39.5"
+"targetname" "mm_init4"
+"classname" "multi_manager"
+}
+{
+"origin" "-2976 176 336"
+"soundlist" "../the_daikon_warfare/jetmassn.txt"
+"trigger_target" "cnt_next4to5"
+"new_model" "models/the_daikon_warfare/jetmassn.mdl"
+"displayname" "Flying(...?) radish thief"
+"health" "400"
+"bloodcolor" "1"
+"classify" "4"
+"trigger_condition" "4"
+"monstertype" "monster_alien_controller"
+"targetname" "sq_enemy4fly"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"monstercount" "10"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-2032 -16 320"
+"soundlist" "../the_daikon_warfare/jetmassn.txt"
+"trigger_target" "cnt_next4to5"
+"new_model" "models/the_daikon_warfare/jetmassn.mdl"
+"displayname" "Flying(...?) radish thief"
+"health" "400"
+"bloodcolor" "1"
+"classify" "4"
+"trigger_condition" "4"
+"monstertype" "monster_alien_controller"
+"targetname" "sq_enemy4fly"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"monstercount" "10"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-2832 -16 464"
+"target" "mm_init5"
+"targetname" "cnt_next4to5"
+"health" "60"
+"classname" "game_counter"
+}
+{
+"origin" "-2632 -2176 160"
+"wlt_secwall" "0"
+"mm_ev5" "0"
+"sq_enemy5" "0"
+"rl_st4" "99.5"
+"rl_st5" "99.5"
+"resp" "100"
+"targetname" "mm_init5"
+"classname" "multi_manager"
+}
+{
+"origin" "-2648 -2384 256"
+"soundlist" "../the_daikon_warfare/jetmassn.txt"
+"trigger_target" "cnt_next5toend"
+"new_model" "models/the_daikon_warfare/jetmassn.mdl"
+"displayname" "Flying(...?) radish thief"
+"health" "400"
+"bloodcolor" "1"
+"classify" "4"
+"trigger_condition" "4"
+"monstertype" "monster_alien_controller"
+"targetname" "sq_enemy5"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"monstercount" "15"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-2768 -1808 320"
+"soundlist" "../the_daikon_warfare/jetmassn.txt"
+"trigger_target" "cnt_next5toend"
+"new_model" "models/the_daikon_warfare/jetmassn.mdl"
+"displayname" "Flying(...?) radish thief"
+"health" "400"
+"bloodcolor" "1"
+"classify" "4"
+"trigger_condition" "4"
+"monstertype" "monster_alien_controller"
+"targetname" "sq_enemy5"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"monstercount" "15"
+"rendercolor" "0 0 0"
+"angles" "0 315 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-2632 -2192 160"
+"target" "mm_eved"
+"targetname" "cnt_next5toend"
+"health" "62"
+"classname" "game_counter"
+}
+{
+"origin" "-3328 -2048 611"
+"target" "pc_heli2"
+"targetname" "pc_heli1"
+"wait" "3"
+"angles" "0 0 0"
+"classname" "path_corner"
+}
+{
+"origin" "-2688 -1600 611"
+"target" "pc_heli8"
+"targetname" "pc_heli7"
+"wait" "3"
+"angles" "0 0 0"
+"classname" "path_corner"
+}
+{
+"origin" "-2688 -2688 611"
+"target" "pc_heli4"
+"targetname" "pc_heli3"
+"wait" "3"
+"angles" "0 0 0"
+"classname" "path_corner"
+}
+{
+"origin" "-2016 -2688 611"
+"target" "pc_heli5"
+"targetname" "pc_heli4"
+"wait" "3"
+"angles" "0 0 0"
+"classname" "path_corner"
+}
+{
+"origin" "-2112 -1576 611"
+"target" "pc_heli7"
+"targetname" "pc_heli6"
+"wait" "3"
+"angles" "0 0 0"
+"classname" "path_corner"
+}
+{
+"origin" "-1856 -2048 611"
+"target" "pc_heli6"
+"targetname" "pc_heli5"
+"wait" "3"
+"angles" "0 0 0"
+"classname" "path_corner"
+}
+{
+"origin" "-3200 -1600 611"
+"target" "pc_heli1"
+"targetname" "pc_heli8"
+"wait" "3"
+"angles" "0 0 0"
+"classname" "path_corner"
+}
+{
+"origin" "-3264 -2560 611"
+"target" "pc_heli3"
+"targetname" "pc_heli2"
+"wait" "3"
+"angles" "0 0 0"
+"classname" "path_corner"
+}
+{
+"origin" "-2210 -2295 -15"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_rpgclip"
+}
+{
+"origin" "-2293 -1931 -1"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "weapon_rpg"
+}
+{
+"origin" "-2235 -2333 136"
+"rendercolor" "0 0 0"
+"angles" "0 90 0"
+"classname" "weapon_rpg"
+}
+{
+"origin" "-2305 -2333 136"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_rpgclip"
+}
+{
+"origin" "-2404 2008 2280"
+"targetname" "cam_ev11"
+"target" "tg_cam11"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "18"
+"angles" "0 0 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "-2200 2168 2267"
+"targetname" "cam_ev12"
+"target" "tg_cam12"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "18"
+"angles" "0 0 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "-2244 2188 2380"
+"message" "Young man : daikon nouka wo namenjanee!! (Never underestimate radish famers!!)"
+"targetname" "txt_ev1_6"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2244 2172 2380"
+"message" "Village chief : fum, ayasii kuruma ga suudai mierunou. (Several suspicious cars are seen.)"
+"targetname" "txt_ev1_7"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2244 2156 2380"
+"message" "Village chief : douyara wasira ni kenka uritai youja. (Apparently, they seem to want to fight us.)"
+"targetname" "txt_ev1_8"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2244 2140 2380"
+"message" "Young man : joutou da!! (Just fine!!)"
+"targetname" "txt_ev1_9"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2244 2124 2380"
+"message" "Young man : kaeriuti ni siteyanze!! (We will defeat them all.)"
+"targetname" "txt_ev1_10"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2228 2188 2380"
+"message" "Young man : mattaku fuzake yagatte... (Fuck them at all...)"
+"targetname" "txt_ev1_1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2228 2172 2380"
+"message" "Young man : oitumete tatakinomesite yaruze. (I'll corner and beat them)"
+"targetname" "txt_ev1_2"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2228 2156 2380"
+"message" "Village chief : yatura ha kono miti wo totta hazuja. (They must be passed this way.)"
+"targetname" "txt_ev1_3"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2228 2140 2380"
+"message" "Village chief : sugu oitukeru jarou. (We will catch up them soon)"
+"targetname" "txt_ev1_4"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2228 2124 2380"
+"message" "Young man : yosi, nara tobasuze. (I see, speed up!!)"
+"targetname" "txt_ev1_5"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2260 2156 2380"
+"message" "teki no kuruma wo hakai siro!! (Destroy all vehicles of enemies)"
+"targetname" "txt_ev1_11"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 255 255"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2276 2156 2396"
+"txt_ev1_11" "91"
+"cam_ev13" "90"
+"txt_ev1_10" "81"
+"txt_ev1_9" "72"
+"cam_ev11#2" "72"
+"txt_ev1_8" "63"
+"txt_ev1_7" "54"
+"cam_ev12#1" "54"
+"txt_ev1_6" "45"
+"txt_ev1_5" "36"
+"cam_ev11#1" "36"
+"txt_ev1_4" "27"
+"txt_ev1_3" "18"
+"cam_ev12" "18"
+"txt_ev1_2" "9"
+"txt_ev1_1" "0"
+"cam_ev11" "0"
+"targetname" "mm_ev1"
+"classname" "multi_manager"
+}
+{
+"origin" "-1796 2112 2392"
+"targetname" "cam_ev13"
+"target" "tg_cam13"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "10"
+"angles" "0 0 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "-2262 1986 2266"
+"targetname" "tg_cam11"
+"classname" "info_target"
+}
+{
+"origin" "-2084 2210 2254"
+"targetname" "tg_cam12"
+"classname" "info_target"
+}
+{
+"origin" "-2976 -176 2336"
+"message" "Village chief : usiro karamo kitayoujano. (They came from behind us.)"
+"targetname" "txt_ev2_1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2976 -192 2336"
+"message" "Young man : ha, buttubusite yare! (Destroy them all!!)"
+"targetname" "txt_ev2_2"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2976 -208 2336"
+"message" "Young man : n? nanda arya.... (What is that....?)"
+"targetname" "txt_ev2_3"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2976 -224 2336"
+"message" "Village chief : are wasi mo hosii nou. (I want that.)"
+"targetname" "txt_ev2_4"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2976 -240 2336"
+"message" "Young man : annamon dokoga iindayo, utiotose!! (I hate that, shoot them!!)"
+"targetname" "txt_ev2_5"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2992 -208 2336"
+"txt_ev2_5" "50"
+"cam_ev21#2" "50"
+"txt_ev2_4" "40"
+"cam_ev22#1" "40"
+"txt_ev2_3" "30"
+"cam_ev21#1" "30"
+"cam_ev23" "20"
+"txt_ev2_2" "10"
+"cam_ev21" "10"
+"txt_ev2_1" "0"
+"cam_ev22" "0"
+"targetname" "mm_ev2"
+"classname" "multi_manager"
+}
+{
+"origin" "-2976 -344 2336"
+"targetname" "cam_ev21"
+"target" "tg_cam21"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "10"
+"angles" "0 0 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "-2824 -336 2336"
+"targetname" "tg_cam21"
+"classname" "info_target"
+}
+{
+"origin" "-2800 -65 2316"
+"targetname" "tg_cam22"
+"classname" "info_target"
+}
+{
+"origin" "-2933 -33 2316"
+"targetname" "cam_ev22"
+"target" "tg_cam22"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "10"
+"angles" "0 0 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "-2997 -304 2643"
+"targetname" "cam_ev23"
+"target" "tg_cam23"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "10"
+"angles" "0 0 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "-3040 2312 2304"
+"targetname" "tg_cam13"
+"classname" "info_target"
+}
+{
+"origin" "-3112 -208 2640"
+"targetname" "tg_cam23"
+"classname" "info_target"
+}
+{
+"origin" "-2800 2277 59"
+"message" "Young man : nanda? noriututte kuru kika? (What? they take to our vehicles?)"
+"targetname" "txt_ev3_1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2800 2261 59"
+"message" "Village chief : eiga de konnano mitakoto arunou... (I have watched like this in the movie.)"
+"targetname" "txt_ev3_2"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2800 2245 59"
+"message" "Young man : eei, bakudan sikakete futtobasitimae!! (Fuck, blow it off with bombs.)"
+"targetname" "txt_ev3_3"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2816 2261 59"
+"message" "teki no truck ni bakudan wo sikakero!! (Plant bombs to enemy's trucks.)"
+"targetname" "txt_ev3_4"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 255 255"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2832 2261 59"
+"txt_ev3_4" "40"
+"cam_ev33#1" "40"
+"txt_ev3_3" "30"
+"cam_ev31#1" "30"
+"txt_ev3_2" "20"
+"cam_ev32" "20"
+"txt_ev3_1" "10"
+"cam_ev33" "0"
+"cam_ev31" "10"
+"targetname" "mm_ev3"
+"classname" "multi_manager"
+}
+{
+"origin" "-2832 2157 67"
+"targetname" "cam_ev31"
+"target" "tg_cam31"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "10"
+"angles" "0 0 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "-2712 2193 55"
+"targetname" "tg_cam31"
+"classname" "info_target"
+}
+{
+"origin" "-2960 2405 43"
+"targetname" "tg_cam32"
+"classname" "info_target"
+}
+{
+"origin" "-3069 2424 55"
+"targetname" "cam_ev32"
+"target" "tg_cam32"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "10"
+"angles" "0 0 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "-2944 2172 356"
+"targetname" "cam_ev33"
+"target" "tg_cam33"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "10"
+"angles" "0 0 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "-2723 2155 110"
+"targetname" "tg_cam33"
+"classname" "info_target"
+}
+{
+"origin" "-2880 -112 520"
+"message" "Village chief : tunnel ni hairuzo. (We get into tunnel.)"
+"targetname" "txt_ev4_1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2880 -128 520"
+"message" "Young man : mada akiramenee tumorika. (They don't give up yet.)"
+"targetname" "txt_ev4_2"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2880 -144 520"
+"message" "Village chief : fum, douyara kijuu ha tamagire mitai jana. (Hmm, mounted gun seems out of ammo.)"
+"targetname" "txt_ev4_3"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2880 -160 520"
+"message" "Young man : .50BMG dan ha takeendazo yarou... (Ah shit, .50BMG ammo is expensive)"
+"targetname" "txt_ev4_4"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2896 -136 520"
+"cam_ev31#1" "30"
+"cam_ev32#1" "20"
+"cam_ev31" "10"
+"cam_ev32" "0"
+"txt_ev4_4" "30"
+"txt_ev4_3" "20"
+"txt_ev4_2" "10"
+"txt_ev4_1" "0"
+"targetname" "mm_ev4"
+"classname" "multi_manager"
+}
+{
+"origin" "-2800 -168 200"
+"targetname" "cam_ev41"
+"target" "tg_cam41"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "10"
+"angles" "0 0 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "-2648 -116 196"
+"targetname" "tg_cam41"
+"classname" "info_target"
+}
+{
+"origin" "-2873 165 200"
+"targetname" "cam_ev42"
+"target" "tg_cam42"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "10"
+"angles" "0 0 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "-2720 134 180"
+"targetname" "tg_cam42"
+"classname" "info_target"
+}
+{
+"origin" "-2528 -2240 40"
+"message" "Village chief : tunnel wo deruzoyo. (We emerge from tunnel. )"
+"targetname" "txt_ev5_1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2528 -2256 40"
+"message" "Young man : ouyo! (Yeah!)"
+"targetname" "txt_ev5_2"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2544 -2232 40"
+"message" "Village chief : yosi konomama tuisekija. (Let's run after that as it is.)"
+"targetname" "txt_ev5_4"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2544 -2248 40"
+"message" "Young man : wakatta, ano kuruma ha kowasunja neezo. (Ok, Don't destroy that van.)"
+"targetname" "txt_ev5_5"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2544 -2264 40"
+"message" "Young man : ...n? nanda? (What...?)"
+"targetname" "txt_ev5_6"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2544 -2216 40"
+"message" "Young man : miro! ano kuruma da!! (Look! that's van!!)"
+"targetname" "txt_ev5_3"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2544 -2280 40"
+"message" "Village chief : sentou heli mitai jana. (It looks like chopper.)"
+"targetname" "txt_ev5_7"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2560 -2248 40"
+"message" "heli wo hakai siro!! (Destroy chopper!!)"
+"targetname" "txt_ev5_8"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 255 255"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2600 -2232 40"
+"message" "Young man : yosi zenmetu da! (Yeah, all clear.)"
+"targetname" "txt_eved_1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2600 -2248 40"
+"message" "Village chief : konomama yatura no ajito he norikomuzo! (Attack their hideout as it is!)"
+"targetname" "txt_eved_2"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2600 -2264 40"
+"message" "Young man : haha! daikon nouka wo namenjanee!! (haha! never underestimate radish famers!! )"
+"targetname" "txt_eved_3"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2616 -2232 40"
+"message" "dorobou tati wo oitumeta! (We cornered radish thieves!)"
+"targetname" "txt_eved_4"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 255 255"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2616 -2248 40"
+"message" "daikon dakkan made ato mousukosida!! (It is a little more until radish is gotten back.)"
+"targetname" "txt_eved_5"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 255 255"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2616 -2264 40"
+"message" "To be continued ...."
+"effect" "1"
+"targetname" "txt_eved_6"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 255 255"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2576 -2248 40"
+"bgm_battle2" "63"
+"bgm_battle1" "60"
+"cam_ev54" "20"
+"txt_ev5_8" "90"
+"cam_ev53#2" "90"
+"txt_ev5_7" "80"
+"cam_ev52#1" "80"
+"txt_ev5_6" "70"
+"cam_ev51#2" "70"
+"sq_enemy5heli" "60"
+"cam_ev53#1" "60"
+"txt_ev5_5" "50"
+"cam_ev51#1" "50"
+"txt_ev5_4" "40"
+"cam_ev52" "40"
+"txt_ev5_3" "30"
+"cam_ev51" "30"
+"txt_ev5_2" "10"
+"cam_ev41" "10"
+"txt_ev5_1" "0"
+"cam_ev42" "0"
+"targetname" "mm_ev5"
+"classname" "multi_manager"
+}
+{
+"origin" "-2632 -2248 40"
+"amb_truck" "30"
+"fd_end" "65"
+"gameend" "80"
+"txt_eved_6" "53"
+"txt_eved_5" "43"
+"txt_eved_4" "33"
+"bgm_end" "31"
+"bgm_battle2" "30"
+"txt_eved_3" "20"
+"cam_ev51#1" "20"
+"txt_eved_2" "10"
+"cam_ev52" "10"
+"txt_eved_1" "0"
+"cam_ev51" "0"
+"targetname" "mm_eved"
+"classname" "multi_manager"
+}
+{
+"origin" "-2592 -2344 40"
+"targetname" "cam_ev51"
+"target" "tg_cam51"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "10"
+"angles" "0 0 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "-2440 -2292 36"
+"targetname" "tg_cam51"
+"classname" "info_target"
+}
+{
+"origin" "-2531 -1865 28"
+"targetname" "cam_ev52"
+"target" "tg_cam52"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "10"
+"angles" "0 0 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "-2412 -1920 24"
+"targetname" "tg_cam52"
+"classname" "info_target"
+}
+{
+"origin" "-2678 -2329 330"
+"targetname" "cam_ev53"
+"target" "tg_cam53"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "10"
+"angles" "0 180 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "-3173 -2152 302"
+"targetname" "tg_cam53"
+"classname" "info_target"
+}
+{
+"origin" "-3002 -2189 78"
+"targetname" "cam_ev54"
+"target" "tg_cam54"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "10"
+"angles" "0 180 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "-3194 -2163 50"
+"targetname" "tg_cam54"
+"classname" "info_target"
+}
+{
+"origin" "-2648 -2248 60"
+"message" "the_daikon_warfare/the_rock1.wav"
+"targetname" "bgm_end"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "17"
+"classname" "ambient_generic"
+}
+{
+"origin" "-1906 -2330 -6"
+"linearmax" "5"
+"linearmin" "2"
+"playmode" "2"
+"message" "the_daikon_warfare/stalker/cs_combat3.mp3"
+"targetname" "bgm_battle2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "17"
+"classname" "ambient_generic"
+}
+{
+"origin" "-2756 -2068 380"
+"targetname" "gameend"
+"map" "the_daikon_warfare3"
+"spawnflags" "2"
+"classname" "trigger_changelevel"
+}
+{
+"origin" "-2700 -2074 40"
+"holdtime" "20"
+"targetname" "fd_end"
+"rendercolor" "0 0 0"
+"renderamt" "255"
+"duration" "10"
+"classname" "env_fade"
+}
+{
+"model" "*184"
+"targetname" "door_bomb1"
+"wait" "4"
+"speed" "5"
+"angles" "-90 0 0"
+"rendercolor" "0 0 0"
+"classname" "momentary_door"
+}
+{
+"model" "*185"
+"weapon" "1"
+"targetname" "psh_bomb1"
+"buoyancy" "20"
+"friction" "50"
+"material" "3"
+"health" "1"
+"rendercolor" "0 0 0"
+"classname" "func_pushable"
+}
+{
+"model" "*186"
+"target" "mm_bomb1set"
+"killtarget" "psh_bomb1"
+"spawnflags" "22"
+"classname" "trigger_once"
+}
+{
+"model" "*187"
+"target" "wlt_bomb1_3"
+"wait" "10"
+"spawnflags" "52"
+"classname" "trigger_multiple"
+}
+{
+"model" "*188"
+"target" "wlt_bomb1_2"
+"wait" "10"
+"spawnflags" "52"
+"classname" "trigger_multiple"
+}
+{
+"model" "*189"
+"target" "mm_bomb1_1"
+"wait" "10"
+"spawnflags" "52"
+"classname" "trigger_multiple"
+}
+{
+"origin" "-25 1586 -2020"
+"wlt_bomb1_1" "0"
+"amb_setbomb1_1" "0"
+"targetname" "mm_bomb1_1"
+"classname" "multi_manager"
+}
+{
+"origin" "-25 1602 -2020"
+"wlt_bomb1_2" "0"
+"amb_setbomb1_1" "0"
+"targetname" "mm_bomb1_2"
+"classname" "multi_manager"
+}
+{
+"origin" "-25 1618 -2020"
+"wlt_bomb1_3" "0"
+"amb_setbomb1_1" "0"
+"targetname" "mm_bomb1_3"
+"classname" "multi_manager"
+}
+{
+"origin" "-81 1654 -2010"
+"cnt_car31" "0"
+"wlt_bomb1_3" "0"
+"wlt_bomb1_2" "0"
+"wlt_bomb1_1" "0"
+"amb_setbomb1_2" "0"
+"spr_setbomb1" "0"
+"targetname" "mm_bomb1set"
+"classname" "multi_manager"
+}
+{
+"model" "*190"
+"targetname" "door_bomb2"
+"wait" "4"
+"speed" "5"
+"angles" "-90 0 0"
+"rendercolor" "0 0 0"
+"classname" "momentary_door"
+}
+{
+"model" "*191"
+"weapon" "1"
+"targetname" "psh_bomb2"
+"buoyancy" "20"
+"friction" "50"
+"material" "3"
+"health" "1"
+"rendercolor" "0 0 0"
+"classname" "func_pushable"
+}
+{
+"model" "*192"
+"target" "mm_bomb2set"
+"killtarget" "psh_bomb2"
+"spawnflags" "22"
+"classname" "trigger_once"
+}
+{
+"model" "*193"
+"target" "wlt_bomb2_3"
+"wait" "10"
+"spawnflags" "52"
+"classname" "trigger_multiple"
+}
+{
+"model" "*194"
+"target" "wlt_bomb2_2"
+"wait" "10"
+"spawnflags" "52"
+"classname" "trigger_multiple"
+}
+{
+"model" "*195"
+"target" "mm_bomb2_1"
+"wait" "10"
+"spawnflags" "52"
+"classname" "trigger_multiple"
+}
+{
+"origin" "175 1586 -2020"
+"wlt_bomb2_1" "0"
+"amb_setbomb2_1" "0"
+"targetname" "mm_bomb2_1"
+"classname" "multi_manager"
+}
+{
+"origin" "175 1602 -2020"
+"wlt_bomb2_2" "0"
+"amb_setbomb2_1" "0"
+"targetname" "mm_bomb2_2"
+"classname" "multi_manager"
+}
+{
+"origin" "175 1618 -2020"
+"amb_setbomb2_1" "0"
+"wlt_bomb2_3" "0"
+"targetname" "mm_bomb2_3"
+"classname" "multi_manager"
+}
+{
+"origin" "119 1654 -2010"
+"cnt_car31" "0"
+"wlt_bomb2_3" "0"
+"wlt_bomb2_2" "0"
+"wlt_bomb2_1" "0"
+"spr_setbomb2" "0"
+"amb_setbomb2_2" "0"
+"targetname" "mm_bomb2set"
+"classname" "multi_manager"
+}
+{
+"model" "*196"
+"targetname" "door_bomb3"
+"wait" "4"
+"speed" "5"
+"angles" "-90 0 0"
+"rendercolor" "0 0 0"
+"classname" "momentary_door"
+}
+{
+"model" "*197"
+"weapon" "1"
+"targetname" "psh_bomb3"
+"buoyancy" "20"
+"friction" "50"
+"material" "3"
+"health" "1"
+"rendercolor" "0 0 0"
+"classname" "func_pushable"
+}
+{
+"model" "*198"
+"target" "mm_bomb3set"
+"killtarget" "psh_bomb3"
+"spawnflags" "22"
+"classname" "trigger_once"
+}
+{
+"model" "*199"
+"target" "wlt_bomb3_3"
+"wait" "10"
+"spawnflags" "52"
+"classname" "trigger_multiple"
+}
+{
+"model" "*200"
+"target" "wlt_bomb3_2"
+"wait" "10"
+"spawnflags" "52"
+"classname" "trigger_multiple"
+}
+{
+"model" "*201"
+"target" "mm_bomb3_1"
+"wait" "10"
+"spawnflags" "52"
+"classname" "trigger_multiple"
+}
+{
+"origin" "-25 1455 -2020"
+"wlt_bomb3_1" "0"
+"amb_setbomb3_1" "0"
+"targetname" "mm_bomb3_1"
+"classname" "multi_manager"
+}
+{
+"origin" "-25 1471 -2020"
+"wlt_bomb3_2" "0"
+"amb_setbomb3_1" "0"
+"targetname" "mm_bomb3_2"
+"classname" "multi_manager"
+}
+{
+"origin" "-25 1487 -2020"
+"wlt_bomb3_3" "0"
+"amb_setbomb3_1" "0"
+"targetname" "mm_bomb3_3"
+"classname" "multi_manager"
+}
+{
+"origin" "-81 1523 -2010"
+"cnt_car32" "0"
+"wlt_bomb3_3" "0"
+"wlt_bomb3_2" "0"
+"wlt_bomb3_1" "0"
+"amb_setbomb3_2" "0"
+"spr_setbomb3" "0"
+"targetname" "mm_bomb3set"
+"classname" "multi_manager"
+}
+{
+"model" "*202"
+"targetname" "door_bomb4"
+"wait" "4"
+"speed" "5"
+"angles" "-90 0 0"
+"rendercolor" "0 0 0"
+"classname" "momentary_door"
+}
+{
+"model" "*203"
+"weapon" "1"
+"targetname" "psh_bomb4"
+"buoyancy" "20"
+"friction" "50"
+"material" "3"
+"health" "1"
+"rendercolor" "0 0 0"
+"classname" "func_pushable"
+}
+{
+"model" "*204"
+"target" "mm_bomb4set"
+"killtarget" "psh_bomb4"
+"spawnflags" "22"
+"classname" "trigger_once"
+}
+{
+"model" "*205"
+"target" "wlt_bomb4_3"
+"wait" "10"
+"spawnflags" "52"
+"classname" "trigger_multiple"
+}
+{
+"model" "*206"
+"target" "wlt_bomb4_2"
+"wait" "10"
+"spawnflags" "52"
+"classname" "trigger_multiple"
+}
+{
+"model" "*207"
+"target" "mm_bomb4_1"
+"wait" "10"
+"spawnflags" "52"
+"classname" "trigger_multiple"
+}
+{
+"origin" "176 1455 -2020"
+"wlt_bomb4_1" "0"
+"amb_setbomb4_1" "0"
+"targetname" "mm_bomb4_1"
+"classname" "multi_manager"
+}
+{
+"origin" "176 1471 -2020"
+"wlt_bomb4_2" "0"
+"amb_setbomb4_1" "0"
+"targetname" "mm_bomb4_2"
+"classname" "multi_manager"
+}
+{
+"origin" "176 1487 -2020"
+"wlt_bomb4_3" "0"
+"amb_setbomb4_1" "0"
+"targetname" "mm_bomb4_3"
+"classname" "multi_manager"
+}
+{
+"origin" "120 1523 -2010"
+"cnt_car32" "0"
+"wlt_bomb4_3" "0"
+"wlt_bomb4_2" "0"
+"wlt_bomb4_1" "0"
+"amb_setbomb4_2" "0"
+"spr_setbomb4" "0"
+"targetname" "mm_bomb4set"
+"classname" "multi_manager"
+}
+{
+"model" "*208"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*209"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*210"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*211"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*212"
+"origin" "-2478 2428 189"
+"rendermode" "2"
+"returnspeed" "1"
+"distance" "90"
+"speed" "3"
+"angles" "0 0 0"
+"target" "door_bomb1"
+"rendercolor" "0 0 0"
+"spawnflags" "144"
+"classname" "momentary_rot_button"
+}
+{
+"model" "*213"
+"angles" "0 0 0"
+"targetname" "wlt_bomb1_3"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"origin" "-2478 2428 224"
+"scale" "0.5"
+"targetname" "spr_setbomb1"
+"renderamt" "255"
+"rendermode" "5"
+"model" "sprites/the_daikon_warfare/setbombmsg.spr"
+"framerate" "3"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"classname" "env_sprite"
+}
+{
+"origin" "-2480 2428 272"
+"targetname" "amb_setbomb1_1"
+"message" "weapons/mine_deploy.wav"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "22"
+"classname" "ambient_generic"
+}
+{
+"model" "*214"
+"targetname" "wlt_bomb1_1"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"model" "*215"
+"targetname" "wlt_bomb1_2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"origin" "-2481 2428 288"
+"targetname" "amb_setbomb1_2"
+"message" "weapons/mine_charge.wav"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "22"
+"classname" "ambient_generic"
+}
+{
+"model" "*216"
+"origin" "-2209 2442 37"
+"rendermode" "2"
+"returnspeed" "1"
+"distance" "90"
+"speed" "3"
+"angles" "0 0 0"
+"target" "door_bomb2"
+"rendercolor" "0 0 0"
+"spawnflags" "144"
+"classname" "momentary_rot_button"
+}
+{
+"model" "*217"
+"angles" "0 0 0"
+"targetname" "wlt_bomb2_3"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"origin" "-2207 2442 72"
+"scale" "0.5"
+"targetname" "spr_setbomb2"
+"renderamt" "255"
+"rendermode" "5"
+"model" "sprites/the_daikon_warfare/setbombmsg.spr"
+"framerate" "3"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"classname" "env_sprite"
+}
+{
+"origin" "-2207 2444 120"
+"targetname" "amb_setbomb2_1"
+"message" "weapons/mine_deploy.wav"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "22"
+"classname" "ambient_generic"
+}
+{
+"model" "*218"
+"targetname" "wlt_bomb2_1"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"model" "*219"
+"targetname" "wlt_bomb2_2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"origin" "-2207 2445 136"
+"targetname" "amb_setbomb2_2"
+"message" "weapons/mine_charge.wav"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "22"
+"classname" "ambient_generic"
+}
+{
+"model" "*220"
+"origin" "-2718 1880 189"
+"rendermode" "2"
+"returnspeed" "1"
+"distance" "90"
+"speed" "3"
+"angles" "0 0 0"
+"target" "door_bomb3"
+"rendercolor" "0 0 0"
+"spawnflags" "144"
+"classname" "momentary_rot_button"
+}
+{
+"model" "*221"
+"angles" "0 0 0"
+"targetname" "wlt_bomb3_3"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"origin" "-2718 1880 224"
+"scale" "0.5"
+"targetname" "spr_setbomb3"
+"renderamt" "255"
+"rendermode" "5"
+"model" "sprites/the_daikon_warfare/setbombmsg.spr"
+"framerate" "3"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"classname" "env_sprite"
+}
+{
+"origin" "-2720 1880 272"
+"targetname" "amb_setbomb3_1"
+"message" "weapons/mine_deploy.wav"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "22"
+"classname" "ambient_generic"
+}
+{
+"model" "*222"
+"targetname" "wlt_bomb3_1"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"model" "*223"
+"targetname" "wlt_bomb3_2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"origin" "-2721 1880 288"
+"targetname" "amb_setbomb3_2"
+"message" "weapons/mine_charge.wav"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "22"
+"classname" "ambient_generic"
+}
+{
+"model" "*224"
+"origin" "-2423 1932 34"
+"rendermode" "2"
+"returnspeed" "1"
+"distance" "90"
+"speed" "3"
+"angles" "0 0 0"
+"target" "door_bomb4"
+"rendercolor" "0 0 0"
+"spawnflags" "144"
+"classname" "momentary_rot_button"
+}
+{
+"model" "*225"
+"angles" "0 0 0"
+"targetname" "wlt_bomb4_3"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"origin" "-2423 1932 69"
+"scale" "0.5"
+"targetname" "spr_setbomb4"
+"renderamt" "255"
+"rendermode" "5"
+"model" "sprites/the_daikon_warfare/setbombmsg.spr"
+"framerate" "3"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"classname" "env_sprite"
+}
+{
+"origin" "-2423 1934 117"
+"targetname" "amb_setbomb4_1"
+"message" "weapons/mine_deploy.wav"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "22"
+"classname" "ambient_generic"
+}
+{
+"model" "*226"
+"targetname" "wlt_bomb4_1"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"model" "*227"
+"targetname" "wlt_bomb4_2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"origin" "-2423 1935 133"
+"targetname" "amb_setbomb4_2"
+"message" "weapons/mine_charge.wav"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "22"
+"classname" "ambient_generic"
+}
+{
+"model" "*228"
+"targetname" "wlt_bombcar2"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall_toggle"
+}
+{
+"model" "*229"
+"targetname" "wlt_bombcar1"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall_toggle"
+}
+{
+"model" "*230"
+"targetname" "wlt_bombcar1"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall_toggle"
+}
+{
+"model" "*231"
+"targetname" "wlt_bombcar2"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall_toggle"
+}
+{
+"origin" "-2293 2418 174"
+"target" "mm_car31"
+"targetname" "cnt_car31"
+"health" "2"
+"classname" "game_counter"
+}
+{
+"origin" "-2480 1898 184"
+"target" "mm_car32"
+"targetname" "cnt_car32"
+"health" "2"
+"classname" "game_counter"
+}
+{
+"origin" "-2202 2408 178"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "-1"
+"monstertype" "monster_male_assassin"
+"displayname" "Radish thief"
+"targetname" "sq_enemy31"
+"weapons" "3"
+"health" "400"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 225 0"
+"rendercolor" "0 0 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-2425 1878 170"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "-1"
+"monstertype" "monster_male_assassin"
+"displayname" "Radish thief"
+"targetname" "sq_enemy32"
+"weapons" "3"
+"health" "400"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 90 0"
+"rendercolor" "0 0 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-2656 1928 36"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "-1"
+"monstertype" "monster_male_assassin"
+"displayname" "Radish thief"
+"targetname" "sq_enemy32"
+"weapons" "10"
+"health" "400"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-2424 2440 36"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "-1"
+"monstertype" "monster_male_assassin"
+"displayname" "Radish thief"
+"targetname" "sq_enemy31"
+"weapons" "10"
+"health" "400"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-2272 2430 186"
+"message" "migi no truck kara hanarero!! 10byou de bakuhatu suruzo!!\n(Leave from right truck!! bomb will explode within 10 seconds!!)"
+"targetname" "txt_bomb1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-2464 1918 186"
+"message" "hidari no truck kara hanarero!! 10byou de bakuhatu suruzo!!\n(Leave from left truck!! bomb will explode within 10 seconds!!)"
+"targetname" "txt_bomb2"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"model" "*232"
+"weapon" "1"
+"health" "200"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*233"
+"weapon" "1"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*234"
+"weapon" "1"
+"health" "200"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"model" "*235"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"origin" "-2058 -1894 -0"
+"model" "models/the_daikon_warfare/aan_driver.mdl"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"classname" "cycler"
+}
+{
+"model" "*236"
+"origin" "-2048 -1914 -40"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*237"
+"origin" "-1904 -1914 -40"
+"targetname" "rot_tyre"
+"spawnorigin" "0 0 0"
+"fanfriction" "20"
+"volume" "10"
+"speed" "600"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "10"
+"classname" "func_rotating"
+}
+{
+"model" "*238"
+"rendermode" "2"
+"targetname" "wlt_secwall"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall_toggle"
+}
+{
+"origin" "-1884 -1916 24"
+"new_model" "models/the_daikon_warfare/miketama_assasin_dual.mdl"
+"monstertype" "monster_human_assassin"
+"targetname" "sq_miketama"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"respawn_as_playerally" "1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "-1"
+"soundlist" "../ayakashi_banquet/miketama_assassin.txt"
+"displayname" "[YOUKAI]miketama"
+"health" "222222"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 225 0"
+"rendercolor" "0 0 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-2549 -530 2432"
+"model" "models/the_daikon_warfare/mikeneko.mdl"
+"targetname" "cyc_cat1"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"classname" "cycler"
+}
+{
+"model" "*239"
+"target" "br_cat1"
+"wait" "3"
+"speed" "5"
+"rendermode" "2"
+"targetname" "btn_cat1"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "func_button"
+}
+{
+"model" "*240"
+"target" "mm_rescuecat"
+"killtarget" "cyc_cat1"
+"weapon" "1"
+"material" "1"
+"health" "1"
+"targetname" "br_cat1"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*241"
+"killtarget" "btn_cat1"
+"weapon" "1"
+"material" "1"
+"health" "1"
+"targetname" "br_cat1"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"origin" "-210 1866 -2130"
+"message" "neko wo tasuketa!! (You rescued a cat!!)"
+"targetname" "txt_rescuecat"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 255 255"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-194 1866 -2130"
+"target" "cgtg_secret"
+"targetname" "cnt_cat"
+"health" "3"
+"classname" "game_counter"
+}
+{
+"origin" "-208 1846 -2130"
+"amb_cat" "0"
+"cnt_cat" "0"
+"txt_rescuecat" "0"
+"targetname" "mm_rescuecat"
+"classname" "multi_manager"
+}
+{
+"model" "*242"
+"target" "mm_rescuecat"
+"killtarget" "cyc_cat2"
+"weapon" "1"
+"material" "1"
+"health" "1"
+"targetname" "br_cat2"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*243"
+"killtarget" "btn_cat2"
+"weapon" "1"
+"material" "1"
+"health" "1"
+"targetname" "br_cat2"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"origin" "-2476 -283 101"
+"model" "models/the_daikon_warfare/mikeneko.mdl"
+"targetname" "cyc_cat2"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"classname" "cycler"
+}
+{
+"model" "*244"
+"target" "br_cat2"
+"wait" "3"
+"speed" "5"
+"rendermode" "2"
+"targetname" "btn_cat2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "func_button"
+}
+{
+"origin" "-2553 1857 2"
+"model" "models/the_daikon_warfare/mikeneko.mdl"
+"targetname" "cyc_cat3"
+"rendercolor" "0 0 0"
+"angles" "0 90 0"
+"classname" "cycler"
+}
+{
+"model" "*245"
+"target" "br_cat3"
+"wait" "3"
+"speed" "5"
+"rendermode" "2"
+"targetname" "btn_cat3"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "func_button"
+}
+{
+"model" "*246"
+"target" "mm_rescuecat"
+"killtarget" "cyc_cat3"
+"weapon" "1"
+"material" "1"
+"health" "1"
+"targetname" "br_cat3"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*247"
+"killtarget" "btn_cat3"
+"weapon" "1"
+"material" "1"
+"health" "1"
+"targetname" "br_cat3"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*248"
+"killtarget" "cyc_cat3"
+"weapon" "1"
+"material" "1"
+"health" "1"
+"targetname" "br_cat3fail"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*249"
+"killtarget" "btn_cat3"
+"weapon" "1"
+"material" "1"
+"health" "1"
+"targetname" "br_cat3fail"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"origin" "-2616 -2176 160"
+"mm_sec" "100"
+"wlt_secwall" "120"
+"mm_ev5" "0"
+"sq_enemy5" "0"
+"rl_st4" "119.5"
+"rl_st5" "119.5"
+"resp" "120"
+"targetname" "mm_init5sec"
+"classname" "multi_manager"
+}
+{
+"origin" "-169 1865 -2129"
+"targetname" "cgtg_secret"
+"m_iszNewTarget" "mm_init5sec"
+"target" "cnt_next4to5"
+"classname" "trigger_changetarget"
+}
+{
+"origin" "-2013 -2004 53"
+"targetname" "cam_sec"
+"target" "tg_camsec"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "20"
+"angles" "0 0 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "-1885 -1916 52"
+"targetname" "tg_camsec"
+"classname" "info_target"
+}
+{
+"origin" "-1758 -1927 99"
+"cam_sec" "0"
+"txt_sec2" "10"
+"txt_sec1" "1"
+"tg_camsec" "0"
+"sq_miketama" "0"
+"amb_nyannyan" "0"
+"targetname" "mm_sec"
+"classname" "multi_manager"
+}
+{
+"origin" "-1883 -1916 104"
+"message" "the_daikon_warfare/nyannyan.wav"
+"targetname" "amb_nyannyan"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "17"
+"classname" "ambient_generic"
+}
+{
+"origin" "-1726 -1927 99"
+"message" "miketama : neko wo tasukete kurete, kansya suru. (I thank you for helping cats.)"
+"targetname" "txt_sec1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-1742 -1927 99"
+"message" "miketama : kansya no sirusi tosite, sukedati itasou. (I will assist you as a token of one's gratitude.)"
+"targetname" "txt_sec2"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.6"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-3072 -384 2608"
+"soundlist" "../the_daikon_warfare/jetmassn.txt"
+"trigger_target" "cnt_next2to3"
+"new_model" "models/the_daikon_warfare/jetmassn.mdl"
+"displayname" "Flying(...?) radish thief"
+"health" "400"
+"bloodcolor" "1"
+"classify" "4"
+"trigger_condition" "4"
+"monstertype" "monster_alien_controller"
+"targetname" "sq_enemy2fly"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"monstercount" "8"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-3408 2528 416"
+"soundlist" "../the_daikon_warfare/jetmassn.txt"
+"trigger_target" "cnt_next3to4"
+"new_model" "models/the_daikon_warfare/jetmassn.mdl"
+"displayname" "Flying(...?) radish thief"
+"health" "400"
+"bloodcolor" "1"
+"classify" "4"
+"trigger_condition" "4"
+"monstertype" "monster_alien_controller"
+"targetname" "sq_enemy3fly"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"monstercount" "10"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-3424 2112 400"
+"soundlist" "../the_daikon_warfare/jetmassn.txt"
+"trigger_target" "cnt_next3to4"
+"new_model" "models/the_daikon_warfare/jetmassn.mdl"
+"displayname" "Flying(...?) radish thief"
+"health" "400"
+"bloodcolor" "1"
+"classify" "4"
+"trigger_condition" "4"
+"monstertype" "monster_alien_controller"
+"targetname" "sq_enemy3fly"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"monstercount" "10"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-1536 -1647 240"
+"soundlist" "../the_daikon_warfare/jetmassn.txt"
+"trigger_target" "cnt_next5toend"
+"new_model" "models/the_daikon_warfare/jetmassn.mdl"
+"displayname" "Flying(...?) radish thief"
+"health" "400"
+"bloodcolor" "1"
+"classify" "4"
+"trigger_condition" "4"
+"monstertype" "monster_alien_controller"
+"targetname" "sq_enemy5"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"monstercount" "15"
+"rendercolor" "0 0 0"
+"angles" "0 225 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-1936 -2256 368"
+"soundlist" "../the_daikon_warfare/jetmassn.txt"
+"trigger_target" "cnt_next5toend"
+"new_model" "models/the_daikon_warfare/jetmassn.mdl"
+"displayname" "Flying(...?) radish thief"
+"health" "400"
+"bloodcolor" "1"
+"classify" "4"
+"trigger_condition" "4"
+"monstertype" "monster_alien_controller"
+"targetname" "sq_enemy5"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"monstercount" "15"
+"rendercolor" "0 0 0"
+"angles" "0 135 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-3120 -16 368"
+"soundlist" "../the_daikon_warfare/jetmassn.txt"
+"trigger_target" "cnt_next4to5"
+"new_model" "models/the_daikon_warfare/jetmassn.mdl"
+"displayname" "Flying(...?) radish thief"
+"health" "400"
+"bloodcolor" "1"
+"classify" "4"
+"trigger_condition" "4"
+"monstertype" "monster_alien_controller"
+"targetname" "sq_enemy4fly"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"monstercount" "10"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-2944 -240 320"
+"soundlist" "../the_daikon_warfare/jetmassn.txt"
+"trigger_target" "cnt_next4to5"
+"new_model" "models/the_daikon_warfare/jetmassn.mdl"
+"displayname" "Flying(...?) radish thief"
+"health" "400"
+"bloodcolor" "1"
+"classify" "4"
+"trigger_condition" "4"
+"monstertype" "monster_alien_controller"
+"targetname" "sq_enemy4fly"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"monstercount" "10"
+"rendercolor" "0 0 0"
+"angles" "0 45 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-2080 192 304"
+"soundlist" "../the_daikon_warfare/jetmassn.txt"
+"trigger_target" "cnt_next4to5"
+"new_model" "models/the_daikon_warfare/jetmassn.mdl"
+"displayname" "Flying(...?) radish thief"
+"health" "400"
+"bloodcolor" "1"
+"classify" "4"
+"trigger_condition" "4"
+"monstertype" "monster_alien_controller"
+"targetname" "sq_enemy4fly"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"monstercount" "10"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-2128 -176 368"
+"soundlist" "../the_daikon_warfare/jetmassn.txt"
+"trigger_target" "cnt_next4to5"
+"new_model" "models/the_daikon_warfare/jetmassn.mdl"
+"displayname" "Flying(...?) radish thief"
+"health" "400"
+"bloodcolor" "1"
+"classify" "4"
+"trigger_condition" "4"
+"monstertype" "monster_alien_controller"
+"targetname" "sq_enemy4fly"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"monstercount" "10"
+"rendercolor" "0 0 0"
+"angles" "0 135 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-1942 -1914 -26"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_rpgclip"
+}
+{
+"origin" "-2076 -2293 24"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-2107 -2296 24"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2107 -2296 44"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2076 -2294 48"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-2107 -2296 67"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2076 -2294 69"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-2107 -2296 90"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2347 2199 44"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-2347 2198 90"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-2347 2198 69"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-2377 2198 88"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2377 2198 65"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2378 2198 44"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2377 2198 110"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2284 -116 182"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-2284 -117 228"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-2284 -117 207"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-2315 -116 226"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2315 -116 203"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2316 -116 182"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2315 -116 248"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2494 -340 2362"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2494 -340 2339"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2495 -340 2318"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2494 -340 2384"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-2463 -336 2318"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-2463 -337 2364"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-2463 -337 2343"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-1935 1984 2304"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-1935 1984 2281"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-1936 1984 2260"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-1935 1984 2326"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-1904 1984 2260"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-1904 1983 2306"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-1904 1983 2285"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-148 1864 -2128"
+"message" "ayakashi/cat.wav"
+"targetname" "amb_cat"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "49"
+"classname" "ambient_generic"
+}
+ 
+ 

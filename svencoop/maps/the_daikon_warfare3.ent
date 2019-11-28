@@ -1,0 +1,6153 @@
+{
+"wad" "\install\hammer\wadfiles\cached.wad;\install\hammer\wadfiles\decals.wad;\install\hammer\wadfiles\fonts.wad;\install\hammer\wadfiles\gfx.wad;\install\hammer\wadfiles\halflife.wad;\install\hammer\wadfiles\liquids.wad;\install\hammer\wadfiles\spraypaint.wad;\install\hammer\wadfiles\the_daikon_warfare.wad;\install\hammer\wadfiles\xeno.wad;"
+"mapversion" "220"
+"scversion2" "450"
+"newunit" "1"
+"skyname" "lmcity_1"
+"MaxRange" "10000"
+"sounds" "1"
+"globalmodellist" "../the_daikon_warfare/models.txt"
+"classname" "worldspawn"
+"classname" "worldspawn"
+}
+{
+"origin" "1430 -914 -2528"
+"_light" "255 255 128 200"
+"_fade" "1.0"
+"angles" "0 0 0"
+"classname" "light_environment"
+}
+{
+"model" "*1"
+"targetname" "sim_massn1"
+"weapon" "1"
+"health" "1"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*2"
+"targetname" "sim_massn2"
+"weapon" "1"
+"health" "1"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*3"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*4"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*5"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*6"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*7"
+"angles" "0 0 0"
+"renderamt" "192"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*8"
+"target" "mm_start"
+"renderamt" "192"
+"rendermode" "2"
+"delay" "3"
+"wait" "-1"
+"sounds" "6"
+"lip" "4"
+"speed" "5"
+"angles" "0 180 0"
+"rendercolor" "0 0 0"
+"classname" "func_button"
+}
+{
+"model" "*9"
+"rendermode" "2"
+"weapon" "1"
+"health" "1"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*10"
+"rendermode" "2"
+"weapon" "1"
+"health" "1"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"origin" "-372 -2388 -1911"
+"message" "the_daikon_warfare/stalker/cs_aes.mp3"
+"targetname" "bgm_aes"
+"playmode" "2"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "17"
+"classname" "ambient_generic"
+}
+{
+"origin" "-356 -2388 -1911"
+"message" "the_daikon_warfare/stalker/cop_combat1.mp3"
+"targetname" "bgm_cop1"
+"playmode" "2"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "17"
+"classname" "ambient_generic"
+}
+{
+"origin" "-340 -2388 -1911"
+"message" "the_daikon_warfare/stalker/cop_combat2.mp3"
+"targetname" "bgm_cop2"
+"playmode" "2"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "17"
+"classname" "ambient_generic"
+}
+{
+"origin" "-276 -2388 -1911"
+"message" "the_daikon_warfare/403_effect.wav"
+"targetname" "bgm_403"
+"playmode" "2"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "17"
+"classname" "ambient_generic"
+}
+{
+"model" "*11"
+"targetname" "dr_ev1u"
+"dmg" "50000"
+"lip" "24"
+"speed" "100"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"spawnflags" "32"
+"classname" "func_door"
+}
+{
+"model" "*12"
+"dmg" "50000"
+"lip" "24"
+"speed" "100"
+"targetname" "dr_ev1u"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "32"
+"classname" "func_door"
+}
+{
+"model" "*13"
+"targetname" "dr_ev1d"
+"dmg" "50000"
+"lip" "24"
+"speed" "100"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "32"
+"classname" "func_door"
+}
+{
+"model" "*14"
+"dmg" "50000"
+"lip" "24"
+"speed" "100"
+"targetname" "dr_ev1d"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"spawnflags" "32"
+"classname" "func_door"
+}
+{
+"origin" "-188 -1604 -203"
+"target" "pc_ev1u"
+"targetname" "pc_ev1d"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-188 -1604 293"
+"target" "pc_ev1d"
+"targetname" "pc_ev1u"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-236 -1496 -221"
+"target" "pc_ev1l3"
+"targetname" "pc_ev1l2"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-308 -1496 -221"
+"target" "pc_ev1l2"
+"targetname" "pc_ev1l1"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-236 -1496 275"
+"target" "pc_ev1l4"
+"targetname" "pc_ev1l3"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-308 -1496 275"
+"target" "pc_ev1l5"
+"targetname" "pc_ev1l4"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-236 -1496 275"
+"target" "pc_ev1l6"
+"targetname" "pc_ev1l5"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-236 -1496 -221"
+"target" "pc_ev1l1"
+"targetname" "pc_ev1l6"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-140 -1496 -221"
+"target" "pc_ev1r3"
+"targetname" "pc_ev1r2"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-68 -1496 -221"
+"target" "pc_ev1r2"
+"targetname" "pc_ev1r1"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-140 -1496 275"
+"target" "pc_ev1r4"
+"targetname" "pc_ev1r3"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-68 -1496 275"
+"target" "pc_ev1r5"
+"targetname" "pc_ev1r4"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-140 -1496 275"
+"target" "pc_ev1r6"
+"targetname" "pc_ev1r5"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-140 -1496 -221"
+"target" "pc_ev1r1"
+"targetname" "pc_ev1r6"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-292 -1404 -227"
+"snd_evbell1d" "13"
+"ct_ev1toup" "13"
+"tr_ev1" "5"
+"targetname" "mm_ev1todown"
+"dr_ev1d" "13"
+"tr_ev1door#2" "13"
+"tr_ev1door#1" "5"
+"tr_ev1door" "0"
+"dr_ev1u" "0"
+"classname" "multi_manager"
+}
+{
+"origin" "-292 -1420 -227"
+"snd_evbell1u" "13"
+"ct_ev1todown" "13"
+"tr_ev1" "5"
+"targetname" "mm_ev1toup"
+"dr_ev1u" "13"
+"tr_ev1door#2" "13"
+"tr_ev1door#1" "5"
+"dr_ev1d" "0"
+"tr_ev1door" "0"
+"classname" "multi_manager"
+}
+{
+"origin" "-336 -1412 -211"
+"m_iszNewTarget" "mm_ev1toup"
+"target" "btn_ev1"
+"targetname" "ct_ev1toup"
+"classname" "trigger_changetarget"
+}
+{
+"origin" "-320 -1412 -211"
+"m_iszNewTarget" "mm_ev1todown"
+"target" "btn_ev1"
+"targetname" "ct_ev1todown"
+"classname" "trigger_changetarget"
+}
+{
+"model" "*15"
+"target" "pc_ev1r4"
+"volume" "0.85"
+"dmg" "50000"
+"speed" "100"
+"targetname" "tr_ev1door"
+"rendercolor" "0 0 0"
+"classname" "func_train"
+}
+{
+"model" "*16"
+"target" "pc_ev1l4"
+"volume" "0.85"
+"dmg" "50000"
+"speed" "100"
+"targetname" "tr_ev1door"
+"rendercolor" "0 0 0"
+"classname" "func_train"
+}
+{
+"model" "*17"
+"target" "pc_ev1u"
+"targetname" "tr_ev1"
+"volume" "0.85"
+"dmg" "50000"
+"speed" "100"
+"stopsnd" "8"
+"movesnd" "4"
+"rendercolor" "0 0 0"
+"classname" "func_train"
+}
+{
+"model" "*18"
+"rendermode" "2"
+"targetname" "btn_ev1"
+"wait" "15"
+"speed" "5"
+"target" "mm_ev1todown"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "func_button"
+}
+{
+"model" "*19"
+"targetname" "dr_ev2u"
+"dmg" "50000"
+"lip" "24"
+"speed" "100"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"spawnflags" "32"
+"classname" "func_door"
+}
+{
+"model" "*20"
+"dmg" "50000"
+"lip" "24"
+"speed" "100"
+"targetname" "dr_ev2u"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "32"
+"classname" "func_door"
+}
+{
+"model" "*21"
+"targetname" "dr_ev2d"
+"dmg" "50000"
+"lip" "24"
+"speed" "100"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "32"
+"classname" "func_door"
+}
+{
+"model" "*22"
+"dmg" "50000"
+"lip" "24"
+"speed" "100"
+"targetname" "dr_ev2d"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"spawnflags" "32"
+"classname" "func_door"
+}
+{
+"origin" "-156 2244 309"
+"target" "pc_ev2u"
+"targetname" "pc_ev2d"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-156 2244 1949"
+"target" "pc_ev2d"
+"targetname" "pc_ev2u"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-260 2042 277"
+"snd_evbell2d" "23"
+"ct_ev2toup" "23"
+"tr_ev2" "5"
+"dr_ev2d" "23"
+"dr_ev2u" "0"
+"targetname" "mm_ev2todown"
+"classname" "multi_manager"
+}
+{
+"origin" "-260 2026 277"
+"snd_evbell2u" "23"
+"ct_ev2todown" "23"
+"tr_ev2" "5"
+"dr_ev2u" "23"
+"dr_ev2d" "0"
+"targetname" "mm_ev2toup"
+"classname" "multi_manager"
+}
+{
+"origin" "-304 2034 293"
+"m_iszNewTarget" "mm_ev2toup"
+"target" "btn_ev2"
+"targetname" "ct_ev2toup"
+"classname" "trigger_changetarget"
+}
+{
+"origin" "-288 2034 293"
+"m_iszNewTarget" "mm_ev2todown"
+"target" "btn_ev2"
+"targetname" "ct_ev2todown"
+"classname" "trigger_changetarget"
+}
+{
+"model" "*23"
+"target" "pc_ev2u"
+"volume" "0.85"
+"speed" "100"
+"stopsnd" "8"
+"movesnd" "4"
+"targetname" "tr_ev2"
+"rendercolor" "0 0 0"
+"classname" "func_train"
+}
+{
+"model" "*24"
+"targetname" "btn_ev2"
+"rendermode" "2"
+"wait" "15"
+"speed" "5"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "func_button"
+}
+{
+"origin" "-156 2100 337"
+"linearmax" "5"
+"linearmin" "2"
+"message" "plats/elevbell1.wav"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"targetname" "snd_evbell2d"
+"spawnflags" "50"
+"classname" "ambient_generic"
+}
+{
+"origin" "-188 -1452 321"
+"linearmax" "5"
+"linearmin" "2"
+"message" "plats/elevbell1.wav"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"targetname" "snd_evbell1u"
+"spawnflags" "50"
+"classname" "ambient_generic"
+}
+{
+"origin" "-188 -1452 -175"
+"linearmax" "5"
+"linearmin" "2"
+"message" "plats/elevbell1.wav"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"targetname" "snd_evbell1d"
+"spawnflags" "50"
+"classname" "ambient_generic"
+}
+{
+"origin" "-156 2100 1977"
+"linearmax" "5"
+"linearmin" "2"
+"message" "plats/elevbell1.wav"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"targetname" "snd_evbell2u"
+"spawnflags" "50"
+"classname" "ambient_generic"
+}
+{
+"model" "*25"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*26"
+"renderamt" "128"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*27"
+"rendermode" "2"
+"target" "cola3"
+"wait" "3"
+"speed" "5"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_button"
+}
+{
+"origin" "-120 1608 1870"
+"model" "models/uboa/dokupe.mdl"
+"skin" "6"
+"targetname" "cola3"
+"weapons" "1"
+"health" "9999"
+"angles" "0 0 0"
+"classname" "env_beverage"
+}
+{
+"model" "*28"
+"height" "120"
+"volume" "0.85"
+"renderamt" "255"
+"rendermode" "4"
+"speed" "200"
+"targetname" "plt_hasigo"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_plat"
+}
+{
+"model" "*29"
+"speed" "200"
+"height" "320"
+"volume" "0.85"
+"rendermode" "4"
+"targetname" "plt_hasigo"
+"renderamt" "255"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_plat"
+}
+{
+"model" "*30"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "-187 -1612 -2044"
+"model" "models/player/uboa/uboa.mdl"
+"rendercolor" "0 0 0"
+"angles" "0 -90 0"
+"classname" "cycler"
+}
+{
+"model" "*31"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"model" "*32"
+"renderamt" "128"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*33"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "1277 -46 -2617"
+"model" "models/the_daikon_warfare/electro_tv.mdl"
+"rendercolor" "0 0 0"
+"angles" "0 150 0"
+"classname" "cycler"
+}
+{
+"origin" "1218 36 -2618"
+"model" "models/the_daikon_warfare/gamesaba_tv.mdl"
+"rendercolor" "0 0 0"
+"angles" "0 -60 0"
+"classname" "cycler"
+}
+{
+"origin" "1249 -0 -2596"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "1193 -64 -2569"
+"playmode" "1"
+"message" "the_daikon_warfare/fnn_news.mp3"
+"targetname" "snd_fnn"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "52"
+"classname" "ambient_generic"
+}
+{
+"model" "*34"
+"targetname" "wlt_fnn"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall_toggle"
+}
+{
+"origin" "1213 -14 -2570"
+"target" "tg_fnn1"
+"targetname" "cam_fnn1"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "26"
+"angles" "0 0 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "1192 -74 -2570"
+"targetname" "tg_fnn1"
+"classname" "info_target"
+}
+{
+"origin" "1248 -15 -2579"
+"targetname" "tg_fnn2"
+"classname" "info_target"
+}
+{
+"origin" "1155 9 -2574"
+"target" "tg_fnn2"
+"targetname" "cam_fnn2"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "13"
+"angles" "0 0 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "1243 16 -2522"
+"bgm_cop2#1" "40"
+"bgm_cop2small#1" "40"
+"bgm_cop2small" "0"
+"bgm_cop2" "0"
+"txt_fnn3" "29"
+"txt_fnn2" "16"
+"txt_fnn1" "6"
+"cam_fnn2" "26"
+"wlt_fnn" "6"
+"snd_fnn" "1"
+"cam_fnn1" "0"
+"targetname" "mm_fnn"
+"classname" "multi_manager"
+}
+{
+"origin" "1162 45 -2522"
+"message" "konbanwa 7ji no news desu (Good evening. It is news at 7 o'clock )"
+"targetname" "txt_fnn1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"y" "0.75"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "1178 45 -2522"
+"message" "sakihodo UBOA sinai de juugeki jiken ga hassei simasita \n(Some time ago, the gunfight happened in the UBOA city.)"
+"targetname" "txt_fnn2"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"y" "0.75"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "1194 45 -2522"
+"message" "electro: nandato... (What is that ...)\n\nGAMESABA: e majide? e majide? (For real? for real?)"
+"targetname" "txt_fnn3"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"model" "*35"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"model" "*36"
+"displayname" "Ladder's lock"
+"weapon" "1"
+"material" "2"
+"health" "100"
+"target" "plt_hasigo"
+"rendercolor" "0 0 0"
+"spawnflags" "32"
+"classname" "func_breakable"
+}
+{
+"model" "*37"
+"buoyancy" "20"
+"friction" "50"
+"weapon" "1"
+"health" "1"
+"rendercolor" "0 0 0"
+"classname" "func_pushable"
+}
+{
+"model" "*38"
+"renderamt" "128"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*39"
+"buoyancy" "20"
+"friction" "50"
+"weapon" "1"
+"health" "1"
+"rendercolor" "0 0 0"
+"classname" "func_pushable"
+}
+{
+"model" "*40"
+"buoyancy" "20"
+"friction" "50"
+"weapon" "1"
+"health" "1"
+"rendercolor" "0 0 0"
+"classname" "func_pushable"
+}
+{
+"model" "*41"
+"buoyancy" "20"
+"friction" "50"
+"weapon" "1"
+"health" "1"
+"rendercolor" "0 0 0"
+"classname" "func_pushable"
+}
+{
+"model" "*42"
+"buoyancy" "20"
+"friction" "50"
+"weapon" "1"
+"health" "1"
+"rendercolor" "0 0 0"
+"classname" "func_pushable"
+}
+{
+"model" "*43"
+"buoyancy" "20"
+"friction" "50"
+"weapon" "1"
+"health" "1"
+"rendercolor" "0 0 0"
+"classname" "func_pushable"
+}
+{
+"origin" "323 -1673 -550"
+"model" "models/uboa/dokupe.mdl"
+"skin" "6"
+"targetname" "cola2"
+"weapons" "1"
+"health" "9999"
+"angles" "0 0 0"
+"classname" "env_beverage"
+}
+{
+"model" "*44"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*45"
+"renderamt" "64"
+"rendermode" "2"
+"targetname" "br_glassmike"
+"weapon" "1"
+"health" "1"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*46"
+"origin" "364 478 -527"
+"distance" "90"
+"wait" "4"
+"movesnd" "9"
+"speed" "100"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_door_rotating"
+}
+{
+"model" "*47"
+"origin" "364 -642 -527"
+"distance" "90"
+"wait" "4"
+"movesnd" "9"
+"speed" "100"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_door_rotating"
+}
+{
+"model" "*48"
+"origin" "-740 536 -527"
+"distance" "90"
+"wait" "4"
+"movesnd" "9"
+"speed" "100"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_door_rotating"
+}
+{
+"model" "*49"
+"origin" "-740 -582 -527"
+"distance" "90"
+"wait" "4"
+"movesnd" "9"
+"speed" "100"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_door_rotating"
+}
+{
+"model" "*50"
+"origin" "-542 1548 1897"
+"distance" "90"
+"wait" "4"
+"movesnd" "9"
+"speed" "100"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_door_rotating"
+}
+{
+"model" "*51"
+"origin" "210 1548 1897"
+"distance" "90"
+"wait" "4"
+"movesnd" "9"
+"speed" "100"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_door_rotating"
+}
+{
+"model" "*52"
+"origin" "-1134 -882 -271"
+"distance" "90"
+"wait" "4"
+"movesnd" "9"
+"speed" "100"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_door_rotating"
+}
+{
+"model" "*53"
+"origin" "-794 -1002 -527"
+"distance" "90"
+"wait" "4"
+"movesnd" "9"
+"speed" "100"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_door_rotating"
+}
+{
+"model" "*54"
+"origin" "-461 2414 -257"
+"distance" "90"
+"wait" "4"
+"movesnd" "9"
+"speed" "100"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_door_rotating"
+}
+{
+"model" "*55"
+"origin" "-325 2106 -257"
+"targetname" "drr_toire"
+"distance" "90"
+"locked_sound" "12"
+"wait" "4"
+"movesnd" "9"
+"speed" "100"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_door_rotating"
+}
+{
+"model" "*56"
+"origin" "120 2414 -257"
+"distance" "90"
+"locked_sound" "12"
+"wait" "4"
+"movesnd" "9"
+"speed" "100"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_door_rotating"
+}
+{
+"model" "*57"
+"targetname" "sim_ploader"
+"delay" "1"
+"weapon" "1"
+"material" "4"
+"health" "1"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"origin" "-188 1276 -1962"
+"target" "pc_ev0u"
+"targetname" "pc_ev0d"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-236 1168 -2005"
+"target" "pc_ev0l3"
+"targetname" "pc_ev0l2"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-308 1168 -2005"
+"target" "pc_ev0l2"
+"targetname" "pc_ev0l1"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-236 1168 -2005"
+"target" "pc_ev0l1"
+"targetname" "pc_ev0l6"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-140 1168 -2005"
+"target" "pc_ev0r3"
+"targetname" "pc_ev0r2"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-68 1168 -2005"
+"target" "pc_ev0r2"
+"targetname" "pc_ev0r1"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-140 1168 -2005"
+"target" "pc_ev0r1"
+"targetname" "pc_ev0r6"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-332 1080 -2016"
+"snd_evbell0d" "23"
+"tr_ev0" "5"
+"dr_ev0d" "23"
+"tr_ev0door#2" "23"
+"tr_ev0door#1" "5"
+"tr_ev0door" "0"
+"dr_ev0u" "0"
+"targetname" "mm_ev0todown"
+"classname" "multi_manager"
+}
+{
+"origin" "-332 1064 -2016"
+"bgm_cop2" "18"
+"bgm_aes" "17"
+"mm_1fstop" "17"
+"mm_2falarm" "20"
+"snd_evbell0u" "33"
+"tr_ev0" "5"
+"dr_ev0u" "33"
+"tr_ev0door#2" "33"
+"tr_ev0door#1" "5"
+"dr_ev0d" "0"
+"tr_ev0door" "0"
+"targetname" "mm_ev0toup"
+"classname" "multi_manager"
+}
+{
+"model" "*58"
+"target" "pc_ev0r4"
+"volume" "0.85"
+"speed" "100"
+"targetname" "tr_ev0door"
+"rendercolor" "0 0 0"
+"classname" "func_train"
+}
+{
+"model" "*59"
+"target" "pc_ev0l4"
+"volume" "0.85"
+"speed" "100"
+"targetname" "tr_ev0door"
+"rendercolor" "0 0 0"
+"classname" "func_train"
+}
+{
+"model" "*60"
+"target" "pc_ev0u"
+"targetname" "tr_ev0"
+"volume" "0.85"
+"dmg" "50000"
+"speed" "100"
+"stopsnd" "8"
+"movesnd" "4"
+"rendercolor" "0 0 0"
+"classname" "func_train"
+}
+{
+"origin" "-188 1112 -1958"
+"linearmax" "5"
+"linearmin" "2"
+"message" "plats/elevbell1.wav"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"targetname" "snd_evbell0d"
+"spawnflags" "50"
+"classname" "ambient_generic"
+}
+{
+"origin" "-188 1276 -455"
+"target" "pc_ev0d"
+"targetname" "pc_ev0u"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-236 1168 -497"
+"target" "pc_ev0l4"
+"targetname" "pc_ev0l3"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-308 1168 -497"
+"target" "pc_ev0l5"
+"targetname" "pc_ev0l4"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-236 1168 -497"
+"target" "pc_ev0l6"
+"targetname" "pc_ev0l5"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-140 1168 -497"
+"target" "pc_ev0r4"
+"targetname" "pc_ev0r3"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-68 1168 -497"
+"target" "pc_ev0r5"
+"targetname" "pc_ev0r4"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-140 1168 -497"
+"target" "pc_ev0r6"
+"targetname" "pc_ev0r5"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-188 1112 -451"
+"linearmax" "5"
+"linearmin" "2"
+"message" "plats/elevbell1.wav"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"targetname" "snd_evbell0u"
+"spawnflags" "50"
+"classname" "ambient_generic"
+}
+{
+"model" "*61"
+"targetname" "dr_ev0d"
+"dmg" "50000"
+"lip" "24"
+"speed" "100"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "32"
+"classname" "func_door"
+}
+{
+"model" "*62"
+"dmg" "50000"
+"lip" "24"
+"speed" "100"
+"targetname" "dr_ev0d"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"spawnflags" "32"
+"classname" "func_door"
+}
+{
+"model" "*63"
+"targetname" "dr_ev0u"
+"dmg" "50000"
+"lip" "24"
+"speed" "100"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"spawnflags" "32"
+"classname" "func_door"
+}
+{
+"model" "*64"
+"dmg" "50000"
+"lip" "24"
+"speed" "100"
+"targetname" "dr_ev0u"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "32"
+"classname" "func_door"
+}
+{
+"model" "*65"
+"damagetype" "65536"
+"dmg" "1"
+"classname" "trigger_hurt"
+}
+{
+"model" "*66"
+"target" "txt_3fclear"
+"targetname" "sim_shutter2"
+"delay" "3"
+"lip" "40"
+"wait" "-1"
+"movesnd" "2"
+"speed" "100"
+"rendercolor" "0 0 0"
+"angles" "-90 0 0"
+"spawnflags" "32"
+"classname" "func_door"
+}
+{
+"model" "*67"
+"dmg" "50000"
+"lip" "24"
+"wait" "-1"
+"speed" "100"
+"targetname" "dr_ev3"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"classname" "func_door"
+}
+{
+"model" "*68"
+"targetname" "dr_ev3"
+"dmg" "50000"
+"lip" "24"
+"wait" "-1"
+"speed" "100"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*69"
+"target" "dr_ev3"
+"explodemagnitude" "10"
+"weapon" "1"
+"material" "2"
+"health" "100"
+"rendercolor" "0 0 0"
+"classname" "func_breakable"
+}
+{
+"origin" "-310 1126 -270"
+"targetname" "dr_ev3"
+"angles" "0 0 0"
+"spawnflags" "32"
+"classname" "env_spark"
+}
+{
+"model" "*70"
+"rendermode" "2"
+"target" "cola2"
+"wait" "3"
+"speed" "5"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_button"
+}
+{
+"origin" "535 2268 -188"
+"trigger_target" "sim_shutter2"
+"new_model" "models/the_daikon_warfare/minigun_loader.mdl"
+"health" "10000"
+"bloodcolor" "-1"
+"displayname" "minigun loader"
+"trigger_condition" "4"
+"monstertype" "monster_hwgrunt"
+"targetname" "sim_ploader"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "256"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "1"
+"rendercolor" "0 0 0"
+"angles" "0 270 0"
+"classname" "squadmaker"
+}
+{
+"origin" "532 540 -211"
+"targetname" "tg_shutter2"
+"classname" "info_target"
+}
+{
+"origin" "759 912 -100"
+"target" "tg_shutter2"
+"targetname" "sim_shutter2"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "4"
+"angles" "0 0 0"
+"spawnflags" "40"
+"classname" "trigger_camera"
+}
+{
+"origin" "328 1445 -60"
+"targetname" "sim_ploader"
+"target" "tg_ploader"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "4"
+"angles" "0 0 0"
+"spawnflags" "40"
+"classname" "trigger_camera"
+}
+{
+"origin" "532 2300 -236"
+"targetname" "tg_ploader"
+"classname" "info_target"
+}
+{
+"origin" "-1075 708 -284"
+"trigger_target" "cnt_sat"
+"new_model" "models/the_daikon_warfare/sat_swat.mdl"
+"health" "500"
+"displayname" "Special Assault Team (Japanese SWAT)"
+"trigger_condition" "4"
+"monstertype" "monster_human_grunt"
+"targetname" "sq_sat"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "3"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "1"
+"rendercolor" "0 0 0"
+"angles" "0 270 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-916 708 -284"
+"trigger_target" "cnt_sat"
+"new_model" "models/the_daikon_warfare/sat_swat.mdl"
+"health" "500"
+"displayname" "Special Assault Team (Japanese SWAT)"
+"trigger_condition" "4"
+"monstertype" "monster_human_grunt"
+"targetname" "sq_sat"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "3"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "1"
+"rendercolor" "0 0 0"
+"angles" "0 270 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-740 708 -284"
+"trigger_target" "cnt_sat"
+"new_model" "models/the_daikon_warfare/sat_swat.mdl"
+"health" "500"
+"displayname" "Special Assault Team (Japanese SWAT)"
+"trigger_condition" "4"
+"monstertype" "monster_human_grunt"
+"targetname" "sq_sat"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "3"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "1"
+"rendercolor" "0 0 0"
+"angles" "0 315 0"
+"classname" "squadmaker"
+}
+{
+"origin" "668 844 -292"
+"netname" "sqcld_3f"
+"trigger_target" "cnt_sat"
+"new_model" "models/the_daikon_warfare/sat_swat.mdl"
+"health" "500"
+"displayname" "Special Assault Team (Japanese SWAT)"
+"trigger_condition" "4"
+"monstertype" "monster_human_grunt"
+"targetname" "sq_sat"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "3"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "2"
+"monstercount" "-1"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-124 1700 -292"
+"trigger_target" "cnt_sat"
+"new_model" "models/the_daikon_warfare/sat_swat.mdl"
+"health" "500"
+"displayname" "Special Assault Team (Japanese SWAT)"
+"trigger_condition" "4"
+"monstertype" "monster_human_grunt"
+"targetname" "sq_sat"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "3"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "3"
+"monstercount" "6"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-892 2204 -292"
+"netname" "sqcld_3f"
+"trigger_target" "cnt_sat"
+"new_model" "models/the_daikon_warfare/sat_swat.mdl"
+"health" "500"
+"displayname" "Special Assault Team (Japanese SWAT)"
+"trigger_condition" "4"
+"monstertype" "monster_human_grunt"
+"targetname" "sq_sat"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "3"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "2"
+"monstercount" "-1"
+"rendercolor" "0 0 0"
+"angles" "0 270 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-803 574 -240"
+"targetname" "tg_shutter1"
+"classname" "info_target"
+}
+{
+"origin" "-574 747 -181"
+"targetname" "cam_sat"
+"target" "tg_shutter1"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "10"
+"angles" "0 0 0"
+"spawnflags" "40"
+"classname" "trigger_camera"
+}
+{
+"origin" "-572 703 -180"
+"dr_shutter1" "11"
+"txt_sat" "1"
+"cam_sat" "1"
+"sq_sat" "0"
+"targetname" "mm_sat"
+"classname" "multi_manager"
+}
+{
+"origin" "-597 704 -183"
+"message" "Special Assault Team: kotira alpha. haiti ni tukimasita. (This is alpha. in position. standby.)"
+"targetname" "txt_sat"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 0 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"model" "*71"
+"targetname" "dr_shutter1"
+"delay" "1"
+"lip" "40"
+"wait" "-1"
+"movesnd" "2"
+"speed" "100"
+"rendercolor" "0 0 0"
+"angles" "-90 0 0"
+"spawnflags" "32"
+"classname" "func_door"
+}
+{
+"origin" "-533 720 -181"
+"target" "sim_ploader"
+"targetname" "cnt_sat"
+"health" "17"
+"classname" "game_counter"
+}
+{
+"origin" "-1177 183 -227"
+"sq_youngman" "0"
+"resp" "1"
+"rl_st3" "0"
+"rl_st2" "0"
+"sim_youngman3f" "0"
+"mm_sat" "49"
+"mm_fnn" "10"
+"targetname" "mm_3f"
+"classname" "multi_manager"
+}
+{
+"origin" "-189 177 -1970"
+"model" "models/the_daikon_warfare/shii_statue.mdl"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 -90 0"
+"rendercolor" "0 0 0"
+"classname" "monster_furniture"
+}
+{
+"model" "*72"
+"WaveHeight" "3.2"
+"skin" "-3"
+"wait" "4"
+"speed" "100"
+"angles" "0 0 0"
+"renderamt" "64"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_water"
+}
+{
+"model" "*73"
+"renderamt" "64"
+"rendermode" "2"
+"skin" "-3"
+"wait" "4"
+"speed" "100"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"classname" "func_water"
+}
+{
+"model" "*74"
+"skin" "-1"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"model" "*75"
+"skin" "-1"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"model" "*76"
+"skin" "-1"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"model" "*77"
+"skin" "-1"
+"rendermode" "2"
+"renderamt" "64"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"origin" "-348 84 -740"
+"TriggerTarget" "cnt_1f"
+"TriggerCondition" "4"
+"displayname" "Radish thief"
+"health" "300"
+"targetname" "sim_massn1"
+"sequence" "47"
+"weapons" "1"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 -90 0"
+"rendercolor" "0 0 0"
+"classname" "monster_assassin_repel"
+}
+{
+"origin" "-44 84 -740"
+"TriggerTarget" "cnt_1f"
+"TriggerCondition" "4"
+"displayname" "Radish thief"
+"health" "300"
+"targetname" "sim_massn1"
+"sequence" "47"
+"weapons" "1"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 -90 0"
+"rendercolor" "0 0 0"
+"classname" "monster_assassin_repel"
+}
+{
+"origin" "-348 372 -748"
+"TriggerTarget" "cnt_1f"
+"TriggerCondition" "4"
+"displayname" "Radish thief"
+"health" "300"
+"targetname" "sim_massn1"
+"sequence" "47"
+"weapons" "1"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 -90 0"
+"rendercolor" "0 0 0"
+"classname" "monster_assassin_repel"
+}
+{
+"origin" "-44 372 -748"
+"TriggerTarget" "cnt_1f"
+"TriggerCondition" "4"
+"displayname" "Radish thief"
+"health" "300"
+"targetname" "sim_massn1"
+"sequence" "47"
+"weapons" "1"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 -90 0"
+"rendercolor" "0 0 0"
+"classname" "monster_assassin_repel"
+}
+{
+"origin" "-188 204 -1172"
+"targetname" "tg_rapel1"
+"classname" "info_target"
+}
+{
+"origin" "-188 -532 -1228"
+"targetname" "sim_massn1"
+"target" "tg_rapel1"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "3"
+"angles" "0 90 0"
+"spawnflags" "40"
+"classname" "trigger_camera"
+}
+{
+"model" "*78"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "-188 -504 -1016"
+"targetname" "tg_rapel2"
+"classname" "info_target"
+}
+{
+"origin" "-511 888 -2016"
+"targetname" "sim_massn2"
+"target" "tg_rapel2"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "3"
+"angles" "0 90 0"
+"spawnflags" "40"
+"classname" "trigger_camera"
+}
+{
+"model" "*79"
+"target" "sim_massn1"
+"classname" "trigger_once"
+}
+{
+"model" "*80"
+"target" "mm_keihou1"
+"displayname" "Security alarm device"
+"explodemagnitude" "25"
+"weapon" "1"
+"material" "6"
+"health" "3000"
+"rendercolor" "0 0 0"
+"spawnflags" "32"
+"classname" "func_breakable"
+}
+{
+"model" "*81"
+"target" "mm_keihou2"
+"displayname" "Security alarm device"
+"explodemagnitude" "25"
+"weapon" "1"
+"material" "6"
+"health" "3000"
+"rendercolor" "0 0 0"
+"spawnflags" "32"
+"classname" "func_breakable"
+}
+{
+"model" "*82"
+"target" "mm_keihou3"
+"displayname" "Security alarm device"
+"explodemagnitude" "25"
+"weapon" "1"
+"material" "6"
+"health" "3000"
+"rendercolor" "0 0 0"
+"spawnflags" "32"
+"classname" "func_breakable"
+}
+{
+"origin" "-981 -798 -523"
+"message" "ambience/warn3.wav"
+"targetname" "sound_keihou1"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "20"
+"classname" "ambient_generic"
+}
+{
+"origin" "-1176 -15 -523"
+"message" "ambience/warn3.wav"
+"targetname" "sound_keihou2"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "20"
+"classname" "ambient_generic"
+}
+{
+"origin" "442 -144 -523"
+"message" "ambience/warn3.wav"
+"targetname" "sound_keihou3"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "20"
+"classname" "ambient_generic"
+}
+{
+"model" "*83"
+"targetname" "sim_alarmshut"
+"lip" "20"
+"wait" "-1"
+"movesnd" "2"
+"speed" "100"
+"rendercolor" "0 0 0"
+"angles" "-90 0 0"
+"spawnflags" "33"
+"classname" "func_door"
+}
+{
+"origin" "203 -823 -575"
+"target" "sim_alarmshut"
+"targetname" "ms_alarmshut"
+"classname" "multisource"
+}
+{
+"origin" "437 -170 -499"
+"spk_keihou3" "0"
+"ms_alarmshut" "0"
+"sound_keihou3" "0"
+"targetname" "mm_keihou3"
+"classname" "multi_manager"
+}
+{
+"origin" "-1203 -14 -531"
+"spk_keihou2" "0"
+"sound_keihou2" "0"
+"ms_alarmshut" "0"
+"targetname" "mm_keihou2"
+"classname" "multi_manager"
+}
+{
+"origin" "-1011 -802 -531"
+"spk_keihou1" "0"
+"sound_keihou1" "0"
+"ms_alarmshut" "0"
+"targetname" "mm_keihou1"
+"classname" "multi_manager"
+}
+{
+"origin" "261 -900 -489"
+"targetname" "tg_alamshut"
+"classname" "info_target"
+}
+{
+"origin" "254 -403 -458"
+"targetname" "sim_alarmshut"
+"target" "tg_alamshut"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "3"
+"angles" "0 0 0"
+"spawnflags" "40"
+"classname" "trigger_camera"
+}
+{
+"origin" "-981 -803 -532"
+"targetname" "spk_keihou1"
+"angles" "0 0 0"
+"spawnflags" "32"
+"classname" "env_spark"
+}
+{
+"origin" "-1176 -19 -532"
+"targetname" "spk_keihou2"
+"angles" "0 0 0"
+"spawnflags" "32"
+"classname" "env_spark"
+}
+{
+"origin" "437 -144 -531"
+"targetname" "spk_keihou3"
+"angles" "0 0 0"
+"spawnflags" "32"
+"classname" "env_spark"
+}
+{
+"origin" "-636 1169 269"
+"targetname" "sim_mikefire"
+"scale" "2.5"
+"renderamt" "240"
+"rendermode" "5"
+"model" "sprites/fire.spr"
+"framerate" "10.0"
+"angles" "0 0 0"
+"rendercolor" "128 0 128"
+"classname" "env_sprite"
+}
+{
+"origin" "-428 1772 269"
+"targetname" "sim_mikefire"
+"scale" "2.5"
+"renderamt" "240"
+"rendermode" "5"
+"model" "sprites/fire.spr"
+"framerate" "10.0"
+"angles" "0 0 0"
+"rendercolor" "128 0 128"
+"classname" "env_sprite"
+}
+{
+"origin" "244 1580 269"
+"targetname" "sim_mikefire"
+"scale" "2.5"
+"renderamt" "240"
+"rendermode" "5"
+"model" "sprites/fire.spr"
+"framerate" "10.0"
+"angles" "0 0 0"
+"rendercolor" "128 0 128"
+"classname" "env_sprite"
+}
+{
+"origin" "16 1848 269"
+"targetname" "sim_mikefire"
+"scale" "2.5"
+"renderamt" "240"
+"rendermode" "5"
+"model" "sprites/fire.spr"
+"framerate" "10.0"
+"angles" "0 0 0"
+"rendercolor" "128 0 128"
+"classname" "env_sprite"
+}
+{
+"origin" "-684 1548 269"
+"targetname" "sim_mikefire"
+"scale" "2.5"
+"renderamt" "240"
+"rendermode" "5"
+"model" "sprites/fire.spr"
+"framerate" "10.0"
+"angles" "0 0 0"
+"rendercolor" "128 0 128"
+"classname" "env_sprite"
+}
+{
+"origin" "-244 1079 269"
+"targetname" "sim_mikefire"
+"scale" "2.5"
+"renderamt" "240"
+"rendermode" "5"
+"model" "sprites/fire.spr"
+"framerate" "10.0"
+"angles" "0 0 0"
+"rendercolor" "128 0 128"
+"classname" "env_sprite"
+}
+{
+"origin" "-421 1354 441"
+"targetname" "fade__mikeeff"
+"rendercolor" "128 0 128"
+"renderamt" "128"
+"duration" "10"
+"spawnflags" "1"
+"classname" "env_fade"
+}
+{
+"origin" "-421 1328 441"
+"holdtime" "2"
+"targetname" "sim_mikeeff2"
+"rendercolor" "128 0 128"
+"renderamt" "255"
+"duration" "10"
+"spawnflags" "1"
+"classname" "env_fade"
+}
+{
+"origin" "-166 1442 890"
+"netname" "sqcld_miketama"
+"soundlist" "../the_daikon_warfare/miketama_katana_sp.txt"
+"new_model" "models/the_daikon_warfare/miketama_katana_sp.mdl"
+"displayname" "[BAKENEKO]miketama(Over drive mode)"
+"monstertype" "monster_alien_tor"
+"health" "222222"
+"bloodcolor" "1"
+"respawn_as_playerally" "1"
+"targetname" "sq_miketama_sp"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "-1"
+"rendercolor" "0 0 0"
+"angles" "0 90 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-139 1580 380"
+"playmode" "2"
+"message" "ambience/burning3.wav"
+"targetname" "sim_mikefire"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "20"
+"classname" "ambient_generic"
+}
+{
+"origin" "-188 -291 -2002"
+"message" "ambience/waterfall3.wav"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "2"
+"classname" "ambient_generic"
+}
+{
+"origin" "-393 1919 268"
+"netname" "sqcld_miketama"
+"new_model" "models/the_daikon_warfare/bg_massn.mdl"
+"health" "500"
+"displayname" "Radish thief executive"
+"trigger_target" "fade__mikeeff"
+"monstertype" "monster_male_assassin"
+"trigger_condition" "4"
+"targetname" "sq_mikeenemy"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "32"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "2"
+"delay" "5"
+"monstercount" "-1"
+"rendercolor" "0 0 0"
+"angles" "0 270 0"
+"classname" "squadmaker"
+}
+{
+"origin" "57 1914 268"
+"netname" "sqcld_miketama"
+"new_model" "models/the_daikon_warfare/bg_massn.mdl"
+"health" "500"
+"displayname" "Radish thief executive"
+"trigger_target" "fade__mikeeff"
+"monstertype" "monster_male_assassin"
+"trigger_condition" "4"
+"targetname" "sq_mikeenemy"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "32"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "2"
+"delay" "5"
+"monstercount" "-1"
+"rendercolor" "0 0 0"
+"angles" "0 270 0"
+"classname" "squadmaker"
+}
+{
+"origin" "315 1713 268"
+"netname" "sqcld_miketama"
+"new_model" "models/the_daikon_warfare/bg_massn.mdl"
+"health" "500"
+"displayname" "Radish thief executive"
+"trigger_target" "fade__mikeeff"
+"monstertype" "monster_male_assassin"
+"trigger_condition" "4"
+"targetname" "sq_mikeenemy"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "32"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "2"
+"delay" "5"
+"monstercount" "-1"
+"rendercolor" "0 0 0"
+"angles" "0 270 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-654 1698 268"
+"netname" "sqcld_miketama"
+"new_model" "models/the_daikon_warfare/bg_massn.mdl"
+"health" "500"
+"displayname" "Radish thief executive"
+"trigger_target" "fade__mikeeff"
+"monstertype" "monster_male_assassin"
+"trigger_condition" "4"
+"targetname" "sq_mikeenemy"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "32"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "2"
+"delay" "5"
+"monstercount" "-1"
+"rendercolor" "0 0 0"
+"angles" "0 270 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-448 1340 292"
+"holdtime" "7200"
+"targetname" "fade__mikeeff3"
+"rendercolor" "64 0 0"
+"renderamt" "192"
+"duration" "2"
+"spawnflags" "1"
+"classname" "env_fade"
+}
+{
+"model" "*84"
+"speed" "200"
+"angles" "0 270 0"
+"spawnflags" "8"
+"classname" "trigger_push"
+}
+{
+"origin" "-268 1659 244"
+"new_model" "models/the_daikon_warfare/bg_massn.mdl"
+"health" "600"
+"displayname" "Radish thief executive (Cat bully)"
+"monstertype" "monster_male_assassin"
+"targetname" "sq_ijimeneko"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "32"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "1"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-44 1660 244"
+"new_model" "models/the_daikon_warfare/bg_massn.mdl"
+"health" "600"
+"displayname" "Radish thief executive (Cat bully)"
+"monstertype" "monster_male_assassin"
+"targetname" "sq_ijimeneko"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "32"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "1"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"classname" "squadmaker"
+}
+{
+"model" "*85"
+"target" "pc_mikepress1"
+"volume" "0.85"
+"speed" "200"
+"rendercolor" "0 0 0"
+"rendermode" "2"
+"dmg" "999999"
+"targetname" "tr_miketama"
+"classname" "func_train"
+}
+{
+"origin" "-156 1660 260"
+"targetname" "tg_nekoijime"
+"classname" "info_target"
+}
+{
+"origin" "-156 1468 324"
+"targetname" "cam_nekoijime"
+"target" "tg_nekoijime"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "30"
+"angles" "0 0 0"
+"spawnflags" "40"
+"classname" "trigger_camera"
+}
+{
+"origin" "-364 988 372"
+"mm_miketama_sp_2" "0"
+"mm_miketama_sp_1" "0"
+"resp" "1"
+"rl_st4" "0"
+"rl_st3" "0"
+"targetname" "mm_miketama_sp"
+"classname" "multi_manager"
+}
+{
+"origin" "-228 1620 380"
+"message" "...neko ni taisuru siuti, sikato mitodoketazo\n(I made sure that your cruel treatment of cat...)"
+"targetname" "txt_miketama3"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "128 0 128"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-212 1620 380"
+"message" "yurusenu... kakugo site moraou\n(I never forgive you all.... prepare for death!!.)"
+"targetname" "txt_miketama4"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "128 0 128"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-228 1652 380"
+"message" "Cat bully: hahaha, omosire-zo kono neko w\n(Hahaha, this cat is interesting lol)"
+"targetname" "txt_miketama1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 0 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-212 1684 380"
+"targetname" "ct_ijimeneko"
+"killtarget" "mon_ijimeneko"
+"classname" "trigger_changetarget"
+}
+{
+"origin" "-212 1652 380"
+"message" "Cat bully: ...n? nanda...? (What's that...)"
+"targetname" "txt_miketama2"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 0 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-188 -1460 2268"
+"displayname" "President's chopper"
+"target" "pc_heli1"
+"TriggerTarget" "br_goodend"
+"TriggerCondition" "4"
+"targetname" "mon_heli"
+"model" "models/the_daikon_warfare/apache.mdl"
+"health" "23000"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 90 0"
+"rendercolor" "0 0 0"
+"spawnflags" "80"
+"classname" "monster_apache"
+}
+{
+"model" "*86"
+"rendermode" "2"
+"targetname" "wlt_nekoijime"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "func_wall_toggle"
+}
+{
+"origin" "312 1368 268"
+"targetname" "sim_mikefire"
+"scale" "2.5"
+"renderamt" "240"
+"rendermode" "5"
+"model" "sprites/fire.spr"
+"framerate" "10.0"
+"angles" "0 0 0"
+"rendercolor" "128 0 128"
+"classname" "env_sprite"
+}
+{
+"origin" "-448 1096 268"
+"targetname" "sim_mikefire"
+"scale" "2.5"
+"renderamt" "240"
+"rendermode" "5"
+"model" "sprites/fire.spr"
+"framerate" "10.0"
+"angles" "0 0 0"
+"rendercolor" "128 0 128"
+"classname" "env_sprite"
+}
+{
+"origin" "160 1100 268"
+"targetname" "sim_mikefire"
+"scale" "2.5"
+"renderamt" "240"
+"rendermode" "5"
+"model" "sprites/fire.spr"
+"framerate" "10.0"
+"angles" "0 0 0"
+"rendercolor" "128 0 128"
+"classname" "env_sprite"
+}
+{
+"origin" "-576 1752 268"
+"targetname" "sim_mikefire"
+"scale" "2.5"
+"renderamt" "240"
+"rendermode" "5"
+"model" "sprites/fire.spr"
+"framerate" "10.0"
+"angles" "0 0 0"
+"rendercolor" "128 0 128"
+"classname" "env_sprite"
+}
+{
+"origin" "184 1764 268"
+"targetname" "sim_mikefire"
+"scale" "2.5"
+"renderamt" "240"
+"rendermode" "5"
+"model" "sprites/fire.spr"
+"framerate" "10.0"
+"angles" "0 0 0"
+"rendercolor" "128 0 128"
+"classname" "env_sprite"
+}
+{
+"origin" "-376 1332 248"
+"linearmax" "5"
+"linearmin" "2"
+"playmode" "1"
+"message" "ambience/particle_suck2.wav"
+"targetname" "sim_mikeeff2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "17"
+"classname" "ambient_generic"
+}
+{
+"model" "*87"
+"targetname" "to_miketama_ed"
+"target" "mm_stopmike"
+"killtarget" "sqcld_miketama"
+"classname" "trigger_once"
+}
+{
+"origin" "-1139 119 -276"
+"targetname" "sq_youngman"
+"netname" "sqcld_3f"
+"monstertype" "monster_hwgrunt"
+"new_model" "models/the_daikon_warfare/youngppl.mdl"
+"health" "50000"
+"bloodcolor" "1"
+"displayname" "young man"
+"respawn_as_playerally" "1"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "-1"
+"rendercolor" "0 0 0"
+"angles" "0 270 0"
+"classname" "squadmaker"
+}
+{
+"model" "*88"
+"targetname" "plt_hasigo"
+"spawnflags" "1"
+"classname" "func_ladder"
+}
+{
+"origin" "-192 -856 -2050"
+"targetname" "sq_chataro"
+"netname" "sqcld_1f"
+"monstertype" "monster_houndeye"
+"new_model" "models/the_daikon_warfare/chatarou.mdl"
+"health" "30000"
+"bloodcolor" "1"
+"displayname" "Chatarou"
+"respawn_as_playerally" "1"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "-1"
+"rendercolor" "0 0 0"
+"angles" "0 90 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-1140 118 -267"
+"targetname" "tg_youngman3f"
+"classname" "info_target"
+}
+{
+"origin" "-1077 10 -216"
+"targetname" "sim_youngman3f"
+"target" "tg_youngman3f"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "10"
+"angles" "0 0 0"
+"spawnflags" "40"
+"classname" "trigger_camera"
+}
+{
+"origin" "-1188 85 -240"
+"message" "Young man: kiwotukero. yana yokan ga suruze... (Be careful. I have a bad feeling about this...)"
+"targetname" "sim_youngman3f"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"model" "*89"
+"target" "mm_3f"
+"classname" "trigger_once"
+}
+{
+"model" "*90"
+"speed" "200"
+"angles" "0 270 0"
+"spawnflags" "8"
+"classname" "trigger_push"
+}
+{
+"origin" "17 1036 -1860"
+"target" "mm_1fmassn2"
+"targetname" "cnt_1f"
+"health" "4"
+"classname" "game_counter"
+}
+{
+"origin" "44 1036 -1860"
+"target" "mm_1fclear"
+"targetname" "cnt_1f"
+"health" "10"
+"classname" "game_counter"
+}
+{
+"origin" "27 1060 -1860"
+"ct_1fev" "23"
+"txt_1fclear" "25"
+"cam_1fclear" "23"
+"mm_ev0todown" "0"
+"targetname" "mm_1fclear"
+"classname" "multi_manager"
+}
+{
+"origin" "-183 1140 -2004"
+"targetname" "tg_1fclear"
+"classname" "info_target"
+}
+{
+"origin" "-188 956 -1965"
+"targetname" "cam_1fclear"
+"target" "tg_1fclear"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "2"
+"angles" "0 90 0"
+"spawnflags" "40"
+"classname" "trigger_camera"
+}
+{
+"origin" "-12 1060 -1860"
+"message" "koko ha Chatarou ni makasete ue no kai he ike!! \n(Leave fight to Chatarou, and go to upstairs)"
+"targetname" "txt_1fclear"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-978 -627 -575"
+"targetname" "mon_2falarm"
+"displayname" "Security guard"
+"health" "250"
+"is_player_ally" "1"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 270 0"
+"rendercolor" "0 0 0"
+"classname" "monster_barney"
+}
+{
+"origin" "-908 -180 -532"
+"netname" "sqcld_2f"
+"new_model" "models/the_daikon_warfare/bg_massn.mdl"
+"health" "500"
+"displayname" "Radish thief executive"
+"monstertype" "monster_male_assassin"
+"trigger_condition" "4"
+"targetname" "sq_2fenemy"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "32"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "2"
+"rendercolor" "0 0 0"
+"angles" "0 270 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-1180 460 -516"
+"netname" "sqcld_2f"
+"new_model" "models/the_daikon_warfare/bg_massn.mdl"
+"health" "500"
+"displayname" "Radish thief executive"
+"monstertype" "monster_male_assassin"
+"trigger_condition" "4"
+"targetname" "sq_2fenemy"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "32"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "2"
+"rendercolor" "0 0 0"
+"angles" "0 270 0"
+"classname" "squadmaker"
+}
+{
+"origin" "700 -604 -556"
+"netname" "sqcld_2f"
+"new_model" "models/the_daikon_warfare/bg_massn.mdl"
+"health" "500"
+"displayname" "Radish thief executive"
+"monstertype" "monster_male_assassin"
+"trigger_condition" "4"
+"targetname" "sq_2fenemy"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "32"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "2"
+"rendercolor" "0 0 0"
+"angles" "0 90 0"
+"classname" "squadmaker"
+}
+{
+"origin" "660 132 -556"
+"netname" "sqcld_2f"
+"new_model" "models/the_daikon_warfare/bg_massn.mdl"
+"health" "500"
+"displayname" "Radish thief executive"
+"monstertype" "monster_male_assassin"
+"trigger_condition" "4"
+"targetname" "sq_2fenemy"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "32"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "2"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"classname" "squadmaker"
+}
+{
+"origin" "482 -298 -533"
+"displayname" "Security guard"
+"health" "250"
+"is_player_ally" "1"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 90 0"
+"rendercolor" "0 0 0"
+"classname" "monster_barney"
+}
+{
+"origin" "260 -749 -524"
+"displayname" "Security guard"
+"health" "250"
+"is_player_ally" "1"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 90 0"
+"rendercolor" "0 0 0"
+"classname" "monster_barney"
+}
+{
+"origin" "-643 -747 -524"
+"displayname" "Security guard"
+"health" "250"
+"is_player_ally" "1"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 90 0"
+"rendercolor" "0 0 0"
+"classname" "monster_barney"
+}
+{
+"origin" "-980 -780 -532"
+"targetname" "tg_2falarm"
+"classname" "info_target"
+}
+{
+"origin" "-893 -733 -493"
+"targetname" "cam_2falarm"
+"target" "tg_2falarm"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "7"
+"angles" "0 0 0"
+"spawnflags" "40"
+"classname" "trigger_camera"
+}
+{
+"origin" "-1012 -724 -492"
+"message" "keihou souti wo zenbu kowase!! (Destroy all alarm devices!!)"
+"targetname" "txt_2falarm"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-204 700 -484"
+"resp" "12"
+"rl_st2" "11"
+"rl_st1" "11"
+"scrp_2falarm" "3"
+"sq_2fenemy" "0"
+"txt_2falarm" "10"
+"sim_alarmshut" "7"
+"sound_keihou3" "5"
+"sound_keihou2" "5"
+"sound_keihou1" "5"
+"cam_2falarm" "0"
+"targetname" "mm_2falarm"
+"classname" "multi_manager"
+}
+{
+"origin" "34 1000 -2079"
+"sq_chataro" "0"
+"sq_massn2" "0"
+"targetname" "mm_1fstop"
+"classname" "multi_manager"
+}
+{
+"origin" "-487 860 -2052"
+"sim_massn2" "0"
+"sq_massn2" "0"
+"targetname" "mm_1fmassn2"
+"classname" "multi_manager"
+}
+{
+"origin" "-67 -364 -748"
+"TriggerCondition" "4"
+"TriggerTarget" "cnt_1f"
+"health" "300"
+"displayname" "Radish thief"
+"targetname" "sim_massn2"
+"sequence" "47"
+"weapons" "1"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 90 0"
+"rendercolor" "0 0 0"
+"classname" "monster_assassin_repel"
+}
+{
+"origin" "-340 -364 -748"
+"TriggerCondition" "4"
+"TriggerTarget" "cnt_1f"
+"targetname" "sim_massn2"
+"health" "300"
+"displayname" "Radish thief"
+"sequence" "47"
+"weapons" "1"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 90 0"
+"rendercolor" "0 0 0"
+"classname" "monster_assassin_repel"
+}
+{
+"origin" "-348 -635 -748"
+"TriggerCondition" "4"
+"TriggerTarget" "cnt_1f"
+"targetname" "sim_massn2"
+"health" "300"
+"displayname" "Radish thief"
+"sequence" "47"
+"weapons" "1"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 90 0"
+"rendercolor" "0 0 0"
+"classname" "monster_assassin_repel"
+}
+{
+"origin" "-68 -635 -748"
+"TriggerCondition" "4"
+"TriggerTarget" "cnt_1f"
+"targetname" "sim_massn2"
+"health" "300"
+"displayname" "Radish thief"
+"sequence" "47"
+"weapons" "1"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 90 0"
+"rendercolor" "0 0 0"
+"classname" "monster_assassin_repel"
+}
+{
+"origin" "67 -427 -2028"
+"netname" "sqcldl_1f"
+"trigger_target" "cnt_1f"
+"trigger_condition" "4"
+"health" "300"
+"monstertype" "monster_male_assassin"
+"targetname" "sq_massn2"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "2"
+"delay" "5"
+"monstercount" "-1"
+"rendercolor" "0 0 0"
+"angles" "0 90 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-453 -428 -2028"
+"netname" "sqcld_1f"
+"trigger_target" "cnt_1f"
+"trigger_condition" "4"
+"health" "300"
+"monstertype" "monster_male_assassin"
+"targetname" "sq_massn2"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "2"
+"delay" "5"
+"monstercount" "-1"
+"rendercolor" "0 0 0"
+"angles" "0 90 0"
+"classname" "squadmaker"
+}
+{
+"model" "*91"
+"targetname" "btn_1fev"
+"rendermode" "2"
+"speed" "5"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "func_button"
+}
+{
+"origin" "-281 -291 -2072"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-98 -292 -2072"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-293 218 -2076"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-84 219 -2075"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-84 153 -2076"
+"rendercolor" "0 0 0"
+"angles" "0 90 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-291 155 -2075"
+"rendercolor" "0 0 0"
+"angles" "0 90 0"
+"classname" "ammo_buckshot"
+}
+{
+"model" "*92"
+"killtarget" "sqcld_1f"
+"classname" "trigger_once"
+}
+{
+"model" "*93"
+"speed" "200"
+"angles" "0 90 0"
+"spawnflags" "8"
+"classname" "trigger_push"
+}
+{
+"origin" "-189 -56 -1380"
+"roomtype" "22"
+"radius" "128"
+"classname" "env_sound"
+}
+{
+"origin" "-185 -125 2384"
+"playmode" "2"
+"message" "ambience/wind2.wav"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "8"
+"classname" "ambient_generic"
+}
+{
+"origin" "-324 -2388 -1911"
+"message" "the_daikon_warfare/stalker/cop_combat2.mp3"
+"targetname" "bgm_cop2small"
+"playmode" "2"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "1"
+"spawnflags" "17"
+"classname" "ambient_generic"
+}
+{
+"origin" "-980 -768 -572"
+"m_iszPlay" "buttonpush"
+"targetname" "scrp_2falarm"
+"m_iszEntity" "mon_2falarm"
+"m_fMoveTo" "2"
+"m_flRadius" "512"
+"angles" "0 270 0"
+"spawnflags" "32"
+"classname" "scripted_sequence"
+}
+{
+"origin" "466 573 -175"
+"message" "koko ha mura no wakamono ni makasete ue no kai he ike!! \n(Leave fight to young man, and go to upstairs)"
+"targetname" "txt_3fclear"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"model" "*94"
+"targetname" "to_stop3f"
+"target" "mm_stop3f"
+"killtarget" "sqcld_3f"
+"classname" "trigger_once"
+}
+{
+"origin" "-329 -1364 292"
+"sq_mikeenemy" "0"
+"sq_sat" "0"
+"sq_youngman" "0"
+"targetname" "mm_stop3f"
+"classname" "multi_manager"
+}
+{
+"model" "*95"
+"targetname" "to_miketama_st"
+"target" "mm_miketama_n"
+"classname" "trigger_once"
+}
+{
+"origin" "-156 2116 284"
+"targetname" "tg_4fclear"
+"classname" "info_target"
+}
+{
+"origin" "-161 1932 299"
+"targetname" "cam_4fclear"
+"target" "tg_4fclear"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "2"
+"angles" "0 90 0"
+"spawnflags" "40"
+"classname" "trigger_camera"
+}
+{
+"origin" "-108 1980 300"
+"message" "koko ha miketama ni makasete ue no kai he ike!! \n(Leave fight to miketama, and go to upstairs)"
+"targetname" "txt_4fclear"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-492 1963 209"
+"classname" "info_node"
+}
+{
+"origin" "-567 1627 209"
+"classname" "info_node"
+}
+{
+"origin" "-588 1373 209"
+"classname" "info_node"
+}
+{
+"origin" "-169 1380 209"
+"classname" "info_node"
+}
+{
+"origin" "-182 1640 209"
+"classname" "info_node"
+}
+{
+"origin" "180 1964 209"
+"classname" "info_node"
+}
+{
+"origin" "227 1657 209"
+"classname" "info_node"
+}
+{
+"origin" "219 1393 209"
+"classname" "info_node"
+}
+{
+"origin" "-508 1132 209"
+"classname" "info_node"
+}
+{
+"origin" "-188 1100 209"
+"classname" "info_node"
+}
+{
+"origin" "165 1068 209"
+"classname" "info_node"
+}
+{
+"origin" "8 434 -2079"
+"classname" "info_node"
+}
+{
+"origin" "-383 410 -2079"
+"classname" "info_node"
+}
+{
+"origin" "-388 -56 -2079"
+"classname" "info_node"
+}
+{
+"origin" "16 -48 -2079"
+"classname" "info_node"
+}
+{
+"origin" "22 -531 -2079"
+"classname" "info_node"
+}
+{
+"origin" "-428 -546 -2079"
+"classname" "info_node"
+}
+{
+"origin" "-812 905 -319"
+"classname" "info_node"
+}
+{
+"origin" "-181 915 -319"
+"classname" "info_node"
+}
+{
+"origin" "-341 714 -319"
+"classname" "info_node"
+}
+{
+"origin" "-949 1704 -319"
+"classname" "info_node"
+}
+{
+"origin" "-693 1677 -319"
+"classname" "info_node"
+}
+{
+"origin" "-796 1165 -319"
+"classname" "info_node"
+}
+{
+"origin" "-363 1829 -319"
+"classname" "info_node"
+}
+{
+"origin" "120 728 -319"
+"classname" "info_node"
+}
+{
+"origin" "250 1224 1875"
+"model" "models/the_daikon_warfare/syacho_sit.mdl"
+"targetname" "cycmon_op"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"classname" "cycler"
+}
+{
+"origin" "1420 -911 -2611"
+"triggerstate" "2"
+"target" "pl_st0"
+"targetname" "rl_st0"
+"classname" "trigger_relay"
+}
+{
+"origin" "1560 -780 -2670"
+"targetname" "pl_st0"
+"angles" "0 180 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1558 -845 -2670"
+"targetname" "pl_st0"
+"angles" "0 180 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1558 -909 -2670"
+"targetname" "pl_st0"
+"angles" "0 180 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1558 -972 -2670"
+"targetname" "pl_st0"
+"angles" "0 180 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1559 -1036 -2670"
+"targetname" "pl_st0"
+"angles" "0 180 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1478 -848 -2671"
+"targetname" "pl_st0"
+"angles" "0 180 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1478 -912 -2671"
+"targetname" "pl_st0"
+"angles" "0 180 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1478 -975 -2671"
+"targetname" "pl_st0"
+"angles" "0 180 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1479 -1039 -2671"
+"targetname" "pl_st0"
+"angles" "0 180 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1480 -783 -2671"
+"targetname" "pl_st0"
+"angles" "0 180 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1420 -968 -2563"
+"targetname" "resp"
+"classname" "trigger_respawn"
+}
+{
+"origin" "460 -2444 -2029"
+"targetname" "pl_st1"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "463 -2524 -2028"
+"targetname" "pl_st1"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "398 -2522 -2028"
+"targetname" "pl_st1"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "395 -2442 -2029"
+"targetname" "pl_st1"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "331 -2442 -2029"
+"targetname" "pl_st1"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "334 -2522 -2028"
+"targetname" "pl_st1"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "271 -2522 -2028"
+"targetname" "pl_st1"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "268 -2442 -2029"
+"targetname" "pl_st1"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "204 -2443 -2029"
+"targetname" "pl_st1"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "207 -2523 -2028"
+"targetname" "pl_st1"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "328 -2404 -1968"
+"triggerstate" "2"
+"target" "pl_st1"
+"targetname" "rl_st1"
+"classname" "trigger_relay"
+}
+{
+"origin" "-107 1220 -524"
+"targetname" "pl_st2"
+"angles" "0 270 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-252 1324 -523"
+"targetname" "pl_st2"
+"angles" "0 270 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-219 1275 -523"
+"targetname" "pl_st2"
+"angles" "0 270 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-252 1220 -524"
+"targetname" "pl_st2"
+"angles" "0 270 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-283 1275 -524"
+"targetname" "pl_st2"
+"angles" "0 270 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-180 1324 -523"
+"targetname" "pl_st2"
+"angles" "0 270 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-179 1220 -523"
+"targetname" "pl_st2"
+"angles" "0 270 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-147 1275 -524"
+"targetname" "pl_st2"
+"angles" "0 270 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-84 1275 -524"
+"targetname" "pl_st2"
+"angles" "0 270 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-116 1324 -523"
+"targetname" "pl_st2"
+"angles" "0 270 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-915 -512 -271"
+"targetname" "pl_st3"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-912 -592 -270"
+"targetname" "pl_st3"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-977 -591 -270"
+"targetname" "pl_st3"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-980 -511 -271"
+"targetname" "pl_st3"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1044 -511 -271"
+"targetname" "pl_st3"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1041 -591 -270"
+"targetname" "pl_st3"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1104 -591 -270"
+"targetname" "pl_st3"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1107 -511 -271"
+"targetname" "pl_st3"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1171 -512 -271"
+"targetname" "pl_st3"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1168 -592 -270"
+"targetname" "pl_st3"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1046 -473 -210"
+"triggerstate" "2"
+"target" "pl_st3"
+"targetname" "rl_st3"
+"classname" "trigger_relay"
+}
+{
+"origin" "71 1080 304"
+"targetname" "pl_st4"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "166 1080 305"
+"targetname" "pl_st4"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-77 1000 305"
+"targetname" "pl_st4"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "115 1001 304"
+"targetname" "pl_st4"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-332 1001 304"
+"targetname" "pl_st4"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "19 1000 305"
+"targetname" "pl_st4"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-237 1000 305"
+"targetname" "pl_st4"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-413 1001 304"
+"targetname" "pl_st4"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-362 1080 304"
+"targetname" "pl_st4"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-457 1080 305"
+"targetname" "pl_st4"
+"angles" "0 90 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "240 1680 1896"
+"targetname" "pl_st5"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "160 1677 1897"
+"targetname" "pl_st5"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "161 1742 1897"
+"targetname" "pl_st5"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "241 1745 1896"
+"targetname" "pl_st5"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "241 1809 1896"
+"targetname" "pl_st5"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "161 1806 1897"
+"targetname" "pl_st5"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "161 1869 1897"
+"targetname" "pl_st5"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "241 1872 1896"
+"targetname" "pl_st5"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "240 1936 1896"
+"targetname" "pl_st5"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "160 1933 1897"
+"targetname" "pl_st5"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "279 1811 1957"
+"triggerstate" "2"
+"target" "pl_st5"
+"targetname" "rl_st5"
+"classname" "trigger_relay"
+}
+{
+"origin" "-180 960 -524"
+"triggerstate" "2"
+"target" "pl_st2"
+"targetname" "rl_st2"
+"classname" "trigger_relay"
+}
+{
+"origin" "83 1212 1849"
+"targetname" "cycmon_op"
+"weapons" "1"
+"is_player_ally" "1"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "16"
+"classname" "monster_bodyguard"
+}
+{
+"origin" "-236 -2284 -2064"
+"model" "models/the_daikon_warfare/chatarou.mdl"
+"is_player_ally" "1"
+"bloodcolor" "1"
+"targetname" "cycmon_op"
+"displayname" "Chatarou"
+"health" "30000"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 90 0"
+"rendercolor" "0 0 0"
+"spawnflags" "16"
+"classname" "monster_houndeye"
+}
+{
+"origin" "-347 -2252 -2068"
+"targetname" "cycmon_op"
+"model" "models/the_daikon_warfare/youngppl.mdl"
+"is_player_ally" "1"
+"health" "50000"
+"displayname" "young man"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 90 0"
+"rendercolor" "0 0 0"
+"spawnflags" "16"
+"classname" "monster_hwgrunt"
+}
+{
+"origin" "-124 -2284 -2079"
+"model" "models/the_daikon_warfare/sonchou.mdl"
+"displayname" "Village chief"
+"targetname" "cycmon_op"
+"is_player_ally" "1"
+"soundlist" "../the_daikon_warfare/sonchou.txt"
+"bloodcolor" "2"
+"health" "100000"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"angles" "0 90 0"
+"rendercolor" "0 0 0"
+"spawnflags" "16"
+"classname" "monster_zombie"
+}
+{
+"origin" "-204 -2285 -1988"
+"targetname" "tg_opev1"
+"classname" "info_target"
+}
+{
+"origin" "-12 -2125 -1988"
+"targetname" "cam_opev1"
+"target" "tg_opev1"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "20"
+"angles" "0 0 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "-65 -2285 -1940"
+"resp" "20"
+"txt_opev1_1" "10"
+"txt_opev1_0" "0"
+"sq_chataro" "20"
+"br_opdel" "20"
+"cam_opev1" "0"
+"targetname" "mm_opev1"
+"classname" "multi_manager"
+}
+{
+"origin" "-347 -1588 2220"
+"netname" "sqcld_syacho"
+"new_model" "models/the_daikon_warfare/syacho.mdl"
+"health" "100"
+"displayname" "Radish thief president"
+"monstertype" "monster_male_assassin"
+"targetname" "sq_syacho"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "32"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"monstercount" "-1"
+"rendercolor" "0 0 0"
+"angles" "0 90 0"
+"spawnflags" "16"
+"classname" "squadmaker"
+}
+{
+"origin" "-372 -1407 2268"
+"targetname" "tg_syacho"
+"classname" "info_target"
+}
+{
+"origin" "-455 -1342 2299"
+"targetname" "cam_syacho"
+"target" "tg_syacho"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "35"
+"angles" "0 90 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "-348 -1492 2198"
+"m_iszPlay" "crouch_shoot_crowbar"
+"m_fMoveTo" "2"
+"m_iszEntity" "sqcld_syacho"
+"targetname" "seq_syacho1"
+"m_flRadius" "512"
+"angles" "0 90 0"
+"spawnflags" "36"
+"classname" "scripted_sequence"
+}
+{
+"origin" "-370 -1408 2303"
+"targetname" "snd_bomb1"
+"message" "weapons/mine_charge.wav"
+"playmode" "1"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "22"
+"classname" "ambient_generic"
+}
+{
+"origin" "-370 -1407 2287"
+"targetname" "snd_bomb2"
+"message" "weapons/mine_deploy.wav"
+"playmode" "1"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "22"
+"classname" "ambient_generic"
+}
+{
+"model" "*96"
+"angles" "0 0 0"
+"targetname" "wlt_bomb"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"model" "*97"
+"targetname" "br_daikon"
+"explodemagnitude" "300"
+"weapon" "1"
+"material" "1"
+"health" "1"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"origin" "-188 -1428 2556"
+"wait" "3"
+"target" "pc_heli2"
+"targetname" "pc_heli1"
+"angles" "0 0 0"
+"classname" "path_corner"
+}
+{
+"origin" "-196 2124 2540"
+"wait" "10"
+"targetname" "pc_heli2"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"origin" "-172 1012 2324"
+"targetname" "sq_endev"
+"monstertype" "monster_houndeye"
+"new_model" "models/the_daikon_warfare/chatarou.mdl"
+"health" "30000"
+"bloodcolor" "1"
+"displayname" "Chatarou"
+"respawn_as_playerally" "1"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "-1"
+"rendercolor" "0 0 0"
+"angles" "0 270 0"
+"spawnflags" "16"
+"classname" "squadmaker"
+}
+{
+"origin" "-76 980 2324"
+"targetname" "sq_endev"
+"netname" "sqcld_3f"
+"monstertype" "monster_hwgrunt"
+"new_model" "models/the_daikon_warfare/youngppl.mdl"
+"health" "50000"
+"bloodcolor" "1"
+"displayname" "young man"
+"respawn_as_playerally" "1"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "-1"
+"rendercolor" "0 0 0"
+"angles" "0 270 0"
+"spawnflags" "16"
+"classname" "squadmaker"
+}
+{
+"origin" "-276 964 2324"
+"soundlist" "../the_daikon_warfare/sonchou.txt"
+"new_model" "models/the_daikon_warfare/sonchou.mdl"
+"health" "100000"
+"displayname" "Village chief"
+"respawn_as_playerally" "1"
+"monstertype" "monster_zombie"
+"targetname" "sq_endev"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "-1"
+"rendercolor" "0 0 0"
+"angles" "0 287 0"
+"spawnflags" "16"
+"classname" "squadmaker"
+}
+{
+"origin" "-189 940 2244"
+"targetname" "tg_endev"
+"classname" "info_target"
+}
+{
+"origin" "-356 804 2244"
+"targetname" "cam_endev"
+"target" "tg_endev"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "140"
+"angles" "0 90 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "221 1288 2329"
+"soundlist" "../the_daikon_warfare/miketama_katana.txt"
+"bloodcolor" "1"
+"new_model" "models/the_daikon_warfare/miketama_katana.mdl"
+"health" "222222"
+"displayname" "[youkai]miketama"
+"respawn_as_playerally" "1"
+"monstertype" "monster_gonome"
+"targetname" "sq_endev"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "-1"
+"rendercolor" "0 0 0"
+"angles" "0 240 0"
+"spawnflags" "16"
+"classname" "squadmaker"
+}
+{
+"origin" "444 1476 2220"
+"netname" "sqcld_last"
+"soundlist" "../the_daikon_warfare/sonchou.txt"
+"new_model" "models/the_daikon_warfare/sonchou.mdl"
+"health" "100000"
+"displayname" "Village chief"
+"respawn_as_playerally" "1"
+"monstertype" "monster_zombie"
+"targetname" "sq_soncho"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "-1"
+"rendercolor" "0 0 0"
+"angles" "0 225 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-300 884 2332"
+"message" "the_daikon_warfare/the_rock3.wav"
+"targetname" "bgm_end1"
+"playmode" "1"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "17"
+"classname" "ambient_generic"
+}
+{
+"origin" "-284 884 2332"
+"message" "the_daikon_warfare/the_rock4.wav"
+"targetname" "bgm_end2"
+"playmode" "1"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "17"
+"classname" "ambient_generic"
+}
+{
+"origin" "-268 884 2332"
+"message" "the_daikon_warfare/stalker/cop_guitar.mp3"
+"targetname" "bgm_end3"
+"playmode" "1"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "17"
+"classname" "ambient_generic"
+}
+{
+"origin" "-844 -229 2347"
+"targetname" "cam_last"
+"target" "tg_syacho"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "10"
+"angles" "0 90 0"
+"spawnflags" "40"
+"classname" "trigger_camera"
+}
+{
+"origin" "364 1484 2260"
+"txt_1min" "280"
+"txt_2min" "220"
+"txt_3min" "160"
+"txt_4min" "100"
+"txt_hint" "41"
+"br_badend" "340"
+"sq_lastenemy" "40"
+"txt_last3" "30"
+"cam_last#1" "30"
+"txt_last2" "20"
+"txt_last1" "10"
+"cam_soncho" "10"
+"rl_st5" "0"
+"rl_st4" "0"
+"bgm_cop1" "0"
+"sq_soncho" "0"
+"cam_last" "0"
+"targetname" "mm_last"
+"classname" "multi_manager"
+}
+{
+"origin" "284 1348 2252"
+"targetname" "cam_soncho"
+"target" "tg_soncho"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "20"
+"angles" "0 90 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "451 1484 2252"
+"targetname" "tg_soncho"
+"classname" "info_target"
+}
+{
+"origin" "412 1372 2252"
+"message" "Village chief : ano heli wo nogasiteha naran!! (Do not allow that chopper to escape!!)"
+"targetname" "txt_last1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "428 1372 2252"
+"message" "Village chief : hakai surunoja!! (Destroy it!!)"
+"targetname" "txt_last2"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "444 1372 2252"
+"message" "5fun inai ni heli wo hakai siro!! (Destroy chopper within 5 minutes.)"
+"targetname" "txt_last3"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 255 255"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-876 -92 2236"
+"displayname" "Radish thief"
+"netname" "sqcld_last"
+"trigger_condition" "4"
+"health" "300"
+"monstertype" "monster_male_assassin"
+"targetname" "sq_lastenemy"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "3"
+"delay" "5"
+"monstercount" "-1"
+"rendercolor" "0 0 0"
+"angles" "0 90 0"
+"classname" "squadmaker"
+}
+{
+"origin" "556 -92 2236"
+"displayname" "Radish thief"
+"netname" "sqcld_last"
+"trigger_condition" "4"
+"health" "300"
+"monstertype" "monster_male_assassin"
+"targetname" "sq_lastenemy"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "3"
+"delay" "5"
+"monstercount" "-1"
+"rendercolor" "0 0 0"
+"angles" "0 90 0"
+"classname" "squadmaker"
+}
+{
+"model" "*98"
+"target" "mm_last"
+"classname" "trigger_once"
+}
+{
+"origin" "-596 -1548 2316"
+"sq_lastenemy" "0"
+"sq_soncho" "0"
+"br_lastenemy" "1"
+"bgm_end1" "1"
+"bgm_cop1" "0"
+"targetname" "mm_end1_1"
+"classname" "multi_manager"
+}
+{
+"origin" "-580 -1548 2316"
+"wl_syacho#1" "20"
+"wl_syacho" "0"
+"sq_syacho#1" "20"
+"txt_syacho3" "23"
+"br_daikon" "30.1"
+"wlt_bomb#1" "30"
+"snd_bomb1" "26"
+"snd_bomb2" "25"
+"wlt_bomb" "25"
+"seq_syacho1" "23"
+"txt_syacho2" "13"
+"txt_syacho1" "3"
+"cam_syacho" "1"
+"sq_syacho" "1"
+"targetname" "mm_end1_2"
+"classname" "multi_manager"
+}
+{
+"origin" "-284 780 2252"
+"message" "Young man: kusooo oretati no daikon ga!! (Shiiit!! our radishes!!)"
+"targetname" "txt_endev1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-268 780 2252"
+"message" "Village chief : sikasi, daikon no koto ha betu ni yoinoja (But, I never mind about radishes.)"
+"targetname" "txt_endev2"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-252 780 2252"
+"message" "Young man: nandato!? (What!?)"
+"targetname" "txt_endev3"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-236 780 2252"
+"message" "Village chief : daikon ha mata tukurinaoseba yokarou. \n(I think, we have only to make radishes again.)"
+"targetname" "txt_endev4"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-220 780 2252"
+"message" "Young man : soreja oretati ha ittai nanno tame ni ... (However, why have we fought up to now?)"
+"targetname" "txt_endev5"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-284 764 2252"
+"message" "Village chief : nani, wasira ha shoumei dekitadeha naika. (haha, we could prove. isn't it?)"
+"targetname" "txt_endev6"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-284 748 2252"
+"message" "Young man: yosi, kousiteha irarenaize (Well, I have no time to stay here.)"
+"targetname" "txt_endev11"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-268 764 2252"
+"message" "Village chief : 'daikon nouka no tamasii' wo!!!!!! ('The soul of radish farmer's ' is!!!!)"
+"targetname" "txt_endev7"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-252 764 2252"
+"message" "Village chief : wasira ha matigainaku sekai iti no nouka ja!! (we must be the best farmer in world!!)"
+"targetname" "txt_endev8"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-236 764 2252"
+"message" "Young man: sekai iti dato ... (Best ... in world ...)"
+"targetname" "txt_endev9"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-220 764 2252"
+"message" "Young man: souka ... toutou oremo tui ni ... (I see ... Finaly, I was ...)"
+"targetname" "txt_endev10"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-268 748 2252"
+"message" "Village chief : umu, souja. (Yes, you are right.)"
+"targetname" "txt_endev12"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-236 748 2252"
+"message" "Village chief : tugi ha sekai iti no daikon wo tukurunoda!! \n(Next time, let's make the best radishes in the world!!)"
+"targetname" "txt_endev14"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-252 748 2252"
+"message" "Village chief : hayaku, mura ni kaerou. (Let's return to village immediately.)"
+"targetname" "txt_endev13"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-132 716 2260"
+"wlt_chata" "0"
+"bgm_end2" "51"
+"txt_endev6" "51"
+"txt_endev5" "41"
+"txt_endev4" "31"
+"txt_endev3" "21"
+"txt_endev2" "11"
+"txt_endev1" "1"
+"cam_endev" "1"
+"sq_endev" "0"
+"targetname" "mm_end2_1"
+"classname" "multi_manager"
+}
+{
+"origin" "-116 716 2260"
+"wlt_chata" "141"
+"fd_end" "190"
+"txt_end_tl3" "166"
+"txt_end_tl2" "156"
+"txt_end_tl1" "146"
+"txt_endev14" "131"
+"txt_endev13" "121"
+"txt_endev12" "111"
+"txt_endev11" "101"
+"txt_endev10" "91"
+"txt_endev9" "81"
+"txt_endev8" "71"
+"txt_endev7" "61"
+"targetname" "mm_end2_2"
+"classname" "multi_manager"
+}
+{
+"origin" "-188 684 2252"
+"holdtime" "20"
+"targetname" "fd_end"
+"rendercolor" "0 0 0"
+"renderamt" "255"
+"duration" "20"
+"classname" "env_fade"
+}
+{
+"origin" "-284 724 2252"
+"message" "daikon wo meguru tatakai ha owatta ... (The fights over the radishes ended.)"
+"targetname" "txt_end_tl1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 255 255"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-268 724 2252"
+"message" "sikasi karera no tatakai ha mada tuduku... (But, their fights still continue.)"
+"targetname" "txt_end_tl2"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 255 255"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-252 724 2252"
+"message" "sekai iti no daikon wo tukuru toiu, hontou no tatakai ga ... \n(The true fight called making best radishes in the world is ...)"
+"targetname" "txt_end_tl3"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 255 255"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "172 1220 1891"
+"targetname" "tg_op0"
+"classname" "info_target"
+}
+{
+"origin" "52 1303 1915"
+"targetname" "cam_op0"
+"target" "tg_op0"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "50"
+"angles" "0 90 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "62 1362 1908"
+"message" "Subordinate: hai. sikasi, yatura ha akirame no warui renchu no youdesu. \n(Yes sir. but, they seem to never give up.)"
+"targetname" "txt_opev0_2"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 0 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "78 1362 1908"
+"message" "Subordinate: suguni koko he norikonde kurudeshou ... (They are likely to come here soon ...)"
+"targetname" "txt_opev0_3"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 0 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "94 1362 1908"
+"message" "President: yosi, heli no youi wo site oke!! (Well, prepare the chopper!! )"
+"targetname" "txt_opev0_4"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 0 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "110 1362 1908"
+"message" "Subordinate: ha, kasikomari masita. (Certainly.)"
+"targetname" "txt_opev0_5"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 0 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "156 1253 1908"
+"txt_opev0_5" "40"
+"txt_opev0_4" "30"
+"txt_opev0_3" "20"
+"txt_opev0_2" "10"
+"txt_opev0_1" "0"
+"cam_op0" "0"
+"targetname" "mm_opev0"
+"classname" "multi_manager"
+}
+{
+"origin" "-44 -2236 -1940"
+"message" "Village chief: yosi, douji ni semeru noja!! (Well, attack simultaneously!!)"
+"targetname" "txt_opev1_1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "46 1362 1908"
+"message" "President: daikon ha teni haitta noka? (Did you obtain radishes?)"
+"targetname" "txt_opev0_1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 0 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-432 -1594 2312"
+"message" "President: daikon ha watasan watasanzo!! (I never give radishes!!)"
+"targetname" "txt_syacho1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 0 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-432 -1578 2312"
+"message" "President: usinau kurainara isso kousite yaru-----!! (I do so if I lose radisheeeeeeees!!)"
+"targetname" "txt_syacho2"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 0 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-432 -1562 2312"
+"message" "President: Aaaaaahhhhhhhhhhhhhhhh!!!!"
+"targetname" "txt_syacho3"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 0 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-60 -2236 -1940"
+"message" "Village chief: koko jana... (It must be here.)"
+"targetname" "txt_opev1_0"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-372 964 372"
+"tr_miketama" "28"
+"fade__mikeeff3" "29"
+"sq_ijimeneko" "0"
+"bgm_cop2" "10"
+"sim_mikeeff2" "10"
+"br_ijimeneko" "10.1"
+"txt_miketama4" "41"
+"txt_miketama3" "31"
+"txt_miketama2" "18"
+"txt_miketama1" "0"
+"sim_mikefire" "10.1"
+"cam_nekoijime" "0"
+"targetname" "mm_miketama_sp_1"
+"classname" "multi_manager"
+}
+{
+"origin" "-356 964 372"
+"sq_miketama_sp" "51"
+"txt_4fclear" "200"
+"cam_4fclear" "198"
+"mm_ev2todown" "175"
+"sim_mikeeff2#1" "51"
+"br_glassmike" "53"
+"wlt_nekoijime" "55"
+"bgm_403" "55"
+"targetname" "mm_miketama_sp_2"
+"classname" "multi_manager"
+}
+{
+"origin" "-156 1660 236"
+"soundlist" "../the_daikon_warfare/mikeneko.txt"
+"new_model" "models/the_daikon_warfare/mikeneko.mdl"
+"targetname" "sq_ijimeneko"
+"health" "999999"
+"bloodcolor" "1"
+"netname" "mon_ijimeneko"
+"monstertype" "monster_zombie"
+"respawn_as_playerally" "1"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "1"
+"rendercolor" "0 0 0"
+"angles" "0 270 0"
+"classname" "squadmaker"
+}
+{
+"origin" "1344 760 -2676"
+"targetname" "cm_op"
+"target" "tg_cam_op"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "12"
+"angles" "0 90 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "1344 1024 -2676"
+"targetname" "tg_cam_op"
+"classname" "info_target"
+}
+{
+"origin" "1344 824 -2608"
+"bgm_aes" "0"
+"mm_op_1f" "0"
+"mm_op_1" "0"
+"cm_op" "0"
+"targetname" "mm_op"
+"classname" "multi_manager"
+}
+{
+"origin" "1472 888 -2544"
+"holdtime" "0.5"
+"targetname" "fade_toon"
+"rendercolor" "0 0 0"
+"renderamt" "255"
+"duration" "1.5"
+"classname" "env_fade"
+}
+{
+"origin" "1488 888 -2544"
+"targetname" "fade_tooff"
+"rendercolor" "0 0 0"
+"renderamt" "255"
+"duration" "3"
+"spawnflags" "1"
+"classname" "env_fade"
+}
+{
+"origin" "1344 840 -2624"
+"wlt_op0#1" "9.8"
+"wlt_op0" "2"
+"targetname" "mm_op_1"
+"classname" "multi_manager"
+}
+{
+"origin" "1360 840 -2640"
+"fade_toon" "8"
+"fade_tooff" "2"
+"targetname" "mm_op_1f"
+"classname" "multi_manager"
+}
+{
+"model" "*99"
+"angles" "0 0 0"
+"targetname" "wlt_op0"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"model" "*100"
+"targetname" "br_ijimeneko"
+"killtarget" "mon_ijimeneko"
+"weapon" "1"
+"material" "1"
+"health" "1"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*101"
+"angles" "0 0 0"
+"targetname" "wlt_ed2"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"model" "*102"
+"angles" "0 0 0"
+"targetname" "wlt_ed1"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"model" "*103"
+"angles" "0 0 0"
+"targetname" "wlt_ed3"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"model" "*104"
+"angles" "0 0 0"
+"targetname" "wlt_ed4"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"model" "*105"
+"angles" "0 0 0"
+"targetname" "wlt_ed5"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"model" "*106"
+"targetname" "br_opdel"
+"killtarget" "cycmon_op"
+"weapon" "1"
+"material" "1"
+"health" "1"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*107"
+"targetname" "br_lastenemy"
+"killtarget" "sqcld_last"
+"weapon" "1"
+"material" "1"
+"health" "500"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*108"
+"targetname" "br_deldaikon"
+"killtarget" "br_daikon"
+"weapon" "1"
+"material" "1"
+"health" "500"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"origin" "1343 807 -2677"
+"targetname" "cm_ed"
+"target" "tg_cam_op"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "100"
+"angles" "0 90 0"
+"spawnflags" "44"
+"classname" "trigger_camera"
+}
+{
+"origin" "1244 824 -2660"
+"gameend" "86"
+"bgm_end3" "21"
+"mm_ed_1f" "21"
+"mm_ed_1" "21"
+"cm_ed" "0"
+"targetname" "mm_ed"
+"classname" "multi_manager"
+}
+{
+"origin" "1244 840 -2676"
+"wlt_ed5#1" "62"
+"txt_edsinbun" "43"
+"wlt_ed5" "42"
+"wlt_ed4#1" "42"
+"wlt_ed4" "26"
+"wlt_ed3#1" "26"
+"wlt_ed3" "18"
+"wlt_ed2#1" "18"
+"wlt_ed2" "10"
+"wlt_ed1#1" "10"
+"wlt_ed1" "2"
+"targetname" "mm_ed_1"
+"classname" "multi_manager"
+}
+{
+"origin" "1260 840 -2692"
+"fade_toon#4" "60"
+"fade_tooff#4" "42"
+"fade_toon#3" "40"
+"fade_tooff#3" "26"
+"fade_toon#2" "24"
+"fade_tooff#2" "18"
+"fade_toon#1" "16"
+"fade_tooff#1" "10"
+"fade_toon" "8"
+"fade_tooff" "2"
+"targetname" "mm_ed_1f"
+"classname" "multi_manager"
+}
+{
+"origin" "1212 840 -2676"
+"targetname" "txt_edsinbun"
+"effect" "1"
+"message" "(Daikon village was awarded 'The daikon of the year' prize!!)"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "17"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "100 100 100"
+"color" "0 128 64"
+"y" "0.80"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "1168 912 -2620"
+"targetname" "gameend"
+"classname" "game_end"
+}
+{
+"origin" "-36 708 2292"
+"message" "heli ga tobitatte simatta .... (Chopper has gone ...)"
+"targetname" "txt_badend1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 255 255"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-20 708 2292"
+"message" "- B A D  E N D -"
+"effect" "1"
+"targetname" "txt_badend2"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "100 100 100"
+"color" "255 255 255"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"model" "*109"
+"killtarget" "br_goodend"
+"target" "mm_badend"
+"targetname" "br_badend"
+"weapon" "1"
+"material" "1"
+"health" "500"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"origin" "-36 740 2292"
+"gameend" "23"
+"txt_badend2" "13"
+"txt_badend1" "3"
+"mon_heli" "0"
+"br_deldaikon" "0"
+"targetname" "mm_badend"
+"classname" "multi_manager"
+}
+{
+"origin" "-124 748 2292"
+"mm_ed" "210"
+"mm_end2_2" "0"
+"mm_end2_1" "0"
+"targetname" "mm_end2"
+"classname" "multi_manager"
+}
+{
+"model" "*110"
+"target" "mm_end1"
+"killtarget" "br_badend"
+"targetname" "br_goodend"
+"weapon" "1"
+"material" "1"
+"health" "500"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"origin" "-572 -1524 2316"
+"mm_end2" "35"
+"mm_end1_2" "0"
+"mm_end1_1" "0"
+"targetname" "mm_end1"
+"classname" "multi_manager"
+}
+{
+"origin" "1480 744 -2844"
+"target" "cgtg_secret"
+"targetname" "cnt_cat"
+"health" "3"
+"classname" "game_counter"
+}
+{
+"origin" "1496 744 -2844"
+"targetname" "cgtg_secret"
+"m_iszNewTarget" "mm_stop3fmike"
+"target" "to_stop3f"
+"classname" "trigger_changetarget"
+}
+{
+"model" "*111"
+"target" "mm_rescuecat"
+"killtarget" "cyc_cat1"
+"weapon" "1"
+"material" "1"
+"health" "1"
+"targetname" "br_cat1"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*112"
+"killtarget" "btn_cat1"
+"weapon" "1"
+"material" "1"
+"health" "1"
+"targetname" "br_cat1"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"origin" "1464 744 -2844"
+"message" "neko wo tasuketa!! (You rescued a cat!!)"
+"targetname" "txt_rescuecat"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 255 255"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "1464 712 -2844"
+"amb_cat" "0"
+"cnt_cat" "0"
+"txt_rescuecat" "0"
+"targetname" "mm_rescuecat"
+"classname" "multi_manager"
+}
+{
+"model" "*113"
+"target" "mm_rescuecat"
+"killtarget" "cyc_cat2"
+"weapon" "1"
+"material" "1"
+"health" "1"
+"targetname" "br_cat2"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*114"
+"killtarget" "btn_cat2"
+"weapon" "1"
+"material" "1"
+"health" "1"
+"targetname" "br_cat2"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*115"
+"target" "mm_rescuecat"
+"killtarget" "cyc_cat3"
+"weapon" "1"
+"material" "1"
+"health" "1"
+"targetname" "br_cat3"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*116"
+"killtarget" "btn_cat3"
+"weapon" "1"
+"material" "1"
+"health" "1"
+"targetname" "br_cat3"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"origin" "1448 744 -2836"
+"playmode" "1"
+"message" "ayakashi/cat.wav"
+"targetname" "amb_cat"
+"linearmax" "5"
+"linearmin" "2"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "49"
+"classname" "ambient_generic"
+}
+{
+"origin" "-308 -1364 292"
+"sq_mikeenemy" "0"
+"tc_miketama_sp" "0"
+"sq_sat" "0"
+"sq_youngman" "0"
+"targetname" "mm_stop3fmike"
+"classname" "multi_manager"
+}
+{
+"origin" "-116 988 372"
+"wlt_nekoijime" "10"
+"txt_4fclear" "155"
+"cam_4fclear" "153"
+"mm_ev2todown" "130"
+"br_miketama_n" "0"
+"sq_miketama_n" "0"
+"sim_miketama_n" "0"
+"resp" "1"
+"rl_st4" "0"
+"rl_st3" "0"
+"targetname" "mm_miketama_n"
+"classname" "multi_manager"
+}
+{
+"origin" "-166 1442 804"
+"netname" "sqcld_miketama"
+"soundlist" "../the_daikon_warfare/miketama_katana.txt"
+"new_model" "models/the_daikon_warfare/miketama_katana.mdl"
+"displayname" "[youkai]miketama"
+"monstertype" "monster_gonome"
+"health" "222222"
+"bloodcolor" "1"
+"respawn_as_playerally" "1"
+"targetname" "sq_miketama_n"
+"maxhullsize" "0 0 0"
+"minhullsize" "0 0 0"
+"weapons" "1"
+"gag" "-1"
+"notsolid" "-1"
+"new_body" "-1"
+"m_imaxlivechildren" "1"
+"delay" "5"
+"monstercount" "-1"
+"rendercolor" "0 0 0"
+"angles" "0 90 0"
+"classname" "squadmaker"
+}
+{
+"origin" "-96 2035 1964"
+"bgm_cop2" "0"
+"sq_miketama_n" "0"
+"sq_mikeenemy" "0"
+"targetname" "mm_stopmike"
+"classname" "multi_manager"
+}
+{
+"origin" "-74 2035 1964"
+"sq_miketama_sp" "0"
+"bgm_403" "0"
+"sq_mikeenemy" "0"
+"targetname" "mm_stopmike_sp"
+"classname" "multi_manager"
+}
+{
+"model" "*117"
+"killtarget" "fade__mikeeff"
+"weapon" "1"
+"material" "1"
+"health" "1"
+"targetname" "br_miketama_n"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"origin" "-372 1372 252"
+"linearmax" "5"
+"linearmin" "2"
+"playmode" "1"
+"message" "the_daikon_warfare/nyannyan.wav"
+"targetname" "sim_miketama_n"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"spawnflags" "17"
+"classname" "ambient_generic"
+}
+{
+"origin" "-92 988 372"
+"message" "miketama: sukedati itasou!! (I will help!!)"
+"targetname" "sim_miketama_n"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "0 255 0"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "-164 1444 292"
+"targetname" "tg_miketama_n"
+"classname" "info_target"
+}
+{
+"origin" "-228 1604 308"
+"targetname" "sim_miketama_n"
+"target" "tg_miketama_n"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "10"
+"angles" "0 0 0"
+"spawnflags" "40"
+"classname" "trigger_camera"
+}
+{
+"origin" "-356 1012 372"
+"m_iszNewTarget" "mm_stopmike_sp"
+"targetname" "tc_miketama_sp"
+"target" "to_miketama_ed"
+"classname" "trigger_changetarget"
+}
+{
+"origin" "-372 1012 372"
+"m_iszNewTarget" "mm_miketama_sp"
+"targetname" "tc_miketama_sp"
+"target" "to_miketama_st"
+"classname" "trigger_changetarget"
+}
+{
+"origin" "-236 1044 340"
+"triggerstate" "2"
+"target" "pl_st4"
+"targetname" "rl_st4"
+"classname" "trigger_relay"
+}
+{
+"origin" "-1053 188 -542"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-987 189 -542"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-1054 410 -542"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-988 411 -542"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-1020 313 -542"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_battery"
+}
+{
+"origin" "-1017 -420 -544"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "674 -277 -538"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "626 -373 -538"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "625 -187 -538"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "671 -85 -538"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-165 -1396 -544"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "112 664 -575"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-479 667 -575"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-196 298 -2079"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_battery"
+}
+{
+"origin" "-183 -404 -2079"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-187 -175 -2079"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-189 674 -575"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-246 674 -575"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-133 675 -575"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "782 -700 -538"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-218 -1394 -544"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_battery"
+}
+{
+"origin" "-909 76 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "35 991 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "37 931 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "37 873 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-994 214 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-994 150 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-1124 1061 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-1060 1060 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-556 1965 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-556 2036 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-816 206 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-819 153 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-1220 -225 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-1163 -229 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-1110 -228 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-984 1399 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-981 1347 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-981 1301 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-188 1278 -252"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"classname" "weapon_sporelauncher"
+}
+{
+"origin" "535 -282 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "536 94 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_battery"
+}
+{
+"origin" "142 1476 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "66 1478 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-11 1468 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-68 1467 -319"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "260 903 209"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "259 953 209"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "464 1053 209"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "404 1058 209"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-612 917 209"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-602 984 209"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-727 1051 210"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-790 1051 210"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "297 2195 209"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "295 2137 209"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "385 2043 209"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "463 2045 209"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-784 2028 209"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-715 2025 209"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-620 2133 209"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-620 2201 209"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "300 1051 209"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-624 1047 209"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-630 2046 209"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "287 2054 209"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-582 1870 1880"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-584 1927 1880"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_battery"
+}
+{
+"origin" "177 1308 1882"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-122 1250 2189"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-203 1248 2189"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "147 1075 2189"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-570 1103 2188"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "749 -412 2185"
+"classname" "info_node"
+}
+{
+"origin" "395 -379 2185"
+"classname" "info_node"
+}
+{
+"origin" "733 52 2185"
+"classname" "info_node"
+}
+{
+"origin" "441 -49 2185"
+"classname" "info_node"
+}
+{
+"origin" "-699 -209 2185"
+"classname" "info_node"
+}
+{
+"origin" "-1083 -376 2185"
+"classname" "info_node"
+}
+{
+"origin" "-1061 100 2185"
+"classname" "info_node"
+}
+{
+"origin" "357 1058 2185"
+"classname" "info_node"
+}
+{
+"origin" "-443 1346 2185"
+"classname" "info_node"
+}
+{
+"origin" "-173 982 2185"
+"classname" "info_node"
+}
+{
+"origin" "-832 -394 2189"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "weapon_handgrenade"
+}
+{
+"origin" "575 -356 2189"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "weapon_handgrenade"
+}
+{
+"origin" "206 1049 2189"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "weapon_handgrenade"
+}
+{
+"origin" "-622 1091 2189"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "weapon_handgrenade"
+}
+{
+"origin" "578 -466 2189"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_rpgclip"
+}
+{
+"origin" "-835 -518 2189"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_rpgclip"
+}
+{
+"origin" "131 1307 2238"
+"rendercolor" "0 0 0"
+"angles" "0 -45 0"
+"classname" "weapon_rpg"
+}
+{
+"origin" "91 1054 2189"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-522 1097 2189"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-30 1180 2189"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-272 1177 2189"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "802 -67 2189"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "725 -67 2189"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-1010 -73 2189"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-1103 -83 2189"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_buckshot"
+}
+{
+"origin" "-718 183 2189"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "490 206 2189"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_9mmbox"
+}
+{
+"origin" "-644 1151 2185"
+"classname" "info_node"
+}
+{
+"origin" "243 1326 2185"
+"classname" "info_node"
+}
+{
+"origin" "411 1398 2250"
+"message" "bakuhatu butu wo tukae!! (Use explosive weapons!!)"
+"targetname" "txt_hint"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 255 255"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "427 1398 2250"
+"message" "nokori 4fun da!! (4 minutes left!!)"
+"targetname" "txt_4min"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 255 255"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "443 1398 2250"
+"message" "nokori 3fun da!! (3 minutes left!!)"
+"targetname" "txt_3min"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 255 255"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "459 1398 2250"
+"message" "nokori 2fun da!! (2 minutes left!!)"
+"targetname" "txt_2min"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 255 255"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"origin" "475 1398 2250"
+"message" "nokori 1fun da!! isoge!! (1 minute left!! hurry!!)"
+"targetname" "txt_1min"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "7"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "255 255 255"
+"y" "0.4"
+"x" "-1"
+"spawnflags" "1"
+"classname" "game_text"
+}
+{
+"model" "*118"
+"killtarget" "txt_4min"
+"weapon" "1"
+"material" "1"
+"health" "1"
+"targetname" "br_goodend"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*119"
+"killtarget" "txt_3min"
+"weapon" "1"
+"material" "1"
+"health" "1"
+"targetname" "br_goodend"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*120"
+"killtarget" "txt_2min"
+"weapon" "1"
+"material" "1"
+"health" "1"
+"targetname" "br_goodend"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"model" "*121"
+"killtarget" "txt_1min"
+"weapon" "1"
+"material" "1"
+"health" "1"
+"targetname" "br_goodend"
+"rendercolor" "0 0 0"
+"spawnflags" "1"
+"classname" "func_breakable"
+}
+{
+"origin" "-33 1240 2189"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "weapon_handgrenade"
+}
+{
+"origin" "-265 1234 2189"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "weapon_handgrenade"
+}
+{
+"model" "*122"
+"targetname" "wlt_chata"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"origin" "-810 -1275 -268"
+"model" "models/the_daikon_warfare/mikeneko.mdl"
+"targetname" "cyc_cat3"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"classname" "cycler"
+}
+{
+"model" "*123"
+"target" "br_cat3"
+"wait" "3"
+"speed" "5"
+"rendermode" "2"
+"targetname" "btn_cat3"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "func_button"
+}
+{
+"origin" "-248 2244 -306"
+"model" "models/the_daikon_warfare/mikeneko.mdl"
+"targetname" "cyc_cat1"
+"rendercolor" "0 0 0"
+"angles" "0 180 0"
+"classname" "cycler"
+}
+{
+"model" "*124"
+"target" "br_cat1"
+"wait" "3"
+"speed" "5"
+"rendermode" "2"
+"targetname" "btn_cat1"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "func_button"
+}
+{
+"origin" "683 -279 -568"
+"model" "models/the_daikon_warfare/mikeneko.mdl"
+"targetname" "cyc_cat2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "cycler"
+}
+{
+"model" "*125"
+"target" "br_cat2"
+"wait" "3"
+"speed" "5"
+"rendermode" "2"
+"targetname" "btn_cat2"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "func_button"
+}
+{
+"origin" "72 1096 -2040"
+"m_iszNewTarget" "mm_ev0toup"
+"target" "btn_1fev"
+"targetname" "ct_1fev"
+"classname" "trigger_changetarget"
+}
+{
+"model" "*126"
+"target" "cam_lock"
+"classname" "trigger_once"
+}
+{
+"origin" "-1041 -924 -183"
+"targetname" "tg_lock"
+"classname" "info_target"
+}
+{
+"origin" "-978 -1050 -211"
+"targetname" "cam_lock"
+"target" "tg_lock"
+"turnspeed" "40"
+"deceleration" "500"
+"acceleration" "500"
+"wait" "3"
+"angles" "0 0 0"
+"spawnflags" "40"
+"classname" "trigger_camera"
+}
+{
+"origin" "-156 1668 437"
+"target" "pc_mikepress1"
+"targetname" "pc_mikepress2"
+"angles" "0 0 0"
+"spawnflags" "2"
+"classname" "path_corner"
+}
+{
+"origin" "-156 1668 162"
+"target" "pc_mikepress2"
+"targetname" "pc_mikepress1"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "path_corner"
+}
+{
+"model" "*127"
+"rendermode" "2"
+"targetname" "wl_syacho"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+}
+{
+"origin" "-349 1320 2189"
+"rendercolor" "0 0 0"
+"angles" "0 0 0"
+"classname" "ammo_rpgclip"
+}
+{
+"origin" "1216 -768 -2616"
+"mm_opev0" "11"
+"mm_opev1" "61"
+"rl_st1" "60"
+"rl_st0" "60"
+"mm_op" "0"
+"targetname" "mm_start"
+"classname" "multi_manager"
+}
+ 
