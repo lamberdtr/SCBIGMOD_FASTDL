@@ -1,0 +1,2 @@
+"weapons/pl_gun1.wav" "otis/ot_attack.wav"
+"weapons/pl_gun2.wav" "otis/ot_attack.wav"
