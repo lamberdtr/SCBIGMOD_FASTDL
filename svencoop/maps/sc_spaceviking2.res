@@ -1,0 +1,15 @@
+models/spaceviking/cbarney01.mdl
+models/spaceviking/cbarney02.mdl
+models/spaceviking/cbarney03.mdl
+models/spaceviking/cbarney.mdl
+models/spaceviking/cbarneyt.mdl
+models/spaceviking/p_crowbar.mdl
+models/spaceviking/robobug2.mdl
+models/spaceviking/spirate.mdl
+models/spaceviking/v_crowbar.mdl
+models/spaceviking/w_crowbar.mdl
+maps/sc_spaceviking2.bsp
+maps/sc_spaceviking2.cfg
+maps/sc_spaceviking2.txt
+maps/sc_spaceviking2_models.txt
+maps/sc_spaceviking2_motd.txt

@@ -1,0 +1,56 @@
+********************************************************************************************
+Map Information
+
+Title		:  Space Viking 2
+Author		:  Steve MacCallum aka Salamander
+Email Address	:  steve-mc@shaw.ca
+Filename	:  sc_spaceviking2
+Filesize	:  6.66MB (bsp)
+Date		:  09/19/02
+Description	:  Space pirates attack while trading at Hengia space port
+Other work      :  cs_bankjob1/2, hi_steel, si_toxic, sc_spaceviking1
+Notes           :  Large areas may lag older systems though r-speeds are usually under 600
+
+********************************************************************************************
+Player Information
+
+Single Player		:  No
+Deathmatch		:  no
+Cooperative             :  Yes
+Difficulty Setting 	:  3
+Map Type                :  Walkthru mission-Type
+New Textures		:  Yes
+New Sounds		:  Nope
+Players			:  Playable by one in an hour, 4 or more recommended.
+
+********************************************************************************************
+Construction
+
+Base		:  sc_spaceviking2.bsp
+Editor Used	:  Worldcraft 4
+Build Time	:  6 months
+Known bugs	:  None
+Compile Machine	:  Gateway 1.15Mhz pIII laptop
+Compile Time    :  90 minutes
+
+********************************************************************************************
+Special Thanks
+
+cbarney.mdl	Turrican
+spirate.mdl	Turrican
+superbug2.mdl	Warpzone
+light sabre	Scarecrow@dial.pipex.com
+bloodsport sky	Mighty Pete website: http://www.geocities.com/petes-oasis/
+Outsidetextures	Graphtallica
+Metal textures	Yves Allaire aka "evil lair" website: http://planetquake.com/hfx
+Conduit tex	senn@qeradiant.com
+
+Svencoop crew	For making a great mod for mappers to map to
+
+
+Everyone who plays and enjoys this map!
+                       
+                       
+********************************************************************************************
+
+
