@@ -1,0 +1,109 @@
+Welcome to Adam's Dungeon
+By Adam Reece
+
+Last Updated: 22nd February, 2009.
+Version: Final
+
+All content that is distributed with this map is property of the
+map or original author, including sounds, models, sprites, and
+other resources. If you would like to use them elsewhere, please
+contact the map or original author from the link provided in the
+credits. Some resources are subject to copyright.
+
+
+.: Description :.
+
+Yet another maze style map, but set in some random lost dungeon
+at the top of some really big mountain in the middle of nowhere.
+Decide wherever you like this mountain is, I don't care. Just
+watch out for traps, and make your way to the end. You will know
+when you reach it.
+
+The skill levels have been altered, so you may find enemies you
+come across are stronger and tougher than you'd expect.
+
+Watch out for various secrets. Some can be very rewarding, others
+are very deadly.
+
+Be aware, this is an extremely difficult map. There is next to no
+chance of escaping from a trap once you step inside it, and there
+is often very little markings to show the map. You might want to
+get out your stress ball now!
+
+This map is best played with 3 to 6 players. At least 2 players
+will be required.
+
+
+.: Credits :.
+
+Map created by Adam Reece.
+http://www.reece-eu.net
+
+"Those Mountains Again" sky map by Chalupamonk at Atmosphere.
+http://www.planethalflife.com/atmosphere/
+
+The Wad Father for supplying the ruins/temple style textures.
+http://www.planethalflife.com/wadfather/
+
+The following models came from http://thedoenerking.myexp.de/
+bird; bush; tree; treestump; vase
+
+Special thanks to GBallblue for tweaking the bird model.
+No website, so you can see him at #svencoop on GameSurge IRC :D
+
+Music loops from Drunken F00l's Radio Mod.
+http://www.adminop.net/
+
+TychoCelchuuu for his gold coins texture.
+http://www.terminus-discord.com
+
+
+.: Testers :.
+
+Thanks to the following testers for their time helping me test
+this brilliant map:
+
+---[ Development Version ]---
+Jolene
+Gore
+Mojo_jo_jo
+Robootto
+Jusupov
+Toxic
+Solokiller
+A1win
+Needs_Turrets
+Fet
+GBallblue
+Venom[6]
+Lord_Bob
+
+---[ Alpha Version ]---
+Jolene
+Gore
+Mojo_jo_jo
+Solokiller
+Needs_Turrets
+Fet
+]A[_AndyB
+]A[_Saftpresse
+Grejhulta|
+Lurid
+hydeph
+Plyr
+Raaka-arska
+
+Sorry if I haven't listed you here and you did test it. Give me
+a poke (contact me) and I will amend the tests credits for the
+next map release.
+
+
+.: Thanks :.
+
+Thank you for downloading and playing this map, I hope you enjoy
+playing this map as much as I did creating it.
+
+Thanks to Multiplay's Sven Co-op community for supporting this map.
+http://sc.multiplay.co.uk/
+
+Adam Reece [adam@reece.myzen.co.uk]

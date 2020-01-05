@@ -1,0 +1,34 @@
+Welcome to Adam's Dungeon
+By Adam Reece
+
+Last Updated: 22nd February, 2009.
+Version: Final
+
+All content that is distributed with this map is property of the
+map or original author, including sounds, models, sprites, and
+other resources. If you would like to use them elsewhere, please
+contact the map or original author from the link provided in the
+credits. Some resources are subject to copyright.
+
+
+.: Description :.
+
+Yet another maze style map, but set in some random lost dungeon
+at the top of some really big mountain in the middle of nowhere.
+Decide wherever you like this mountain is, I don't care. Just
+watch out for traps, and make your way to the end. You will know
+when you reach it.
+
+
+.: Thanks :.
+
+Thank you for downloading and playing this map, I hope you enjoy
+playing this map as much as I did creating it.
+
+Thanks to Multiplay's Sven Co-op community for supporting this map.
+http://sc.multiplay.co.uk/
+
+Please read the adams_dungeon.txt file inside your Sven Co-op
+maps folder for extended information, credits, and testers.
+
+Adam Reece [adam@reece.myzen.co.uk]
