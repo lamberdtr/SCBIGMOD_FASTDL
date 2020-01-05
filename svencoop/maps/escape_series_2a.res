@@ -1,7 +1,6 @@
-maps/escape_series_2a.cfg
-maps/escape_series_2a.res
-maps/escape_series_2a_motd.txt
-maps/escape_series_2a_skl.cfg
+// Created with resguy v6 (November 2017)
+// https://github.com/wootguy/resguy
+
 models/escape/icky.mdl
 models/escape/ickyT.mdl
 models/escape/p_crowbar.mdl
