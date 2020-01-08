@@ -1,9 +1,10 @@
-// Created with resguy v6 (November 2017)
-// https://github.com/wootguy/resguy
-
+maps/escape_series_3e.cfg
+maps/escape_series_3e.res
+maps/escape_series_3e_motd.txt
 sound/escape_series/credits.mp3
 sound/escape_series/escape2_take_off.wav
 sound/escape_series/escape3/boss.mp3
+sound/escape_series_3e/barney.txt
 sound/escape_series/barney/escape_barney_1.wav
 sound/escape_series/barney/escape_barney_2.wav
 sound/escape_series/barney/escape_barney_3.wav

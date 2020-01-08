@@ -1,0 +1,23 @@
+============PROJECT: Greysnake - Mission 1===================
+
+Author : Christopher Lembrecht (Trempler)
+Email  : trempler2003xxl@yahoo.de
+Website: www.trempler.de.vu
+
+
+Mission Info: 
+
+You are in the WeaponWarehouse of the GreysnakeBase you must fight to the SubLab and wait for help
+, its not easy , a long way too... 
+
+--------
+
+- find the eskimo.
+
+- Find The Big Gate in the Sub-Lab and wait for Help !
+                  
+Tips:
+
+» Go back to the warehouse to heal you.
+
+» Use the Sniper to kill enemies from a distance.

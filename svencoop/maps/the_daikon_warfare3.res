@@ -1,9 +1,9 @@
-gfx/env/LMcity_1bk.tga
-gfx/env/LMcity_1dn.tga
-gfx/env/LMcity_1ft.tga
-gfx/env/LMcity_1lf.tga
-gfx/env/LMcity_1rt.tga
-gfx/env/LMcity_1up.tga
+gfx/env/lmcity_1bk.tga
+gfx/env/lmcity_1dn.tga
+gfx/env/lmcity_1ft.tga
+gfx/env/lmcity_1lf.tga
+gfx/env/lmcity_1rt.tga
+gfx/env/lmcity_1up.tga
 maps/the_daikon_warfare3.cfg
 maps/the_daikon_warfare3_motd.txt
 maps/the_daikon_warfare3_skl.cfg
