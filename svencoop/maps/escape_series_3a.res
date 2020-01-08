@@ -1,13 +1,12 @@
-// Created with resguy v6 (November 2017)
-// https://github.com/wootguy/resguy
-
+maps/escape_series_3a.cfg
+maps/escape_series_3a.res
+maps/escape_series_3a_motd.txt
 models/escape_series/fast_zombie/zombie.mdl
 models/escape_series/fast_zombie/zombie01.mdl
 models/escape_series/fast_zombie/zombie02.mdl
 models/escape_series/fast_zombie/zombie03.mdl
 models/escape_series/fast_zombie/zombiet.mdl
-sound/escape_series/escape3/boss.mp3
-sound/escape_series/escape3/intro.wav
+sound/escape_series_3a/fast_zombie.txt
 sound/escape_series/fast_zombie/claw_miss1.wav
 sound/escape_series/fast_zombie/claw_miss2.wav
 sound/escape_series/fast_zombie/claw_strike1.wav
@@ -24,4 +23,6 @@ sound/escape_series/fast_zombie/zo_idle3.wav
 sound/escape_series/fast_zombie/zo_idle4.wav
 sound/escape_series/fast_zombie/zo_pain1.wav
 sound/escape_series/fast_zombie/zo_pain2.wav
+sound/escape_series/escape3/boss.mp3
+sound/escape_series/escape3/intro.wav
 sound/escape_series/secret.wav

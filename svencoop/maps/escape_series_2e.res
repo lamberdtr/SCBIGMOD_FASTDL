@@ -1,6 +1,7 @@
-// Created with resguy v6 (November 2017)
-// https://github.com/wootguy/resguy
-
+maps/escape_series_2e.cfg
+maps/escape_series_2e.res
+maps/escape_series_2e_motd.txt
+maps/escape_series_2e_skl.cfg
 models/escape/garg.mdl
 models/escape/gargT.mdl
 models/escape/p_crowbar.mdl

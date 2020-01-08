@@ -1,4 +1,5 @@
-// Created with resguy v6 (November 2017)
-// https://github.com/wootguy/resguy
-
+maps/escape_series_1a.cfg
+maps/escape_series_1a.res
+maps/escape_series_1a_motd.txt
+maps/escape_series_1a_skl.cfg
 sound/escape_series/escape3/boss.wav
