@@ -1,0 +1,37 @@
+=======TB maze7beta=======
+
+Map : sc_tbmaze7beta
+By  : TheBard
+==========================
+
+10 Puzzles ranging from simple to hard.
+
+A few need 2 players,
+The rest become simpler with 2+players.
+
+Min Players : 2
+Max Players : 12 to 16+
+
+==========================
+Hint :
+
+Many Pushables are Liftables
+
+==========================
+NOTE:
+
+Its not easy but it is possible to screw up some of the puzzles.
+If you manage to do so your only option is to restart the map !
+
+Map was due to be larger but I'm running out of maxpatchs.
+So the rest will be in maze8, when-ever i get round to making that !
+
+==========================
+Boring mappers stuff:
+
+Texture usage is at 2.96 mb
+13763 faces
+Create Patches : 58914 base patches
+0 opaque faces
+911373 square feet [131237792.00 square inches]
+283 direct lights
