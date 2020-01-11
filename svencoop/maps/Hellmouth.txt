@@ -1,0 +1,36 @@
+********************************************************************************************
+Map Information
+
+Title		:  Hellmouth
+Author		:  Ike_Brovlofski
+Email Address	:  Ikey_B @ hotmail.com
+Filename	:  Hellmouth.bsp / Hellmouth2.bsp
+Date		:  12th of January 2005
+Description	:  You're an angel sent to earth to protect the holy statue from the invading forces from hell, unfortunatly you don't have any holy powers on earth :P
+Other work      :  Gruntwar
+Notes           :  Press the use button on the crystals to activate them
+
+********************************************************************************************
+Player Information
+
+Single Player		:  Nope
+Deathmatch		:  please dont
+Cooperative             :  Duh
+Difficulty Setting 	:  2
+Map Type                :  Defend/Walkthrough
+New Textures		:  Yea
+New Models		:  Lots
+New Sounds		:  Yup
+Players			:  Minimum of 2
+
+
+********************************************************************************************
+Special Thanks to:
+	
+	      Arachnid-X
+              Woralo
+                          
+
+********************************************************************************************
+
+- Ike_Brovlofski
