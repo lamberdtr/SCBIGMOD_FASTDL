@@ -1,0 +1,15 @@
+RageMap is a collaborative map project by the following SC mappers:
+
+AlexCorruptor
+Andras
+Descen
+Giegue
+Hezus
+Nih
+_RC
+mr_redman
+Sence
+ToTac
+Trempler
+Walter
+ZuRd0
