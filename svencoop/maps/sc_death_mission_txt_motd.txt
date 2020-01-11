@@ -1,0 +1,27 @@
+##http://goannasvencoop.com
+
+Map sc_death_mission:
+
+Mission Objectives:
+
+1-Destroy all opposition.
+
+2-Find the teleporter computers and destroy them.
+
+3-Find a secret room.
+
+4-Find a way to the main portal.
+
+====================================================
+Mission brief:
+ A few mecenaries have taken over a temple and an old 
+castle and have set up portals that are teleporting in 
+creatures from different places.Four of these portals 
+are teleporting in skocktroopers of the X race and one 
+to place we don't recognise. 
+ We beleive this is a form of distraction to prevent 
+the detection of their main compound. Shut down the 
+portal by destroying the computers that control the 
+portals. Then find a way to their compound.
+
+====================================================
