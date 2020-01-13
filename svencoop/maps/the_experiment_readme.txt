@@ -1,0 +1,6 @@
+The Experiment by Hezus (2019-2020)
+version 1.0
+
+The Experiment is an special map to finally determine the real character of the people you normally call 'friends'. Let's see if all that co-operation and team spirit still holds true in THE EXPERIMENT.
+
+
