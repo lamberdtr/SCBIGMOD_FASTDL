@@ -1,0 +1,1 @@
+"models/pit_drone.mdl" "models/sectore/darkdrone3.mdl"
