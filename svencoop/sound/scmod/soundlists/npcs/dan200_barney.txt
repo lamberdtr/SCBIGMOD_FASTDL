@@ -1,0 +1,2 @@
+"barney/ba_attack2.wav" "weapons/m16_single.wav"
+"weapons/pl_gun3.wav" "weapons/m16_single.wav"

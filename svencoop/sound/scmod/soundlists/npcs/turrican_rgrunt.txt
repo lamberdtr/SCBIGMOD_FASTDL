@@ -1,0 +1,3 @@
+"weapons/hks1.wav" "weapons/uzi/shoot1.wav"
+"weapons/hks2.wav" "weapons/uzi/shoot2.wav"
+"weapons/hks3.wav" "weapons/uzi/shoot3.wav"

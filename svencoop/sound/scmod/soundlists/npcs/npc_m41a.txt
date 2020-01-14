@@ -1,0 +1,1 @@
+"weapons/m16_3round.wav" "shl/m41a_3round.wav"

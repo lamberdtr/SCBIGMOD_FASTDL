@@ -1,0 +1,1 @@
+"weapons/sniper_fire.wav" "ambience/biggun3.wav"
