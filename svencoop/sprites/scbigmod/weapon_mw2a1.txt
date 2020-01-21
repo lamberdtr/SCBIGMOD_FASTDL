@@ -1,0 +1,6 @@
+5
+weapon			640 scbigmod/mw2a1	0	0	170	55
+weapon_s		640 scbigmod/mw2a1	0	0	170	55
+ammo			640 scbigmod/weapon_lmbm14	61	104	24	24
+crosshair		640 scbigmod/ofch1	0	48	24	24
+autoaim			640 scbigmod/ofch1	0	48	24	24
