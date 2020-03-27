@@ -1,0 +1,6 @@
+5
+weapon			640 scbigmod/weapon_lycanthrope	0	0	170	45
+weapon_s		640 scbigmod/weapon_lycanthrope	0	0	170	45
+ammo			640 scbigmod/640lmbhud7	148	60	24	24
+crosshair		640 scbigmod/ofch1	0	48	24	24
+autoaim			640 scbigmod/ofch1	0	72	24	24
